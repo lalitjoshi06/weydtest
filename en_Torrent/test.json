@@ -4,7 +4,7 @@
     "domains": ["kickass.onl", "kat.how", "kat.li", "kickass.cm", "kickass2.st", "kat.sx", "thekat.info"],
     "base_url": "https://kickass.onl",
   "search_url_format_episode": {
-    "string_format": "/usearch/%s+s%02de%02d&cat=41&incldead=0&inclexternal=0&lang=1&sort=seeders&order=desc",
+    "string_format": "/usearch/%s+s%02de%02d%20category:tv/",
     "replacement": [
       "title",
       "season_int",
@@ -12,7 +12,7 @@
     ]
   },
   "search_url_format_movie": {
-    "string_format": "/usearch/%s+%04d&cat=1&incldead=0&inclexternal=0&lang=1&sort=size&order=desc",
+    "string_format": "/usearch/%s+%04d%20category:movies/",
     "replacement": [
       "title",
       "year_int"
