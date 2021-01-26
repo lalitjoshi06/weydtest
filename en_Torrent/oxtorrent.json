@@ -1,6 +1,6 @@
 {
   "name": "piratebay",
-  "language": ["hi", "en"],
+  "language": ["en"],
   "domains": ["apibay.org"],
   "base_url": "https://apibay.org",
   "search_url_format_episode": {
