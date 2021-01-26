@@ -1,15 +1,8 @@
 {
   "name": "piratebay",
-  "language": ["hi", "en"],
+  "language": ["en"],
   "domains": ["apibay.org"],
   "base_url": "https://apibay.org",
-  "fallback_urls": [
-      "https://tpb.red",
-      "https://mypiratebay.co",
-      "https://mypiratebay.me",
-      "https://mypiratebay.wtf",
-      "https://mypiratebay.best"
-    ],
   "search_url_format_episode": {
     "string_format": "/q.php?q=%s+s%02de%02d&cat=0",
     "replacement": [
