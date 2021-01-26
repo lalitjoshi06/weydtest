@@ -4,7 +4,7 @@
   "domains": ["torrent9.to"],
   "base_url": "https://ww1.torrent9.to",
     "search_url_format_episode": {
-    "string_format": "/search_torrent/{query}.html,
+    "string_format": "/search_torrent/{query}.html",
     "replacement": [
       "title_lower",
       "season_int",
