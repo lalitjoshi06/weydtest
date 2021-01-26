@@ -1,8 +1,8 @@
 {
   "name": "300mb1",
   "language": ["hi", "en"],
-  "domains": ["300mb1.unblockit.ltd"],
-  "base_url": "https://300mb1.unblockit.ltd",
+  "domains": ["1337x.to", "1337x.gd", "1337x.unblockit.ltd"],
+  "base_url": "https://1337x.unblockit.ltd",
   "search_url_format_episode": {
     "string_format": "?s=%s+%02d+%02d&submit=find",
     "replacement": [
