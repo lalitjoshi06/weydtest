@@ -1,8 +1,8 @@
 {
-  "name": "oxtorrent",
+  "name": "piratebay",
   "language": ["hi", "en"],
-  "domains": ["oxtorrent.com", "oxtorrent.cc", "oxtorrent.unblockit.ltd"],
-  "base_url": "https://www.oxtorrent.cc",
+  "domains": ["apibay.org"],
+  "base_url": "https://apibay.org",
   "search_url_format_episode": {
     "string_format": "/q.php?q=%s+s%02de%02d&cat=0",
     "replacement": [
