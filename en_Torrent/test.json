@@ -1,10 +1,10 @@
 {
-  "name": "1337x",
+  "name": "rarbg",
   "language": ["hi", "en"],
-  "domains": ["1337x.to", "1337x.gd", "1337x.unblockit.ltd"],
-  "base_url": "https://1337x.unblockit.ltd",
+  "domains": ["rarbgproxied.org"],
+  "base_url": "https://rarbgproxied.org",
   "search_url_format_episode": {
-    "string_format": "/search/%s+S%02dE%02d/1/",
+    "string_format": "/torrents.php?search=",
     "replacement": [
       "title",
       "season_int",
@@ -12,7 +12,7 @@
     ]
   },
   "search_url_format_movie": {
-    "string_format": "/search/%s+%04d/1/",
+    "string_format": "torrents.php?search=",
     "replacement": [
       "title",
       "year_int"
