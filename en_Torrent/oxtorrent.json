@@ -1,45 +1,49 @@
 {
-  "oxtorrent": {
-    "anime": {
-      "keywords": "{title} {episode}",
-      "query": "/recherche/{query}"
-    },
-    "base_url": "https://www.oxtorrent.com",
+  "torrentapi": {
+    "name": "RARBG",
     "enabled": true,
-    "episode": {
-      "keywords": "{title} {episodeCode}",
-      "query": "/recherche/{query}"
-    },
-    "fallback_urls": [],
-    "html_parser": {
-      "peers": "row.querySelector(':nth-child(4)').textContent.trim()",
-      "row": "doc.querySelectorAll('tbody > tr')",
-      "seeds": "row.querySelector(':nth-child(3)').textContent.trim()",
-      "size": "row.querySelector('td:nth-child(2)').textContent.trim()",
-      "title": "row.querySelector('a:nth-child(2)').innerHTML",
-      "url": "row.querySelector('a:nth-child(2)').getAttribute('href')"
-    },
     "languages": [
-      "fr"
+      "en"
     ],
-    "movie": {
-      "keywords": "{title} {year}",
-      "query": "/recherche/{query}"
+    "base_url": "https://torrentapi.org",
+    "fallback_urls": [],
+    "response_type": "json",
+    "time_to_wait_between_each_request_ms": 300,
+    "time_to_wait_on_too_many_request_ms": 2000,
+    "trust_results": true,
+    "token": {
+      "query": "/pubapi_v2.php?get_token=get_token&app_id=helios",
+      "token_validity_time_ms": 840000,
+      "token_format": {
+        "token": "token"
+      }
     },
-    "name": "oxtorrent",
-    "response_type": "text",
+    "movie": {
+      "query": "/pubapi_v2.php?mode=search&search_imdb={query}&category=movies&format=json_extended&app_id=helios&token={token}",
+      "keywords": "{imdbId}"
+    },
+    "episode": {
+      "query": "/pubapi_v2.php?mode=search&search_string={query}&category=tv&format=json_extended&app_id=helios&token={token}",
+      "keywords": "{title} {episodeCode}"
+    },
     "season": {
+      "query": "/pubapi_v2.php?mode=search&search_string={query}&category=tv&format=json_extended&app_id=helios&token={token}",
       "keywords": [
         "{title} {seasonCode}",
         "{title} season"
-      ],
-      "query": "/recherche/{query}"
+      ]
     },
-    "separator": "%20",
-    "source_is_in_sub_page": true,
+    "json_format": {
+      "results": "torrent_results",
+      "url": "download",
+      "title": "title",
+      "seeds": "seeders",
+      "peers": "leechers",
+      "size": "size"
+    },
     "title_replacement": {
-      "\"": "",
-      "'s": "s"
+      "'s": "s",
+      "\"": ""
     }
   }
 }
