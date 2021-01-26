@@ -1,55 +1,43 @@
 {
-  "zooqle": {
-    "name": "zooqle",
-    "enabled": true,
-    "languages": [
-      "en"
+  "name": "piratebay",
+  "language": ["hi", "en"],
+  "domains": ["apibay.org"],
+  "base_url": "https://apibay.org",
+  "fallback_urls": [
+      "https://tpb.red",
+      "https://mypiratebay.co",
+      "https://mypiratebay.me",
+      "https://mypiratebay.wtf",
+      "https://mypiratebay.best"
     ],
-    "base_url": "https://zooqle.com",
-    "fallback_urls": [
-      "https://zooqle.t0r.club",
-      "https://zooqle-com.unblocksites.fun",
-      "https://zooqle.unblocked.win",
-      "https://zooqle.nocensor.xyz",
-      "https://zooqle.unblocked.llc",
-      "https://zooqle.unblocked.krd",
-      "https://zooqle.p4y.info"
-    ],
-    "response_type": "text",
-    "separator": "+",
-    "movie": {
-      "query": "/search?q={query}",
-      "keywords": "{title} {year}"
-    },
-    "episode": {
-      "query": "/search?q={query}",
-      "keywords": "{title} {episodeCode}"
-    },
-    "season": {
-      "query": "/search?q={query}",
-      "keywords": [
-        "{title} {seasonCode}",
-        "{title} season"
-      ]
-    },
-    "anime": {
-      "query": "/search?q={query}",
-      "keywords": "{title} {absoluteNumber}"
-    },
-    "html_parser": {
-      "row": "doc.querySelectorAll('.table-torrents tbody tr')",
-      "title": "row.querySelector('a').textContent",
-      "peers": "row.querySelector('td:nth-child(6) .prog-r') ? row.querySelector('td:nth-child(6) .prog-r').textContent : 0",
-      "seeds": "row.querySelector('td:nth-child(6) .prog-l') ? row.querySelector('td:nth-child(6) .prog-l').textContent : 0",
-      "size": "row.querySelector('td:nth-child(4) .prog-l').textContent.replace('K','000')",
-      "url": "row.querySelectorAll('a')[2].getAttribute('href')"
-    },
-    "source_is_in_sub_page": false,
-    "title_replacement": {
-      ".": "",
-      ":": "",
-      "'": "",
-      "&": ""
-    }
-  }
+  "search_url_format_episode": {
+    "string_format": "/q.php?q=%s+s%02de%02d&cat=0",
+    "replacement": [
+      "title_lower",
+      "season_int",
+      "episode_int"
+    ]
+  },
+  "search_url_format_movie": {
+    "string_format": "/q.php?q=%s+%04d&cat=0",
+    "replacement": [
+      "title_lower",
+      "year_int"
+    ]
+  },
+  "search_url_format_season_pack": {
+    "string_format": "/q.php?q=%s&cat=0",
+    "replacement": [
+      "title_lower"
+    ]
+  },
+  "api":{
+    "path_title": "name",
+    "path_hash": "info_hash",
+    "path_seeders": "seeders",
+    "path_size": "size"
+  },
+
+  "is_torrent": true,
+  "is_direct": false
 }
