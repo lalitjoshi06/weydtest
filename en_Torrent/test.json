@@ -1,10 +1,10 @@
 {
-  "name": "piratebay",
+  "name": "torrent9",
   "language": ["hi", "en"],
-  "domains": ["apibay.org"],
-  "base_url": "https://apibay.org",
+  "domains": ["torrent9.to"],
+  "base_url": "https://ww1.torrent9.to",
     "search_url_format_episode": {
-    "string_format": "/s/?q={query}&page=0&&video=on&orderby=99",
+    "string_format": "/search_torrent/{query}.html,
     "replacement": [
       "title_lower",
       "season_int",
@@ -12,14 +12,14 @@
     ]
   },
   "search_url_format_movie": {
-    "string_format": "/s/?q={query}&page=0&&video=on&orderby=99",
+    "string_format": "/search_torrent/{query}.html",
     "replacement": [
       "title_lower",
       "year_int"
     ]
   },
   "search_url_format_season_pack": {
-    "string_format": "/s/?q={query}&page=0&&video=on&orderby=99",
+    "string_format": "/search_torrent/{query}.html",
     "replacement": [
       "title_lower"
     ]
