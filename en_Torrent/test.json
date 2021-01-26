@@ -4,7 +4,7 @@
   "domains": ["apibay.org"],
   "base_url": "https://apibay.org",
     "search_url_format_episode": {
-    "string_format": "/q.php?q=%s+s%02de%02d&cat=0",
+    "string_format": "/s/?q={query}&page=0&&video=on&orderby=99",
     "replacement": [
       "title_lower",
       "season_int",
@@ -12,14 +12,14 @@
     ]
   },
   "search_url_format_movie": {
-    "string_format": "/q.php?q=%s+%04d&cat=0",
+    "string_format": "/s/?q={query}&page=0&&video=on&orderby=99",
     "replacement": [
       "title_lower",
       "year_int"
     ]
   },
   "search_url_format_season_pack": {
-    "string_format": "/q.php?q=%s&cat=0",
+    "string_format": "/s/?q={query}&page=0&&video=on&orderby=99",
     "replacement": [
       "title_lower"
     ]
