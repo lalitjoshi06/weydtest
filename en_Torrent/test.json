@@ -1,10 +1,17 @@
 {
     "name": "rarbg",
     "language": ["hi", "en"],
-    "domains": ["torrentapi.org", "rarbgproxied.org"],
-    "base_url": "https://rarbgproxied.org",    
+    "domains": ["torrentapi.org"],
+    "base_url": "",
+    "token": {
+        "query": "https://torrentapi.org/pubapi_v2.php?get_token=get_token&app_id=wako",
+        "token_validity_time_ms": 840000,
+        "token_format": {
+        "token": "token"
+        }
+    },
     "search_url_format_episode": {
-      "string_format": "/torrents.php?search=%s+S%02dE%02d",
+      "string_format": "https://torrentapi.org/pubapi_v2.php?mode=search&search_string=%s+s%02de%02d&category=tv&format=json_extended&app_id=wako",
       "replacement": [
         "title_lower",
         "season_int",
@@ -12,14 +19,14 @@
       ]
     },
     "search_url_format_movie": {
-      "string_format": "/torrents.php?search=%s+%04d%",
+      "string_format": "https://torrentapi.org/pubapi_v2.php?mode=search&search_string=%s+%04d&category=movies&format=json_extended&app_id=wako",
       "replacement": [
         "title_lower",
         "year_int"
       ]
     },
     "search_url_format_season_pack": {
-      "string_format": "/torrents.php?search=%s",
+      "string_format": "https://torrentapi.org/pubapi_v2.php?mode=search&search_string=%s&category=tv&format=json_extended&app_id=wako",
       "replacement": [
         "title_lower"
       ]
