@@ -11,7 +11,7 @@
         }
     },
     "search_url_format_episode": {
-      "string_format": "https://torrentapi.org/pubapi_v2.php?mode=search&search_string=%s+s%02de%02d&category=tv&format=json_extended&app_id=wako",
+      "string_format": "https://torrentapi.org/pubapi_v2.php?mode=search&search_string=%s+s%02de%02d&category=tv&format=json_extended&app_id=wako&token={token}",
       "replacement": [
         "title_lower",
         "season_int",
@@ -19,14 +19,14 @@
       ]
     },
     "search_url_format_movie": {
-      "string_format": "https://torrentapi.org/pubapi_v2.php?mode=search&search_string=%s+%04d&category=movies&format=json_extended&app_id=wako",
+      "string_format": "https://torrentapi.org/pubapi_v2.php?mode=search&search_string=%s+%04d&category=movies&format=json_extended&app_id=wako&token={token}",
       "replacement": [
         "title_lower",
         "year_int"
       ]
     },
     "search_url_format_season_pack": {
-      "string_format": "https://torrentapi.org/pubapi_v2.php?mode=search&search_string=%s&category=tv&format=json_extended&app_id=wako",
+      "string_format": "https://torrentapi.org/pubapi_v2.php?mode=search&search_string=%s&category=tv&format=json_extended&app_id=wako&token={token}",
       "replacement": [
         "title_lower"
       ]
