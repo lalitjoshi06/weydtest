@@ -1,10 +1,10 @@
 {
-	"name": "releaseBB",
+	"name": "ReleaseBB",
 	"language": ["hi", "en"],
 	"domains": ["proxybb.com", "rlsbb.unblockit.ltd"],
-	"base_url": "http://proxybb.com",
+	"base_url": "http://search.proxybb.com",
 	"search_url_format_episode": {
-		"string_format": "/search/?q=%s+S%02dE%02d&m=1&x=0&y=0",
+		"string_format": "?s=%s+S%02dE%02d&p=1",
 		"replacement": [
 			"title",
 			"season_int",
@@ -12,7 +12,7 @@
 		]
 	},
 	"search_url_format_movie": {
-		"string_format": "/search/?q=%s+%04d&m=1&x=0&y=0",
+		"string_format": "?s=%s+%04d&sort=size&p=1",
 		"replacement": [
 			"title",
 			"year_int"
