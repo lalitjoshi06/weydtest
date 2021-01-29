@@ -30,7 +30,7 @@
       "replacement": [
         "title_lower"
       ]
-    },
+},
     "api":{
         "path_to_array": "torrent_results",
         "path_title": "title",
