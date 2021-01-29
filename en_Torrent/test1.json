@@ -17,7 +17,7 @@
       "title_lower",
       "year_int"
     ]
-  },
+},
   "search_url_format_season_pack": {
     "string_format": "/secciones.php?sec=buscador&valor=%s",
     "replacement": [
