@@ -23,7 +23,7 @@
     "replacement": [
       "title_lower"
     ]
-  },
+},
     "more_pages_indicator": "<ul class=\"pagination\">",
     "next_page_path" : "ul.pagination li.active + li a",
     "next_page_path_attr": "href",
