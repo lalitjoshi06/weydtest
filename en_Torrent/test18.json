@@ -1,0 +1,38 @@
+{
+  {
+  "name": "mejortorrents1",
+  "language": ["es", "en"],
+  "domains": ["mejortorrents1.com"],
+  "base_url": "https://mejortorrents1.com",  
+  "search_url_format_episode": {
+    "string_format": "/secciones.php?sec=buscador&valor=%s+s%02de%02d",
+    "replacement": [
+      "title_lower",
+      "season_int",
+      "episode_int"
+    ]
+  },
+  "search_url_format_movie": {
+    "string_format": "/secciones.php?sec=buscador&valor=%s+%04d",
+    "replacement": [
+      "title_lower",
+      "year_int"
+    ]
+  },
+  "search_url_format_season_pack": {
+    "string_format": "/secciones.php?sec=buscador&valor=%s",
+    "replacement": [
+      "title_lower"
+    ]
+  },
+	
+	"api":{
+        "path_to_array": "torrent_results",
+        "path_title": "title",
+        "path_seeders": "seeders",
+        "path_size": "size",
+        "path_magnet": "download"
+    },
+    "is_torrent": true,
+    "is_direct": false
+  }
