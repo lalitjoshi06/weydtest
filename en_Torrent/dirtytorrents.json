@@ -4,7 +4,7 @@
 	"domains": ["dirtytorrents.unblockit.ltd"],
 	"base_url": "https://dirtytorrents.unblockit.ltd",
 	"search_url_format_episode": {
-		"string_format": "/torrents/?search%s+s%02de%02d",
+		"string_format": "/torrents/?search=%s+s%02de%02d",
 		"replacement": [
 			"title_lower",
 			"season_int",
@@ -12,7 +12,7 @@
 		]
 	},
 	"search_url_format_movie": {
-		"string_format": "/torrents/?search%s+%04d",
+		"string_format": "/torrents/?search=%s+%04d",
 		"replacement": [
 			"title_lower",
 			"year_int"
