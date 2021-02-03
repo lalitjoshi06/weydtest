@@ -12,7 +12,7 @@
 		]
 	},
 	"search_url_format_movie": {
-		"string_format": "/search/%s+%04d/0/?sort=popular",
+		"string_format": "/?search=%s+%04d&sort=popular",
 		"replacement": [
 			"title_lower",
 			"year_int"
