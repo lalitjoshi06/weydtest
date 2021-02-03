@@ -39,7 +39,7 @@
 	"title_path_attr": "href",
 	"details_path": "|title_path|",
 	"details_path_attr": "",
-	"magnet_path": "div.links a[href^=magnet]",
+	"magnet_path": "div.links a[href]",
 	"magnet_path_attr": "href",
 	"seeders_path": "div.links span.title:contains(seeders)",
 	"seeders_path_attr": "",
