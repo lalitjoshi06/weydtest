@@ -35,7 +35,7 @@
 	"links_container_path": "div.home_list_entry",
 	"link_path": "",
 	"link_path_attr": "",
-	"title_path": "div.link a.cellMainLink",
+	"title_path": "div.link a",
 	"title_path_attr": "href",
 	"details_path": "|title_path|",
 	"details_path_attr": "",
