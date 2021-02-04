@@ -30,7 +30,7 @@
 	"links_container_path": "div.row",
 	"link_path": "",
 	"link_path_attr": "",
-	"title_path": "h5:has(a[title])",
+	"title_path": "h5 a[title]",
 	"title_path_attr": "href",
 	"details_path": "|title_path|",
 	"details_path_attr": "",
