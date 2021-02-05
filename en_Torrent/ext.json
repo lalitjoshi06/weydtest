@@ -23,7 +23,7 @@
 	"next_page_path": "div.search_stat span.active + a",
 	"next_page_path_attr": "abs:href",
 	"links_on_first_page": false,
-	"drill_down_path": "table.table tr",
+	"drill_down_path": "table.table tbody tr td a[href^=/https://]",
 	"drill_down_path_attr": "abs:href",
 	"is_torrent": true,
 	"is_direct": false,
