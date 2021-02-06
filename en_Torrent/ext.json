@@ -19,8 +19,8 @@
 		]
 	},
 	
-	"more_pages_indicator": "<div class=\"search_stat\"><span",
-	"next_page_path": "div.search_stat span.active + a",
+	"more_pages_indicator": "div.pagination-block",
+	"next_page_path": "div.pagination-block a.page-link + a",
 	"next_page_path_attr": "abs:href",
 	"links_on_first_page": false,
 	"drill_down_path": "table.table tbody tr td a[href^=/https://]",
