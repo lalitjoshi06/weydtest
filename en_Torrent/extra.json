@@ -43,7 +43,7 @@
     "magnet_path_attr": "href",
     "seeders_path": "td.seeds",
     "seeders_path_attr": "",
-    "filesize_path": "td.size < 120 ? td.size * 1024 : td.size > 122880 ? td.size / 1204  : td.size+' MB'",
+    "filesize_path": "td.size+' MB'",
     "filesize_path_attr": "",
     "filesize_units": "mb",
     "quality_path": "|title_path|",
