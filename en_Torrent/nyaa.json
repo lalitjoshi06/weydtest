@@ -32,7 +32,7 @@
 	"drill_down_path_attr": "",
 	"is_torrent": true,
 	"is_direct": false,
-	"links_container_path": "tbody.alt-colors tr.torrent-info",
+	"links_container_path": "tbody tr",
 	"link_path": "",
 	"link_path_attr": "",
 	"title_path": "td:eq(1) a[title]",
