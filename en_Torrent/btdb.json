@@ -39,7 +39,7 @@
 	"title_path_attr": "href",
 	"details_path": "|title_path|",
 	"details_path_attr": "",
-	"magnet_path": "div.media-right:eq(0) a[HrEf^=magnet]",
+	"magnet_path": "div.media-right a[herf^=magnet]",
 	"magnet_path_attr": "href",
 	"seeders_path": "",
 	"seeders_path_attr": "",
