@@ -4,7 +4,7 @@
 	"domains": ["tvsplurge.io"],
 	"base_url": "https://tvsplurge.io",
 	"search_url_format_episode": {
-		"string_format": "/shows/%s/s%02d/e%02d/",
+		"string_format": "/shows/%s+S%02dE%02d",
 		"replacement": [
 			"title_lower_dash",
 			"season_int",
