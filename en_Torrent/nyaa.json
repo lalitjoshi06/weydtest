@@ -1,25 +1,25 @@
 {
-	"name": "nyaa",
-	"language": ["en"],
-	"domains": ["nyaa.net", "nyaa.si"],
-	"base_url": "https://nyaa.si",
+	"name": "extratorrent",
+	"language": ["hi", "en"],
+	"domains": ["extratorrent.unblockit.ltd"],
+	"base_url": "http://extratorrent.unblockit.link",
 	"search_url_format_episode": {
-		"string_format": "/?f=0&c=1_0&q=s+s%02de%02d&s=seeders&o=desc",
+		"string_format": "/search/?search=%s+s%01de%01d&new=1&x=0&y=0",
 		"replacement": [
-			"title_lower_dash",
+			"title_lower",
 			"season_int",
 			"episode_int"
 		]
 	},
 	"search_url_format_movie": {
-		"string_format": "/?f=0&c=1_0&q=%s+%04d&s=seeders&o=desc",
+		"string_format": "/search/?search=%s+%04d&new=1&x=0&y=0",
 		"replacement": [
 			"title_lower",
 			"year_int"
 		]
 	},
 	"search_url_format_season_pack": {
-		"string_format": "/?f=0&c=1_0&q=%s&s=seeders&o=desc",
+		"string_format": "/search/?search=%s&new=1&x=0&y=0",
 		"replacement": [
 			"title_lower"
 		]
@@ -32,20 +32,20 @@
 	"drill_down_path_attr": "",
 	"is_torrent": true,
 	"is_direct": false,
-	"links_container_path": "table.torrent-list tbody tr",
+	"links_container_path": "table.tl tbody tr",
 	"link_path": "",
 	"link_path_attr": "",
-	"title_path": "td:eq(1) a[title]",
+	"title_path": "td.tli a[title]",
 	"title_path_attr": "",
 	"details_path": "|title_path|",
 	"details_path_attr": "",
-	"magnet_path": "td:eq(2) a[href^=magnet]",
+	"magnet_path": "a[href^=magnet]",
 	"magnet_path_attr": "href",
 	"seeders_path": "td:eq(5)",
 	"seeders_path_attr": "",
-	"filesize_path": "td:eq(3)",
+	"filesize_path": "td:eq(4)",
 	"filesize_path_attr": "",
-	"filesize_units": "",
+	"filesize_units": "gb",
 	"quality_path": "|title_path|",
 	"quality_path_attr": "",
 	"info_path": "|title_path|",
