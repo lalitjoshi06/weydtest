@@ -25,11 +25,10 @@
 		]
 	},
 	"api": {
-		"path_to_array": "torrent_results",
-		"path_title": "title",
-		"path_seeders": "seeders",
-		"path_size": "size",
-		"path_magnet": "download"
+		"path_title": "title_long",
+		"path_hash": "hash",
+		"path_seeders": "seeds",
+		"path_size": "size"
 	},
 	"is_torrent": true,
 	"is_direct": false
