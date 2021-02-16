@@ -37,7 +37,7 @@
     "path_title": "title_long",
     "path_seeders": "seeds",    
     "path_size": "size",
-    "path_magnet": "magnet:?xt=urn:btih:{hash}&tr=http://track.one:1234/announce&tr=udp://track.two:80"
+    "path_magnet": "a[href^=magnet]"
   },
   "is_torrent": true,
   "is_direct": false
