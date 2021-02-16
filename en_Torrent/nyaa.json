@@ -25,11 +25,13 @@
 		]
 	},
 	"api": {
+		"path_to_array": "data.movies",
 		"path_title": "title_long",
 		"path_hash": "hash",
 		"path_seeders": "seeds",
 		"quality": "quality",
-		"path_size": "size"
+		"path_size": "size",
+		"path_magnet": "url"
 	},
 	"is_torrent": true,
 	"is_direct": false
