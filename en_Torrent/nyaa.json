@@ -35,11 +35,9 @@
   "api": {
     "path_to_array": "data.movies",
     "path_title": "title_long",
-    "path_hash": "hash",
-    "path_seeders": "seeds",
-    "quality": "quality",
+    "path_seeders": "seeds",    
     "path_size": "size",
-    "path_magnet": "url"
+    "path_magnet": "magnet:?xt=urn:btih:{hash}&tr=http://track.one:1234/announce&tr=udp://track.two:80"
   },
   "is_torrent": true,
   "is_direct": false
