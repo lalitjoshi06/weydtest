@@ -28,6 +28,7 @@
 		"path_title": "title_long",
 		"path_hash": "hash",
 		"path_seeders": "seeds",
+		"quality": "quality",
 		"path_size": "size"
 	},
 	"is_torrent": true,
