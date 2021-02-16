@@ -37,7 +37,7 @@
     "path_title": "title_long",
     "path_seeders": "seeds",    
     "path_size": "size",
-    "path_magnet": "a[href^=magnet]"
+    "path_magnet": "url"
   },
   "is_torrent": true,
   "is_direct": false
