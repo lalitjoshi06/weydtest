@@ -1,10 +1,10 @@
 {
-	"name": "extratorrent",
-	"language": ["hi", "en"],
-	"domains": ["extratorrent.unblockit.ltd"],
-	"base_url": "http://extratorrent.unblockit.link",
+	"name": "yts",
+    "language": ["hi", "en"],
+    "domains": ["yts.ws", "yts.unblockit.ltd", "yts.mx", "yts.pm"],
+    "base_url": "https://yts.unblockit.link",
 	"search_url_format_episode": {
-		"string_format": "/search/?search=%s+s%01de%01d&new=1&x=0&y=0",
+		"string_format": "",
 		"replacement": [
 			"title_lower",
 			"season_int",
@@ -12,42 +12,25 @@
 		]
 	},
 	"search_url_format_movie": {
-		"string_format": "/search/?search=%s+%04d&new=1&x=0&y=0",
+		"string_format": "/api/v2/list_movies.json?query_term=%s+%04d&sort_by=seeds&order_by=desc",
 		"replacement": [
 			"title_lower",
 			"year_int"
 		]
 	},
 	"search_url_format_season_pack": {
-		"string_format": "/search/?search=%s&new=1&x=0&y=0",
+		"string_format": "",
 		"replacement": [
 			"title_lower"
 		]
 	},
-	"more_pages_indicator": "",
-	"next_page_path": "",
-	"next_page_path_attr": "",
-	"links_on_first_page": true,
-	"drill_down_path": "",
-	"drill_down_path_attr": "",
+	"api": {
+		"path_to_array": "torrent_results",
+		"path_title": "title",
+		"path_seeders": "seeders",
+		"path_size": "size",
+		"path_magnet": "download"
+	},
 	"is_torrent": true,
-	"is_direct": false,
-	"links_container_path": "table.tl tbody tr",
-	"link_path": "",
-	"link_path_attr": "",
-	"title_path": "td.tli a[title]",
-	"title_path_attr": "",
-	"details_path": "|title_path|",
-	"details_path_attr": "",
-	"magnet_path": "a[href^=magnet]",
-	"magnet_path_attr": "href",
-	"seeders_path": "td:eq(5)",
-	"seeders_path_attr": "",
-	"filesize_path": "td:eq(4)",
-	"filesize_path_attr": "",
-	"filesize_units": "gb",
-	"quality_path": "|title_path|",
-	"quality_path_attr": "",
-	"info_path": "|title_path|",
-	"info_path_attr": ""
+	"is_direct": false
 }
