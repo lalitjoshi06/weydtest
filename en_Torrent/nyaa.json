@@ -39,7 +39,7 @@
     "path_size": "size",
     "quality": "quality",
     "hash": "hash",
-    "path_magnet": "magnet:?xt=urn:btih:hash:contains(hash)&tr=http://track.one:1234/announce&tr=udp://track.two:80"
+    "path_magnet": "magnet:?xt=urn:btih:|hash|&tr=http://track.one:1234/announce&tr=udp://track.two:80"
   },
   "is_torrent": true,
   "is_direct": false
