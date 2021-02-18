@@ -33,13 +33,12 @@
     ]
   },
   "api": {
-    "path_to_array": "data.movies",
+    "path_to_array": "data.movies torrents",
     "path_title": "title_long",
     "path_seeders": "seeds",    
     "path_size": "size",
     "quality": "quality",
-    "hash": "hash",
-    "path_magnet": "magnet:?xt=urn:btih:|hash|&tr=http://track.one:1234/announce&tr=udp://track.two:80"
+    "path_magnet": "magnet:?xt=urn:btih:{hash}&tr=http://track.one:1234/announce&tr=udp://track.two:80"
   },
   "is_torrent": true,
   "is_direct": false
