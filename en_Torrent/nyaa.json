@@ -38,7 +38,8 @@
     "path_seeders": "seeds",    
     "path_size": "size",
     "quality": "quality",
-    "path_magnet": "magnet:?xt=urn:btih:{hash}&tr=http://track.one:1234/announce&tr=udp://track.two:80"
+    "hash": "hash",
+    "path_magnet": "magnet:?xt=urn:btih:(hash:(hash))&tr=http://track.one:1234/announce&tr=udp://track.two:80"
   },
   "is_torrent": true,
   "is_direct": false
