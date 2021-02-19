@@ -33,7 +33,7 @@
     ]
   },
   "api": {
-    "path_to_array": "data.movies torrents",
+    "path_to_array": "data.movies",
     "path_title": "title_long",
     "path_seeders": "seeds",    
     "path_size": "size",
