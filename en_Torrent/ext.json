@@ -1,47 +1,51 @@
 {
-	"name": "ext",
-	"language": ["en"],
-	"domains": ["ext.unblockninja.com", "ext.to", "extto.com"],
-	"base_url": "https://ext.unblockninja.com",
-	"search_url_format_episode": {
-		"string_format": "/search/?c=tv&q=%s+s%02de%02d",
-		"replacement": [
-			"title_lower_dash",
-			"season_int",
-			"episode_int"
-		]
-	},
-	"search_url_format_movie": {
-		"string_format": "/search/?c=movies&q=%s+%04d",
-		"replacement": [
-			"title_lower",
-			"year_int"
-		]
-	},
-	
-	"more_pages_indicator": "div.pagination-block",
-	"next_page_path": "div.pagination-block a.page-link + a",
-	"next_page_path_attr": "abs:href",
-	"links_on_first_page": false,
-	"drill_down_path": "table.table tbody tr td a[href^=/https://]",
-	"drill_down_path_attr": "abs:href",
-	"is_torrent": true,
-	"is_direct": false,
-	"links_container_path": "div:has(kbd)",
-	"link_path": "",
-	"link_path_attr": "",
-	"title_path": "/h1.card-title",
-	"title_path_attr": "",
-	"details_path": "|title_path|",
-	"details_path_attr": "",
-	"magnet_path": "kbd",
-	"magnet_path_attr": "|hash|",
-	"seeders_path": "",
-	"seeders_path_attr": "/div.row div.col-md-6 span.detail-seeders-count",
-	"filesize_path": "",
-	"filesize_path_attr": "",
-	"quality_path": "|title_path|",
-	"quality_path_attr": "",
-	"info_path": "|title_path|",
-	"info_path_attr": ""
+  "name": "ext",
+  "language": [
+    "en"
+  ],
+  "domains": [
+    "ext.to",
+    "extto.com"
+  ],
+  "base_url": "https://ext.to",
+  "search_url_format_episode": {
+    "string_format": "/search/?c=tv&q=%s+s%02de%02d",
+    "replacement": [
+      "title_lower_dash",
+      "season_int",
+      "episode_int"
+    ]
+  },
+  "search_url_format_movie": {
+    "string_format": "/search/?c=movies&q=%s+%04d",
+    "replacement": [
+      "title_lower",
+      "year_int"
+    ]
+  },
+  "more_pages_indicator": "",
+  "next_page_path": "",
+  "next_page_path_attr": "",
+  "links_on_first_page": true,
+  "drill_down_path": "",
+  "drill_down_path_attr": "",
+  "is_torrent": true,
+  "is_direct": false,
+  "links_container_path": "tbody tr",
+  "link_path": "",
+  "link_path_attr": "",
+  "title_path": "",
+  "title_path_attr": "",
+  "details_path": "|title_path|",
+  "details_path_attr": "",
+  "magnet_path": "",
+  "magnet_path_attr": "href",
+  "seeders_path": "",
+  "seeders_path_attr": "",
+  "filesize_path": "",
+  "filesize_path_attr": "",
+  "quality_path": "|title_path|",
+  "quality_path_attr": "",
+  "info_path": "|title_path|",
+  "info_path_attr": ""
 }
