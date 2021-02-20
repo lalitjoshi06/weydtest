@@ -9,6 +9,11 @@
 			"token": "token"
 		}
 	},
+	"token_validity_time_ms": 840000,
+    "time_to_wait_between_each_request_ms": 300,
+    "time_to_wait_on_too_many_request_ms": 3000,
+    "max_retries": 10,
+},
 	"search_url_format_episode": {
 		"string_format": "/pubapi_v2.php?mode=search&search_string=%s+s%02de%02d&category=tv&format=json_extended&app_id=weyd&token={token}",
 		"replacement": [
