@@ -6,7 +6,7 @@
 	"search_url_format_episode": {
 		"string_format": "/search?q=%s+s%02de%02d",
 		"replacement": [
-			"title_lower_dash",
+			"title_lower",
 			"season_int",
 			"episode_int"
 		]
@@ -36,10 +36,10 @@
 	"link_path": "",
 	"link_path_attr": "",
 	"title_path": "div.link a",
-	"title_path_attr": "",
+	"title_path_attr": "href",
 	"details_path": "|title_path|",
 	"details_path_attr": "",
-	"magnet_path": "div.links a:eq(03)",
+	"magnet_path": "div.links a[href^=magnet]",
 	"magnet_path_attr": "href",
 	"seeders_path": "",
 	"seeders_path_attr": "",
