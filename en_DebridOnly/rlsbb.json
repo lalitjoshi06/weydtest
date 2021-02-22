@@ -35,7 +35,7 @@
   "links_container_path": "div.entry-summary p",
   "link_path": "strong a",
   "link_path_attr": "href",
-  "title_path": "strong:not(:has(a)):eq(0)",
+  "title_path": "strong:not(:has(a)):eq(1)",
   "title_path_attr": "",
   "details_path": "|title_path|",
   "details_path_attr": "",
