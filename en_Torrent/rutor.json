@@ -6,7 +6,7 @@
 	"search_url_format_episode": {
 		"string_format": "/search/s+s%02de%02d",
 		"replacement": [
-			"title_lower",
+			"title",
 			"season_int",
 			"episode_int"
 		]
