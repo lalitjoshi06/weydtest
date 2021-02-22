@@ -6,7 +6,7 @@
 	"search_url_format_episode": {
 		"string_format": "/search/s+s%02de%02d",
 		"replacement": [
-			"title_lower_dash",
+			"title_lower",
 			"season_int",
 			"episode_int"
 		]
@@ -32,18 +32,18 @@
 	"drill_down_path_attr": "",
 	"is_torrent": true,
 	"is_direct": false,
-	"links_container_path": "tr.gai tr.tum",
+	"links_container_path": "tbody tr",
 	"link_path": "",
 	"link_path_attr": "",
-	"title_path": "td:eq(1)",
-	"title_path_attr": "",
+	"title_path": "td:eq(1) a[href=title]",
+	"title_path_attr": "href",
 	"details_path": "|title_path|",
 	"details_path_attr": "",
 	"magnet_path": "td:eq(1) a[href^=magnet]",
 	"magnet_path_attr": "href",
-	"seeders_path": "",
+	"seeders_path": "td:eq(0)",
 	"seeders_path_attr": "",
-	"filesize_path": "",
+	"filesize_path": "td:eq(1)",
 	"filesize_path_attr": "",
 	"filesize_units": "",
 	"quality_path": "|title_path|",
