@@ -1,0 +1,28 @@
+{
+  "name": "eztv",
+  "language": ["hi", "en"],
+  "domains": ["eztv.re", "eztv.it", "eztv.ch", "eztv.unblockit.ltd"],
+  "base_url": "https://eztv.unblockit.link",
+  "search_url_format_episode": {
+    "string_format": "/api/get-torrents?=%s-s%02de%02d",
+    "replacement": [
+      "title_lower_dash",
+      "season_int",
+      "episode_int"
+    ]
+  },
+  "search_url_format_movie": {
+    "string_format": "",
+    "replacement": [
+    ]
+  },
+	"api": {
+    "path_to_array": "torrents",
+    "path_title": "filename",
+    "path_seeders": "seeds",
+    "path_size": "size_bytes",
+    "path_magnet": "magnet_url"
+  },
+  "is_torrent": true,
+  "is_direct": false
+}
