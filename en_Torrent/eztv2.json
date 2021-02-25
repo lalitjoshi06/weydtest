@@ -4,7 +4,7 @@
   "domains": ["eztv.re", "eztv.it", "eztv.ch", "eztv.unblockit.ltd"],
   "base_url": "https://eztv.unblockit.link",
   "search_url_format_episode": {
-    "string_format": "/api/get-torrents?imdb_id=%s-s%02de%02d",
+    "string_format": "/api/get-torrents?imdb_id={%s-s%02de%02d}",
     "replacement": [
       "title_lower",
       "season_int",
