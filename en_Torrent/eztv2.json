@@ -6,7 +6,7 @@
   "search_url_format_episode": {
     "string_format": "/api/get-torrents&format=json?=%s-s%02de%02d",
     "replacement": [
-      "title_lower_dash",
+      "title_lower",
       "season_int",
       "episode_int"
     ]
@@ -16,7 +16,7 @@
     "replacement": [
     ]
   },
-	"api": {
+"api": {
     "path_to_array": "torrents",
     "path_title": "filename",
     "path_seeders": "seeds",
