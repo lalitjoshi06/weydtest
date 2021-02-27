@@ -32,7 +32,7 @@
     "drill_down_path_attr": "",
     "is_torrent": true,
     "is_direct": false,
-    "links_container_path": "table tbody tr.bls-row",
+    "links_container_path": "tr.bls-row",
     "link_path": "",
     "link_path_attr": "",
     "title_path": "span.title",
