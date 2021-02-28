@@ -22,7 +22,7 @@
   "next_page_path" : "",
   "next_page_path_attr": "",
   "links_on_first_page": false,
-  "drill_down_path": "p.download-link a[title]",
+  "drill_down_path": "div.more-link clearfix a[title]",
   "drill_down_path_attr": "abs:href",
   "is_torrent": false,
   "is_direct": true,
