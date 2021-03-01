@@ -1,7 +1,7 @@
 {
   "name": "eztv",
   "language": ["hi", "en"],
-  "domains": ["src.abirxo.com"],
+  "domains": [""],
   "base_url": "",  
   "search_url_format_episode": {
     "string_format": "https://src.abirxo.com/eztv/%s+s%02de%02d",
