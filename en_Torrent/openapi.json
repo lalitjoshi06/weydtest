@@ -27,8 +27,8 @@
   "api":{
     "path_title": "name",    
     "path_seeders": "seeds",
-    "path_size": "size",
-	"path_magnet": "magnet"
+    "path_size": "size",    
+"path_magnet": "magnet"
   },
 
   "is_torrent": true,
