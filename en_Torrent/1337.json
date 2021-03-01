@@ -28,7 +28,7 @@
     "path_title": "Name",    
     "path_seeders": "Seeders",
     "path_size": "Size",
-    "filesize_path_attr": "Size{}",
+    "filesize_path_attr": "Size:contains(Size)",
     "filesize_units": "GB",
 "path_magnet": "Magnetlink"
   },
