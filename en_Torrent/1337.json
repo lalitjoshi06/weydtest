@@ -2,9 +2,9 @@
   "name": "1337Api",
   "language": ["hi", "en"],
   "domains": ["torscraper.herokuapp.com"],
-  "base_url": "https://torscraper.herokuapp.com",  
+  "base_url": "",  
   "search_url_format_episode": {
-    "string_format": "/search1337/%s+s%02de%02d",
+    "string_format": "https://torscraper.herokuapp.com/search1337/%s+s%02de%02d",
     "replacement": [
       "title_lower",
       "season_int",
@@ -12,14 +12,14 @@
     ]
   },
   "search_url_format_movie": {
-    "string_format": "/search1337/%s+%04d",
+    "string_format": "https://torscraper.herokuapp.com/search1337/%s+%04d",
     "replacement": [
       "title_lower",
       "year_int"
     ]
   },
   "search_url_format_season_pack": {
-    "string_format": "/search1337/%s",
+    "string_format": "https://torscraper.herokuapp.com/search1337/%s",
     "replacement": [
       "title_lower"
     ]
