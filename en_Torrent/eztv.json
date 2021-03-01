@@ -1,5 +1,5 @@
 {
-  "name": "eztv",
+  "name": "eztvApi",
   "language": ["hi", "en"],
   "domains": [""],
   "base_url": "",  
