@@ -25,10 +25,10 @@
     ]
   },
   "api":{
-    "path_title": "Name",    
-    "path_seeders": "Seeders",
-    "path_size": "Size",
-	"path_magnet": "Magnet"
+    "path_title": "name",    
+    "path_seeders": "seeders",
+    "path_size": "size",
+	"path_magnet": "magnet"
   },
 
   "is_torrent": true,
