@@ -1,7 +1,7 @@
 {
   "name": "max-rls",
   "language": ["en"],
-  "domains": ["max-rls.com"],
+  "domains": [""],
   "base_url": "http://max-rls.com",
   "search_url_format_episode": {
     "string_format": "?s=%s+%02d+%02d&submit=find",
