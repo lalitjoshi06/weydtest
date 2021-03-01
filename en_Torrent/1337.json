@@ -28,8 +28,7 @@
     "path_title": "Name",    
     "path_seeders": "Seeders",
     "path_size": "Size",
-	   "filesize_units": "GB",
-	  "path_magnet": "Magnet"
+"path_magnet": "Magnet"
   },
 
   "is_torrent": true,
