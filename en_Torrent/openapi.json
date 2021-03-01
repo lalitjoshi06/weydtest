@@ -1,7 +1,7 @@
 {
   "name": "OpenApi",
   "language": ["hi", "en"],
-  "domains": ["52.0.6.104:8000"],
+  "domains": ["52.0.6.104"],
   "base_url": "http://52.0.6.104:8000",  
   "search_url_format_episode": {
     "string_format": "/torrent?query=%s+s%02de%02d",
