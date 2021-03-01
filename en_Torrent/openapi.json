@@ -1,0 +1,36 @@
+{
+  "name": "OpenApi",
+  "language": ["hi", "en"],
+  "domains": ["52.0.6.104:8000"],
+  "base_url": "http://52.0.6.104:8000",  
+  "search_url_format_episode": {
+    "string_format": "/torrent/%s+s%02de%02d",
+    "replacement": [
+      "title_lower",
+      "season_int",
+      "episode_int"
+    ]
+  },
+  "search_url_format_movie": {
+    "string_format": "/torrent/%s+%04d",
+    "replacement": [
+      "title_lower",
+      "year_int"
+    ]
+  },
+  "search_url_format_season_pack": {
+    "string_format": "/torrent/%s",
+    "replacement": [
+      "title_lower"
+    ]
+  },
+  "api":{
+    "path_title": "name",    
+    "path_seeders": "seeds",
+    "path_size": "size",
+	"path_magnet": "magnet"
+  },
+
+  "is_torrent": true,
+  "is_direct": false
+}
