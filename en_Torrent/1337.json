@@ -1,10 +1,10 @@
 {
   "name": "1337Api",
   "language": ["hi", "en"],
-  "domains": ["src.abirxo.com"],
-  "base_url": "https://src.abirxo.com",  
+  "domains": ["torscraper.herokuapp.com"],
+  "base_url": "https://torscraper.herokuapp.com",  
   "search_url_format_episode": {
-    "string_format": "/1337x/%s+s%02de%02d",
+    "string_format": "/search1337/%s+s%02de%02d",
     "replacement": [
       "title_lower",
       "season_int",
@@ -12,14 +12,14 @@
     ]
   },
   "search_url_format_movie": {
-    "string_format": "/1337x/%s+%04d",
+    "string_format": "/search1337/%s+%04d",
     "replacement": [
       "title_lower",
       "year_int"
     ]
   },
   "search_url_format_season_pack": {
-    "string_format": "/1337x/%s",
+    "string_format": "/search1337/%s",
     "replacement": [
       "title_lower"
     ]
@@ -28,7 +28,7 @@
     "path_title": "Name",    
     "path_seeders": "Seeders",
     "path_size": "Size",
-"path_magnet": "Magnet"
+"path_magnet": "Magnetlink"
   },
 
   "is_torrent": true,
