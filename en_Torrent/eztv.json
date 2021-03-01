@@ -28,7 +28,7 @@
     "path_title": "Name",    
     "path_seeders": "Seeds",
     "path_size": "Size",
-	"path_magnet": "Mangnet"
+	  "path_magnet": "Mangnet"
   },
 
   "is_torrent": true,
