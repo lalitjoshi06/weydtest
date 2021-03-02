@@ -1,10 +1,10 @@
 {
   "name": "OpenApi",
   "language": ["hi", "en"],
-  "domains": ["52.0.6.104:8000"],
-  "base_url": "http://52.0.6.104:8000",  
+  "domains": ["api.sumanjay.cf"],
+  "base_url": "https://api.sumanjay.cf",  
   "search_url_format_episode": {
-    "string_format": "/torrent?query=%s+s%02de%02d",
+    "string_format": "/torrent/?query=%s+s%02de%02d",
     "replacement": [
       "title_lower",
       "season_int",
@@ -12,21 +12,21 @@
     ]
   },
   "search_url_format_movie": {
-    "string_format": "/torrent?query=%s+%04d",
+    "string_format": "/torrent/?query=%s+%04d",
     "replacement": [
       "title_lower",
       "year_int"
     ]
   },
   "search_url_format_season_pack": {
-    "string_format": "/torrent?query=%s",
+    "string_format": "/torrent/?query=%s",
     "replacement": [
       "title_lower"
     ]
   },
   "api":{
     "path_title": "name",    
-    "path_seeders": "seeds",
+    "path_seeders": "seeder",
     "path_size": "size",    
 "path_magnet": "magnet"
   },
