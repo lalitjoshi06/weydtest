@@ -1,0 +1,36 @@
+{
+  "name": "TorLockApi",
+  "language": ["hi", "en"],
+  "domains": ["torrenter-api.herokuapp.com"],
+  "base_url": "https://torrenter-api.herokuapp.com/api",  
+  "search_url_format_episode": {
+    "string_format": "/torlock/%s+s%02de%02d",
+    "replacement": [
+      "title_lower",
+      "season_int",
+      "episode_int"
+    ]
+  },
+  "search_url_format_movie": {
+    "string_format": "/torlock/%s+%04d",
+    "replacement": [
+      "title_lower",
+      "year_int"
+    ]
+  },
+  "search_url_format_season_pack": {
+    "string_format": "/torlock/%s",
+    "replacement": [
+      "title_lower"
+    ]
+  },
+  "api":{
+    "path_title": "Name",    
+    "path_seeders": "Seeds",
+    "path_size": "Size",
+	"path_magnet": "Magnet"
+  },
+
+  "is_torrent": true,
+  "is_direct": false
+}

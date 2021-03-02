@@ -1,0 +1,36 @@
+{
+  "name": "TorrzApi",
+  "language": ["hi", "en"],
+  "domains": ["torrz.techpeg.in"],
+  "base_url": "https://torrz.techpeg.in",  
+  "search_url_format_episode": {
+    "string_format": "/torrent?q=%s+s%02de%02d&cat=all&inc_wout_cat=1&exc_adult_res=0",
+    "replacement": [
+      "title_lower",
+      "season_int",
+      "episode_int"
+    ]
+  },
+  "search_url_format_movie": {
+    "string_format": "/torrent?q=%s+%04d&cat=all&inc_wout_cat=1&exc_adult_res=0",
+    "replacement": [
+      "title_lower",
+      "year_int"
+    ]
+  },
+  "search_url_format_season_pack": {
+    "string_format": "/torrent?q=%s&cat=all&inc_wout_cat=1&exc_adult_res=0",
+    "replacement": [
+      "title_lower"
+    ]
+  },
+  "api":{
+    "path_title": "name",    
+    "path_seeders": "seeders",
+    "path_size": "size",
+	"path_magnet": "magnet"
+  },
+
+  "is_torrent": true,
+  "is_direct": false
+}
