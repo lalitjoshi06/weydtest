@@ -1,8 +1,13 @@
 {
   "name": "nyaaApi",
-  "language": ["hi", "en"],
-  "domains": ["nyaaapi.herokuapp.com"],
-  "base_url": "https://nyaaapi.herokuapp.com/nyaa",  
+  "language": [
+    "hi",
+    "en"
+  ],
+  "domains": [
+    "nyaaapi.herokuapp.com"
+  ],
+  "base_url": "https://nyaaapi.herokuapp.com/nyaa",
   "search_url_format_episode": {
     "string_format": "/anime?query=%s+s%02de%02d",
     "replacement": [
@@ -24,14 +29,13 @@
       "title_lower"
     ]
   },
-  "api":{
-    "path_to_array": "data"
-	"path_title": "title",    
+  "api": {
+    "path_to_array": "data",
+    "path_title": "title",
     "path_seeders": "seeders",
     "path_size": "size",
-	"path_magnet": "magnet"
+    "path_magnet": "magnet"
   },
-
   "is_torrent": true,
   "is_direct": false
 }
