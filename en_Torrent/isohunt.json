@@ -33,7 +33,7 @@
   "next_page_path": "",
   "next_page_path_attr": "",
   "links_on_first_page": false,
-  "drill_down_path": "td.title-row a[href]",
+  "drill_down_path": "td.title-row a[href^=/torrent_details]",
   "drill_down_path_attr": "",
   "is_torrent": true,
   "is_direct": false,
