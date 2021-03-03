@@ -7,19 +7,19 @@
   "domains": [
     "xbit.pw"
   ],
-  "base_url": "https://xbit.pw",
+  "base_url": "",
   "search_url_format_episode": {
-    "string_format": "/api?search=%s.s%02de%02d&limit=50",
+    "string_format": "https://xbit.pw/api?search=%s.s%02de%02d&limit=50",
     "replacement": [
-      "title_lower_dash",
+      "title_lower",
       "season_int",
       "episode_int"
     ]
   },
   "search_url_format_movie": {
-    "string_format": "/api?search=%s.%04d&limit=50",
+    "string_format": "https://xbit.pw/api?search=%s.%04d&limit=50",
     "replacement": [
-      "title_lower_dash",
+      "title_lower",
       "year_int"
     ]
   },
