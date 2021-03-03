@@ -11,16 +11,13 @@
   "search_url_format_episode": {
     "string_format": "https://xbit.pw/api?search=%s.s%02de%02d&limit=50",
     "replacement": [
-      "title_lower",
-      "season_int",
-      "episode_int"
+      "imdb_id"
     ]
   },
   "search_url_format_movie": {
     "string_format": "https://xbit.pw/api?search=%s.%04d&limit=50",
     "replacement": [
-      "title_lower",
-      "year_int"
+      "imdb_id"
     ]
   },
   "search_url_format_season_pack": {
@@ -30,7 +27,8 @@
     ]
   },
   "api": {
-    "path_to_array": "dht_results",
+    "path_to_base_array": "{}dht_results",
+    "path_to_array": "torrents",
     "path_title": "NAME",
     "path_size": "SIZE",
     "path_magnet": "MAGNET"
