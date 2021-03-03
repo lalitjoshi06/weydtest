@@ -24,7 +24,7 @@
     ]
   },
   "search_url_format_season_pack": {
-    "string_format": "/search/%s/0/?sort=popular",
+    "string_format": "/torrents?title_op=regular_expression&title=%s",
     "replacement": [
       "title_lower"
     ]
@@ -37,7 +37,7 @@
   "drill_down_path_attr": "",
   "is_torrent": true,
   "is_direct": false,
-  "links_container_path": "table.views-table tbody tr",
+  "links_container_path": "table tbody tr",
   "link_path": "",
   "link_path_attr": "",
   "title_path": "td:eq(2) a",
