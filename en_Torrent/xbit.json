@@ -1,8 +1,13 @@
 {
   "name": "Xbit",
-  "language": ["hi", "en"],
-  "domains": ["xbit.pw"],
-  "base_url": "https://xbit.pw",  
+  "language": [
+    "hi",
+    "en"
+  ],
+  "domains": [
+    "xbit.pw"
+  ],
+  "base_url": "https://xbit.pw",
   "search_url_format_episode": {
     "string_format": "/api?search=%s.s%02de%02d",
     "replacement": [
@@ -24,12 +29,12 @@
       "title_lower"
     ]
   },
-  "api":{
-    "path_title": "NAME",    
+  "api": {
+    "path_to_array": "dht_results",
+    "path_title": "NAME",
     "path_size": "SIZE",
-	"path_magnet": "MAGNET"
+    "path_magnet": "MAGNET"
   },
-
   "is_torrent": true,
   "is_direct": false
 }
