@@ -9,7 +9,7 @@
   ],
   "base_url": "https://xbit.pw",
   "search_url_format_episode": {
-    "string_format": "/api?search=%s.s%02de%02d",
+    "string_format": "/api?search=%s.s%02de%02d&limit=50",
     "replacement": [
       "title_lower",
       "season_int",
@@ -17,7 +17,7 @@
     ]
   },
   "search_url_format_movie": {
-    "string_format": "/api?search=%s.%04d",
+    "string_format": "/api?search=%s.%04d&limit=50",
     "replacement": [
       "title_lower",
       "year_int"
