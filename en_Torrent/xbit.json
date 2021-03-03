@@ -27,7 +27,7 @@
     ]
   },
   "api": {
-    "path_to_base_array": "{}dht_results",
+    "path_to_base_array": "dht_results",
     "path_to_array": "torrents",
     "path_title": "NAME",
     "path_size": "SIZE",
