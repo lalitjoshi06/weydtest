@@ -1,7 +1,14 @@
 {
   "name": "1337x",
-  "language": ["hi", "en"],
-  "domains": ["1337x.to", "1337x.gd", "1337x.unblockit.ltd"],
+  "language": [
+    "hi",
+    "en"
+  ],
+  "domains": [
+    "1337x.to",
+    "1337x.gd",
+    "1337x.unblockit.ltd"
+  ],
   "base_url": "https://1337x.unblockit.link",
   "search_url_format_episode": {
     "string_format": "/sort-search/%s+S%02dE%02d/seeders/desc/1/",
@@ -17,10 +24,10 @@
       "title",
       "year_int"
     ]
-  },  
-  "more_pages_indicator": "",
-  "next_page_path" : "",
-  "next_page_path_attr": "",
+  },
+  "more_pages_indicator": "<li class=\"last\">",
+  "next_page_path" : "div.pagination ul li.active + li a[href]",
+  "next_page_path_attr": "abs:href",
   "links_on_first_page": false,
   "drill_down_path": "tbody tr td a[href^=/torrent]",
   "drill_down_path_attr": "abs:href",
