@@ -1,35 +1,46 @@
 {
-  "name": "crazy4tv",
-  "language": ["en"],
-  "domains": ["crazy4tv.unblockit.link"],
-  "base_url": "https://crazy4tv.unblockit.link",
+  "name": "rapidmoviez",
+  "language": [
+    "hi",
+    "en"
+  ],
+  "domains": [
+    "rapidmoviez.cr"    
+  ],
+  "base_url": "http://rapidmoviez.cr/",
   "search_url_format_episode": {
-    "string_format": "/?s=%s+%02d+%02d",
+    "string_format": "/search/%s+s%02de%02d",
     "replacement": [
-      "title",
+      "title_lower",
       "season_int",
       "episode_int"
     ]
   },
   "search_url_format_movie": {
-    "string_format": "/?s=%s+%04d",
+    "string_format": "/search/%s+%04d",
     "replacement": [
-      "title",
+      "title_lower",
       "year_int"
+    ]
+  },
+  "search_url_format_season_pack": {
+    "string_format": "/search/%s",
+    "replacement": [
+      "title_lower"
     ]
   },
   "more_pages_indicator": "",
   "next_page_path" : "",
   "next_page_path_attr": "",
-  "links_on_first_page": true,
-  "drill_down_path": "",
-  "drill_down_path_attr": "",
+  "links_on_first_page": false,
+  "drill_down_path": "div.list_items ul li a",
+  "drill_down_path_attr": "abs:href",
   "is_torrent": false,
   "is_direct": true,
-  "links_container_path": "div.row",
-  "link_path": "strong a",
-  "link_path_attr": "href",
-  "title_path": "strong:not(:has(a)):eq(0)",
+  "links_container_path": "div.label",
+  "link_path": "h4.links pre:eq(0)",
+  "link_path_attr": "",
+  "title_path": "div.blog-details h2",
   "title_path_attr": "",
   "details_path": "|title_path|",
   "details_path_attr": "",
@@ -37,7 +48,7 @@
   "magnet_path_attr": "",
   "seeders_path": "",
   "seeders_path_attr": "",
-  "filesize_path": "strong:not(:has(a)):eq(2)",
+  "filesize_path": "",
   "filesize_path_attr": "",
   "quality_path": "|title_path|",
   "quality_path_attr": "",
