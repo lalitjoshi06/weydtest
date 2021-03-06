@@ -38,7 +38,7 @@
   "is_torrent": false,
   "is_direct": true,
   "links_container_path": "div.label",
-  "link_path": "h4.links pre:eq(0)",
+  "link_path": "h4.links pre",
   "link_path_attr": "",
   "title_path": "div.blog-details h2",
   "title_path_attr": "",
