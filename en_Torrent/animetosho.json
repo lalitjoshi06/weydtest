@@ -39,7 +39,7 @@
 	"title_path_attr": "",
 	"details_path": "|title_path|",
 	"details_path_attr": "",
-	"magnet_path": "div.links a:eq(4)",
+	"magnet_path": "div.links a:eq(3)",
 	"magnet_path_attr": "",
 	"seeders_path": "",
 	"seeders_path_attr": "",
