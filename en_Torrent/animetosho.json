@@ -40,7 +40,7 @@
 	"details_path": "|title_path|",
 	"details_path_attr": "",
 	"magnet_path": "div.links a:eq(4)",
-	"magnet_path_attr": "",
+	"magnet_path_attr": "href",
 	"seeders_path": "",
 	"seeders_path_attr": "",
 	"filesize_path": "",
