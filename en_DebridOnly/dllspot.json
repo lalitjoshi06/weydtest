@@ -27,7 +27,7 @@
   "is_torrent": false,
   "is_direct": true,
   "links_container_path": "div.column",
-  "link_path": "div.single-link a",
+  "link_path": "div.plot a",
   "link_path_attr": "href",
   "title_path": "h2.title a[title]",
   "title_path_attr": "title",
