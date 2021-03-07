@@ -12,7 +12,7 @@
 		"https://raw.githubusercontent.com/lalitjoshi06/weydtest/main/en_Torrent/fastapi.json",
 		"https://raw.githubusercontent.com/lalitjoshi06/weydtest/main/en_Torrent/oxtorrent.json",
 		"https://raw.githubusercontent.com/lalitjoshi06/weydtest/main/en_Torrent/piratebay.json",
-		"https://raw.githubusercontent.com/lalitjoshi06/weydtest/main/en_Torrent/torrz.json",
+		"https://raw.githubusercontent.com/lalitjoshi06/weydtest/main/en_Torrent/4movie.json",
 		"https://raw.githubusercontent.com/lalitjoshi06/weydtest/main/en_Torrent/yourbittorrent.json"
 	],
 	"3": [
@@ -36,6 +36,6 @@
 		"https://raw.githubusercontent.com/lalitjoshi06/weydtest/main/en_DebridOnly/softarchive.json",
 		"https://raw.githubusercontent.com/lalitjoshi06/weydtest/main/en_DebridOnly/f5movies.json",
 		"https://raw.githubusercontent.com/lalitjoshi06/weydtest/main/en_DebridOnly/crazy4tv.json",
-		"https://raw.githubusercontent.com/lalitjoshi06/weydtest/main/en_DebridOnly/rlsbb.json"
+		"https://raw.githubusercontent.com/lalitjoshi06/weydtest/main/en_DebridOnly/4movie1.json"
 	]
 }
