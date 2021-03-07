@@ -33,7 +33,7 @@
   "next_page_path" : "",
   "next_page_path_attr": "",
   "links_on_first_page": false,
-  "drill_down_path": "div.content ul li div:eq{1} a",
+  "drill_down_path": "div.cont_display a",
   "drill_down_path_attr": "abs:href",
   "is_torrent": false,
   "is_direct": true,
