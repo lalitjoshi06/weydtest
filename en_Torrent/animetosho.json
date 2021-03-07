@@ -44,7 +44,7 @@
 	"seeders_path": "",
 	"seeders_path_attr": "",
 	"filesize_path": "div.size",
-	"filesize_path_attr": "title",	
+	"filesize_path_attr": "",	
 	"quality_path": "|title_path|",
 	"quality_path_attr": "",
 	"info_path": "|title_path|",
