@@ -39,7 +39,7 @@
   "details_path_attr": "",
   "magnet_path": "div.btn-magnet a[href^=magnet]",
   "magnet_path_attr": "href",
-  "seeders_path": "",
+  "seeders_path": "table:eq(1) tbody tr:eq(3) td:eq(1) strong",
   "seeders_path_attr": "",
   "filesize_path": "table:eq(1) tbody tr:eq(2) td:eq(1) strong",
   "filesize_path_attr": "",
