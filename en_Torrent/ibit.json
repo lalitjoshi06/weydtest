@@ -31,7 +31,7 @@
 	"next_page_path_attr": "",
 	"links_on_first_page": false,
 	"drill_down_path": "tbody tr td a[href^=/torrent/]",
-	"drill_down_path_attr": "",
+	"drill_down_path_attr": "abs:href",
 	"is_torrent": true,
 	"is_direct": false,
 	"links_container_path": "div.contents",
