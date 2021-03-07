@@ -39,7 +39,7 @@
 	"title_path_attr": "",
 	"details_path": "|title_path|",
 	"details_path_attr": "",
-	"magnet_path": "div.links a.dllink [href^=magnet]",
+	"magnet_path": "div.links a.dllink[href^=magnet]",
 	"magnet_path_attr": "href",
 	"seeders_path": "",
 	"seeders_path_attr": "",
