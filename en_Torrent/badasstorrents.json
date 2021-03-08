@@ -34,7 +34,7 @@
   "next_page_path_attr": "",
   "links_on_first_page": false,
   "drill_down_path": "table.table-hover tbody tr td:eq(2) a",
-  "drill_down_path_attr": "href",
+  "drill_down_path_attr": "",
   "is_torrent": true,
   "is_direct": false,
   "links_container_path": "div.panel-group",
