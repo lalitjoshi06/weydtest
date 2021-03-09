@@ -45,7 +45,7 @@
   "details_path": "|title_path|",
   "details_path_attr": "",
   "magnet_path": "table:eq(1) tr td:eq(2) a#download-btn",
-  "magnet_path_attr": "href",
+  "magnet_path_attr": "",
   "seeders_path": "",
   "seeders_path_attr": "",
   "filesize_path": "",
