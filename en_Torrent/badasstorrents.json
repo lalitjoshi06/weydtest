@@ -37,7 +37,7 @@
   "drill_down_path_attr": "href",
   "is_torrent": true,
   "is_direct": false,
-  "links_container_path": "div.table-responsive tbody tr",
+  "links_container_path": "div.col-md-10 div.table-responsive tbody tr",
   "link_path": "",
   "link_path_attr": "",
   "title_path": "td:eq(1)",
