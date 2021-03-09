@@ -12,7 +12,8 @@
     "string_format": "/search/%s+%2dx%2d",
     "replacement": [
       "title_lower",
-      "season_int"
+      "season_int",
+      "episode_int"
       
     ]
   },
