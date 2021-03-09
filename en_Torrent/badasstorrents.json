@@ -40,7 +40,7 @@
   "links_container_path": "div.col-md-10",
   "link_path": "",
   "link_path_attr": "",
-  "title_path": "div.col-md-12 h1",
+  "title_path": "div.col-md-12",
   "title_path_attr": "",
   "details_path": "|title_path|",
   "details_path_attr": "",
