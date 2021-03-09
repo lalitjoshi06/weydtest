@@ -41,7 +41,7 @@
   "link_path": "",
   "link_path_attr": "",
   "title_path": "",
-  "title_path_attr": "table.borderless td:eq(1)",
+  "title_path_attr": "table.table td:eq(1)",
   "details_path": "|title_path|",
   "details_path_attr": "",
   "magnet_path": "div#magnet a[href^=magnet]",
