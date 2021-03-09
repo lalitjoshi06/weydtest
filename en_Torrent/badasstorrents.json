@@ -9,7 +9,7 @@
   ],
   "base_url": "https://badasstorrents.com",
   "search_url_format_episode": {
-    "string_format": "/torrents/search/%s+s%02de%02d",
+    "string_format": "/torrents/search/%s+s%02de%02d/seeds/desc",
     "replacement": [
       "title_lower",
       "season_int",
@@ -17,14 +17,14 @@
     ]
   },
   "search_url_format_movie": {
-    "string_format": "/torrents/search/%s+%04d",
+    "string_format": "/torrents/search/%s+%04d/seeds/desc",
     "replacement": [
       "title_lower",
       "year_int"
     ]
   },
   "search_url_format_season_pack": {
-    "string_format": "/torrents/search/%s",
+    "string_format": "/torrents/search/%s/seeds/desc",
     "replacement": [
       "title_lower"
     ]
