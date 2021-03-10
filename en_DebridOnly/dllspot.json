@@ -29,7 +29,7 @@
   "links_container_path": "div.item-content",
   "link_path": "div.single-link a",
   "link_path_attr": "href",
-  "title_path": "hr strong",
+  "title_path": "hr",
   "title_path_attr": "",
   "details_path": "|title_path|",
   "details_path_attr": "",
