@@ -34,7 +34,7 @@
   "links_container_path": "div.blog-details",
   "link_path": "pre.links a",
   "link_path_attr": "href",
-  "title_path": "h2#text",
+  "title_path": "h2",
   "title_path_attr": "",
   "details_path": "|title_path|",
   "details_path_attr": "",
