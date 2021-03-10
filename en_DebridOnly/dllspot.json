@@ -4,7 +4,7 @@
   "domains": ["2ddl.unblockit.link"],
   "base_url": "https://2ddl.unblockit.buzz",
   "search_url_format_episode": {
-    "string_format": "/?q=%s-S%02dE%02d",
+    "string_format": "/?q=%s-s%02de%02d",
     "replacement": [
       "title",
       "season_int",
