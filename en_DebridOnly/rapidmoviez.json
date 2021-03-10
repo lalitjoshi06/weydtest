@@ -33,7 +33,7 @@
   "is_direct": true,
   "links_container_path": "div.blog-details",
   "link_path": "pre.links",
-  "link_path_attr": "",
+  "link_path_attr": "id",
   "title_path": "h2",
   "title_path_attr": "",
   "details_path": "|title_path|",
