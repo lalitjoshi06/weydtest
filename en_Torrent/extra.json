@@ -1,10 +1,10 @@
 {
-    "name": "skytorrents",
+    "name": "torrentgalaxy",
     "language": ["hi", "en"],
-    "domains": ["skytorrents.net"],
-    "base_url": "https://www.skytorrents.net",
+    "domains": ["torrentgalaxy.to", "torrentgalaxy.pw", "torrentgalaxy.unblockit.buzz"],
+    "base_url": "https://torrentgalaxy.unblockit.buzz",
     "search_url_format_episode": {
-      "string_format": "/?search=%s+s%02de%02d",
+      "string_format": "/torrents.php?search=%s+s%02de%02d&sort=seeders&order=desc",
       "replacement": [
         "title_lower",
         "season_int",
@@ -12,16 +12,10 @@
       ]
     },
     "search_url_format_movie": {
-      "string_format": "/?search=%s+%04d",
+      "string_format": "/torrents.php?search=%s+%04d&sort=seeders&order=desc",
       "replacement": [
         "title_lower",
         "year_int"
-      ]
-    },
-    "search_url_format_season_pack": {
-      "string_format": "/?search=%s",
-      "replacement": [
-        "title_lower"
       ]
     },
     "more_pages_indicator": "",
@@ -32,18 +26,18 @@
     "drill_down_path_attr": "",
     "is_torrent": true,
     "is_direct": false,
-    "links_container_path": "tbody#results tr",
+    "links_container_path": "div.tgxtablerow",
     "link_path": "",
     "link_path_attr": "",
-    "title_path": "a:eq(0)",
+    "title_path": "a:has(b)",
     "title_path_attr": "",
     "details_path": "|title_path|",
     "details_path_attr": "",
     "magnet_path": "a[href^=magnet]",
     "magnet_path_attr": "href",
-    "seeders_path": "td:eq(4)",
+    "seeders_path": "div#rounded > span[title^=seeders]",
     "seeders_path_attr": "",
-    "filesize_path": "td:eq(1)",
+    "filesize_path": "div#rounded > span.badge-secondary",
     "filesize_path_attr": "",
     "quality_path": "|title_path|",
     "quality_path_attr": "",
