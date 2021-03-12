@@ -1,33 +1,24 @@
 {
-  "name": "magnetdl",
+  "name": "glotorrents",
   "language": ["hi", "en"],
-  "domains": ["magnetdl.com", "magnetdl.unblockit.buzz"],
-  "base_url": "https://magnetdl.unblockedfor.me",
+  "domains": ["glodls.to", "glotorrents.unblockit.buzz"],
+  "base_url": "https://glotorrents.unblockit.buzz",
   "search_url_format_episode": {
-    "string_format": "/%.1s/%s-s%02de%02d",
+    "string_format": "/search_results.php?search=%s-s%02de%02d&cat=41&incldead=0&inclexternal=0&lang=0&sort=seeders&order=desc",
     "replacement": [
       "title_lower",
-      "title_lower_dash",
       "season_int",
       "episode_int"
     ]
   },
   "search_url_format_movie": {
-    "string_format": "/%.1s/%s-%d",
+    "string_format": "/search_results.php?search=%s-%04d&cat=1&incldead=0&inclexternal=0&lang=0&sort=seeders&order=desc",
     "replacement": [
       "title_lower",
-      "title_lower_dash",
       "year_int"
     ]
   },
-  "search_url_format_season_pack": {
-    "string_format": "/%.1s/%s",
-    "replacement": [
-      "title_lower",
-      "title_lower_dash"
-    ]
-  },
-  "more_pages_indicator": "Next Page",
+  "more_pages_indicator": "NEXT",
   "next_page_path" : "",
   "next_page_path_attr": "",
   "links_on_first_page": true,
@@ -35,18 +26,18 @@
   "drill_down_path_attr": "",
   "is_torrent": true,
   "is_direct": false,
-  "links_container_path": "tbody tr",
+  "links_container_path": "table tr.t-row:not(:has(td[colspan]))",
   "link_path": "",
   "link_path_attr": "",
-  "title_path": "tr td.n a[title]",
+  "title_path": "td a[title]",
   "title_path_attr": "title",
   "details_path": "|title_path|",
   "details_path_attr": "",
-  "magnet_path": "tr td.m a[href]",
+  "magnet_path": "td a[rel]",
   "magnet_path_attr": "href",
-  "seeders_path": "tr td.s",
+  "seeders_path": "td:eq(5)",
   "seeders_path_attr": "",
-  "filesize_path": "tr td:eq(5)",
+  "filesize_path": "td:eq(4)",
   "filesize_path_attr": "",
   "quality_path": "|title_path|",
   "quality_path_attr": "",
