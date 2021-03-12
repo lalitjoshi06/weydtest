@@ -4,7 +4,7 @@
     "domains": ["zooqle.com", "zooqle.unblockit.buzz"],
     "base_url": "https://zooqle.unblockit.buzz",
     "search_url_format_episode": {
-      "string_format": "/search?pg=1&q=%s+s%02de%02d",
+      "string_format": "/search?pg=1&q=%s+s%02de%02d+category%3ATV&s=sz&v=t&sd=d",
       "replacement": [
         "title_lower",
         "season_int",
@@ -12,7 +12,7 @@
       ]
     },
     "search_url_format_movie": {
-      "string_format": "/search?pg=1&q=%s+%04d",
+      "string_format": "/search?pg=1&q=%s+%04d+category%3AMovies&s=sz&v=t&sd=d",
       "replacement": [
         "title_lower",
         "year_int"
