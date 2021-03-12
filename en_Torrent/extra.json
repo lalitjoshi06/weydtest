@@ -4,7 +4,7 @@
     "domains": ["torrentgalaxy.to", "torrentgalaxy.pw", "torrentgalaxy.unblockit.buzz"],
     "base_url": "https://torrentgalaxy.unblockit.buzz",
     "search_url_format_episode": {
-      "string_format": "/torrents.php?search=%s+s%02de%02d&sort=seeders&order=desc",
+      "string_format": "/torrents.php?search=%s+s%02de%02d&lang=0&nox=2&sort=seeders&order=desc",
       "replacement": [
         "title_lower",
         "season_int",
@@ -12,7 +12,7 @@
       ]
     },
     "search_url_format_movie": {
-      "string_format": "/torrents.php?search=%s+%04d&sort=seeders&order=desc",
+      "string_format": "/torrents.php?search=%s+%04d&lang=0&nox=2&sort=seeders&order=desc",
       "replacement": [
         "title_lower",
         "year_int"
