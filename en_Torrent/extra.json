@@ -1,25 +1,15 @@
 {
-  "name": "rarbg",
+  "name": "7torr",
   "language": [
     "hi",
     "en"
   ],
   "domains": [
-    "torrentapi.org"
+    "7torr.com"
   ],
-  "base_url": "https://torrentapi.org",
-  "token": {
-    "query": "/pubapi_v2.php?get_token=get_token&app_id=weydx",
-    "token_format": {
-      "token": "token"
-    },
-    "token_validity_time_ms": 840000
-  },
+  "base_url": "http://7torr.com",
   "search_url_format_episode": {
-    "string_format": "/pubapi_v2.php?mode=search&search_string=%s+s%02de%02d&category=tv&sort=seeders&limit=50&format=json_extended&app_id=weydx",
-    "time_to_wait_between_each_request_ms": 300,
-    "time_to_wait_on_too_many_request_ms": 3000,
-    "max_retries": 10,
+    "string_format": "/search?q=%s+s%02de%02d",
     "replacement": [
       "title_lower",
       "season_int",
@@ -27,31 +17,41 @@
     ]
   },
   "search_url_format_movie": {
-    "string_format": "/pubapi_v2.php?mode=search&search_string=%s+%04d&category=movies&sort=seeders&limit=50&format=json_extended&app_id=weydx",
-    "time_to_wait_between_each_request_ms": 300,
-    "time_to_wait_on_too_many_request_ms": 3000,
-    "max_retries": 10,
+    "string_format": "/search?q=%s+%04d",
     "replacement": [
       "title_lower",
       "year_int"
     ]
   },
   "search_url_format_season_pack": {
-    "string_format": "/pubapi_v2.php?mode=search&search_string=%s&category=tv&format=json_extended&app_id=weydx",
-    "time_to_wait_between_each_request_ms": 300,
-    "time_to_wait_on_too_many_request_ms": 3000,
-    "max_retries": 10,
+    "string_format": "/search?q=%s",
     "replacement": [
-      "title"
+      "title_lower"
     ]
   },
-  "api": {
-    "path_to_array": "torrent_results",
-    "path_title": "title",
-    "path_seeders": "seeders",
-    "path_size": "size",
-    "path_magnet": "download"
-  },
+  "more_pages_indicator": "",
+  "next_page_path": "",
+  "next_page_path_attr": "",
+  "links_on_first_page": true,
+  "drill_down_path": "",
+  "drill_down_path_attr": "",
   "is_torrent": true,
-  "is_direct": false
+  "is_direct": false,
+  "links_container_path": "tbody tr",
+  "link_path": "",
+  "link_path_attr": "",
+  "title_path": "td:eq(0) div.rtitle a",
+  "title_path_attr": "",
+  "details_path": "|title_path|",
+  "details_path_attr": "",
+  "magnet_path": "td:eq(5) a[href^=magnet]",
+  "magnet_path_attr": "href",
+  "seeders_path": "td:eq(3)",
+  "seeders_path_attr": "",
+  "filesize_path": "td:eq(1)",
+  "filesize_path_attr": "",
+  "quality_path": "|title_path|",
+  "quality_path_attr": "",
+  "info_path": "|title_path|",
+  "info_path_attr": ""
 }
