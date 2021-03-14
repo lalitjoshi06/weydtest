@@ -31,7 +31,7 @@
   },
   "more_pages_indicator": "<div class=\"maindetails\">",
   "next_page_path": "div.maindetails p + a",
-  "next_page_path_attr": "href",
+  "next_page_path_attr": "abs:href",
   "links_on_first_page": true,
   "drill_down_path": "",
   "drill_down_path_attr": "",
