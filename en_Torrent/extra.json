@@ -19,7 +19,7 @@
       ]
     },
     "more_pages_indicator": "Next",
-    "next_page_path" : "div.pagination li li + a",
+    "next_page_path" : "div.pagination li + a",
     "next_page_path_attr": "href",
     "links_on_first_page": false,
     "drill_down_path": "tr.table-default a",
