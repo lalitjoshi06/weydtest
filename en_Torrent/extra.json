@@ -1,7 +1,7 @@
 {
     "name": "yourbittorrent",
     "language": ["en"],
-    "domains": ["yourbittorrent2.com", "yourbittorrent.com"],
+    "domains": [""],
     "base_url": "",
     "search_url_format_episode": {
       "string_format": "?q=%s+s%02de%02d&page=1&v=&c=3&sort=size&o=desc",
