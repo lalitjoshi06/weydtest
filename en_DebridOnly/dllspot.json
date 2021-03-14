@@ -29,7 +29,7 @@
   "links_container_path": "div.column",
   "link_path": "div.multi-link a",
   "link_path_attr": "href",
-  "title_path": "div.columns a[title] ",
+  "title_path": "h2.title a[title] ",
   "title_path_attr": "title",
   "details_path": "|title_path|",
   "details_path_attr": "",
