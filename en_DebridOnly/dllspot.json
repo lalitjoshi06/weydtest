@@ -26,7 +26,7 @@
   "drill_down_path_attr": "href",
   "is_torrent": false,
   "is_direct": true,
-  "links_container_path": "div.articles-block",
+  "links_container_path": "div.column",
   "link_path": "div.single-link a[href]",
   "link_path_attr": "",
   "title_path": "h2.title a[title] ",
