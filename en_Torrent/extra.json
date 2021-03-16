@@ -36,7 +36,7 @@
   "drill_down_path_attr": "abs:href",
   "is_torrent": true,
   "is_direct": false,
-  "links_container_path": "div#res2 div.usite",
+  "links_container_path": "div#res2",
   "link_path": "",
   "link_path_attr": "",
   "title_path": "a[title]",
