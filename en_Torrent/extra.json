@@ -1,15 +1,14 @@
 {
-  "name": "bitlord",
+  "name": "TP2",
   "language": [
-    "hi",
     "en"
   ],
   "domains": [
-    "bitlordsearch.com"
+    "torrentproject2.com"
   ],
-  "base_url": "http://www.bitlordsearch.com",
+  "base_url": "https://torrentproject2.com",
   "search_url_format_episode": {
-    "string_format": "/search?q=%s+s%02de%02d",
+    "string_format": "/?t=%s+s%02de%02d&orderby=seeders",
     "replacement": [
       "title_lower",
       "season_int",
@@ -17,14 +16,14 @@
     ]
   },
   "search_url_format_movie": {
-    "string_format": "/search?q=%s+%04d",
+    "string_format": "/?t=%s+%04d&orderby=seeders",
     "replacement": [
       "title_lower",
       "year_int"
     ]
   },
   "search_url_format_season_pack": {
-    "string_format": "/search?q=%s",
+    "string_format": "/?t=%s&orderby=seeders",
     "replacement": [
       "title_lower"
     ]
@@ -33,24 +32,23 @@
   "next_page_path": "",
   "next_page_path_attr": "",
   "links_on_first_page": true,
-  "drill_down_path": "",
-  "drill_down_path_attr": "",
+  "drill_down_path": "div#similarfiles span a",
+  "drill_down_path_attr": "abs:href",
   "is_torrent": true,
   "is_direct": false,
-  "links_container_path": "tr.bls-row",
+  "links_container_path": "div#res2",
   "link_path": "",
   "link_path_attr": "",
-  "title_path": "span.title",
+  "title_path": "h1 b",
   "title_path_attr": "",
   "details_path": "|title_path|",
   "details_path_attr": "",
-  "magnet_path": "a[href^=magnet]",
+  "magnet_path": "div.usite a[href*=magnet]",
   "magnet_path_attr": "href",
-  "seeders_path": "td:eq(5)",
+  "seeders_path": ")",
   "seeders_path_attr": "",
-  "filesize_path": "td:eq(4)",
+  "filesize_path": "",
   "filesize_path_attr": "",
-  "filesize_units": "",
   "quality_path": "|title_path|",
   "quality_path_attr": "",
   "info_path": "|title_path|",
