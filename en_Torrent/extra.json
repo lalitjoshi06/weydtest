@@ -29,8 +29,8 @@
     ]
   },
   "more_pages_indicator": "",
-  "next_page_path": "",
-  "next_page_path_attr": "",
+  "next_page_path": "table#nav td + a",
+  "next_page_path_attr": "abs:href",
   "links_on_first_page": false,
   "drill_down_path": "div.tt span a[href^=/t3]",
   "drill_down_path_attr": "abs:href",
