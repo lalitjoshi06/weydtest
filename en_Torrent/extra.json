@@ -1,14 +1,10 @@
 {
-  "name": "TP2",
-  "language": [
-    "en"
-  ],
-  "domains": [
-    "torrentproject2.com"
-  ],
-  "base_url": "https://torrentproject2.com",
+  "name": "Torrents-CSV",
+  "language": ["hi", "en"],
+  "domains": ["torrents-csv.ml"],
+  "base_url": "https://torrents-csv.ml",  
   "search_url_format_episode": {
-    "string_format": "/?t=%s+s%02de%02d&orderby=seeders",
+    "string_format": "/service/search?q=%s+s%02de%02d&size=50",
     "replacement": [
       "title_lower",
       "season_int",
@@ -16,41 +12,25 @@
     ]
   },
   "search_url_format_movie": {
-    "string_format": "/?t=%s+%04d&orderby=seeders",
+    "string_format": "/service/search?q=%s+%04d&size=50",
     "replacement": [
       "title_lower",
       "year_int"
     ]
   },
   "search_url_format_season_pack": {
-    "string_format": "/?t=%s&orderby=seeders",
+    "string_format": "/service/search?q=%s&size=50",
     "replacement": [
       "title_lower"
     ]
   },
-  "more_pages_indicator": "",
-  "next_page_path": "",
-  "next_page_path_attr": "",
-  "links_on_first_page": false,
-  "drill_down_path": "div.tt span a[href^=/t3]",
-  "drill_down_path_attr": "abs:href",
+  "api":{
+    "path_title": "name",
+    "path_hash": "infohash",
+    "path_seeders": "seeders",
+    "path_size": "size_bytes"
+  },
+
   "is_torrent": true,
-  "is_direct": false,
-  "links_container_path": "div#res2",
-  "link_path": "",
-  "link_path_attr": "",
-  "title_path": "div.usite a[title]",
-  "title_path_attr": "title",
-  "details_path": "|title_path|",
-  "details_path_attr": "",
-  "magnet_path": "div.usite a[href*=magnet]",
-  "magnet_path_attr": "href",
-  "seeders_path": "div#seeders-leechers",
-  "seeders_path_attr": "",
-  "filesize_path": "div#torrent-size",
-  "filesize_path_attr": "",
-  "quality_path": "|title_path|",
-  "quality_path_attr": "",
-  "info_path": "|title_path|",
-  "info_path_attr": ""
+  "is_direct": false
 }
