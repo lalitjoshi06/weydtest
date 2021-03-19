@@ -49,7 +49,7 @@
   "seeders_path": "div.row span.seeders",
   "seeders_path_attr": "",
   "filesize_path": "",
-  "filesize_path_attr": "div.col-sm-6:contains(Torrent size) span",
+  "filesize_path_attr": "div.col-sm-6:contains(Torrent size)",
   "quality_path": "|title_path|",
   "quality_path_attr": "",
   "info_path": "|title_path|",
