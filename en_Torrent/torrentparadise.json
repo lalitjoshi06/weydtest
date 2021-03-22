@@ -49,7 +49,7 @@
   "seeders_path": "div.row span.seeders",
   "seeders_path_attr": "",
   "filesize_path": "",
-  "filesize_path_attr": "div#cTree tbody tr td + td span",
+  "filesize_path_attr": "div#cTree tbody tr td + span",
   "quality_path": "|title_path|",
   "quality_path_attr": "",
   "info_path": "|title_path|",
