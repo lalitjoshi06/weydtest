@@ -6,7 +6,7 @@
   "search_url_format_episode": {
     "string_format": "/?q=%s-s%02de%02d",
     "replacement": [
-      "title",
+      "title_lower",
       "season_int",
       "episode_int"
     ]
@@ -14,7 +14,7 @@
   "search_url_format_movie": {
     "string_format": "/?q=%s-%04d",
     "replacement": [
-      "title",
+      "title_lower",
       "year_int"
     ]
   },
