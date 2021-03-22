@@ -2,7 +2,7 @@
   "name": "ddl2",
   "language": ["en"],
   "domains": ["2ddl.unblockit.buzz"],
-  "base_url": "http://2ddl.unblockit.buzz",
+  "base_url": "https://2ddl.unblockit.buzz",
   "search_url_format_episode": {
     "string_format": "/?q=%s-s%02de%02d",
     "replacement": [
