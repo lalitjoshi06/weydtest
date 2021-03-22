@@ -29,7 +29,8 @@
 		"https://raw.githubusercontent.com/lalitjoshi06/weydtest/main/en_Torrent/torlockmovies.json"
 	],
 	"5": [
-		"https://raw.githubusercontent.com/lalitjoshi06/weydtest/main/en_DebridOnly/dllspot.json"
+		"https://raw.githubusercontent.com/lalitjoshi06/weydtest/main/en_DebridOnly/dllspot.json",
+		"https://raw.githubusercontent.com/lalitjoshi06/weydtest/main/en_DebridOnly/rapid.json"
 	],
 	"6": [
 		"https://raw.githubusercontent.com/lalitjoshi06/weydtest/main/en_DebridOnly/maxrls.json",
