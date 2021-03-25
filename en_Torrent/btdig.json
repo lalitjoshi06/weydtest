@@ -30,7 +30,7 @@
     ]
   },
   "more_pages_indicator": "Next",
-  "next_page_path": "a[href^=/search?q=]",
+  "next_page_path": "div.one_result a[href^=/search?q=]",
   "next_page_path_attr": "abs:href",
   "links_on_first_page": true,
   "drill_down_path": "",
