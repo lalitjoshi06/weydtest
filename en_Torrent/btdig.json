@@ -30,8 +30,8 @@
     ]
   },
   "more_pages_indicator": "Next",
-  "next_page_path": "",
-  "next_page_path_attr": "",
+  "next_page_path": "a[href^=/search?q=]",
+  "next_page_path_attr": "abs:href",
   "links_on_first_page": true,
   "drill_down_path": "",
   "drill_down_path_attr": "",
