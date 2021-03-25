@@ -9,7 +9,7 @@
   ],
   "base_url": "https://btdig.com",
   "search_url_format_episode": {
-    "string_format": "/search?q=%s+s%02de%02d&order=2",
+    "string_format": "/search?q=%s+s%02de%02d",
     "replacement": [
       "title_lower",
       "season_int",
@@ -17,20 +17,20 @@
     ]
   },
   "search_url_format_movie": {
-    "string_format": "/search?q=%s+%04d&order=3",
+    "string_format": "/search?q=%s+%04d",
     "replacement": [
       "title_lower",
       "year_int"
     ]
   },
   "search_url_format_season_pack": {
-    "string_format": "/search?q=%s&order=2",
+    "string_format": "/search?q=%s",
     "replacement": [
       "title_lower"
     ]
   },
-  "more_pages_indicator": "<div style=\"display:inline-block",
-  "next_page_path": "div.one_result a[href^=/search?q=]",
+  "more_pages_indicator": "Next",
+  "next_page_path": "",
   "next_page_path_attr": "abs:href",
   "links_on_first_page": true,
   "drill_down_path": "",
