@@ -7,7 +7,7 @@
   "domains": [
     "btdig.com"
   ],
-  "base_url": "https://btdig.com",
+  "base_url": "",
   "search_url_format_episode": {
     "string_format": "https://btdig.com/search?q=%s+s%02de%02d",
     "replacement": [
