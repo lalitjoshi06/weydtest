@@ -23,7 +23,7 @@
   "next_page_path_attr": "",
   "links_on_first_page": false,
   "drill_down_path": "tbody#resultdiv tr td a",
-  "drill_down_path_attr": "href",
+  "drill_down_path_attr": "abs:href",
   "is_torrent": false,
   "is_direct": true,
   "links_container_path": "div#primary",
