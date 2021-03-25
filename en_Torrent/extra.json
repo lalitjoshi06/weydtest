@@ -27,7 +27,7 @@
   "is_torrent": false,
   "is_direct": true,
   "links_container_path": "div#primary",
-  "link_path": "div.entry-content a[href^=https://nitroflare.com]", "div.entry-content a[href^=https://rapidgator.net]",
+  "link_path": "[div.entry-content a[href^=https://nitroflare.com]", "div.entry-content a[href^=https://rapidgator.net]"],
   "link_path_attr": "href",
   "title_path": "h1.entry-title",
   "title_path_attr": "",
