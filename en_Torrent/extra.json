@@ -28,7 +28,7 @@
   "is_direct": true,
   "links_container_path": "div#primary",
 "link_path": "div.entry-content a",		
-  "link_path_attr": "",
+  "link_path_attr": "href",
   "title_path": "/title",
   "title_path_attr": "",
   "details_path": "|title_path|",
