@@ -27,7 +27,7 @@
   "is_torrent": false,
   "is_direct": true,
   "links_container_path": "div.site-content-inside",
-"link_path": "a[href^=https://nitroflare.com/]",		
+"link_path": "a",		
   "link_path_attr": "href",
   "title_path": "/title",
   "title_path_attr": "",
