@@ -29,7 +29,7 @@
   "links_container_path": "ul.commentList div.messageBox p",
   "link_path": "a",
   "link_path_attr": "href",
-  "title_path": "a[rel]",
+  "title_path": "a",
   "title_path_attr": "rel",
   "details_path": "|title_path|",
   "details_path_attr": "",
