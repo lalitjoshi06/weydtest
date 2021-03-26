@@ -9,10 +9,10 @@
 		"https://raw.githubusercontent.com/lalitjoshi06/weydtest/main/en_Torrent/extra.json"
 	],
 	"2": [
-		"https://raw.githubusercontent.com/lalitjoshi06/weydtest/main/en_Torrent/csv.json",
-		"https://raw.githubusercontent.com/lalitjoshi06/weydtest/main/en_Torrent/oxtorrent.json",
-		"https://raw.githubusercontent.com/lalitjoshi06/weydtest/main/en_Torrent/piratebay.json",
-		"https://raw.githubusercontent.com/lalitjoshi06/weydtest/main/en_Torrent/4movie.json",
+		"https://raw.githubusercontent.com/lalitjoshi06/weydtest/main/en_Torrent/rapid.json",
+		"https://raw.githubusercontent.com/lalitjoshi06/weydtest/main/en_Torrent/drop.json",
+		"https://raw.githubusercontent.com/lalitjoshi06/weydtest/main/en_Torrent/user.json",
+		"https://raw.githubusercontent.com/lalitjoshi06/weydtest/main/en_Torrent/click.json",
 		"https://raw.githubusercontent.com/lalitjoshi06/weydtest/main/en_Torrent/yourbittorrent.json"
 	],
 	"3": [
@@ -30,7 +30,7 @@
 	],
 	"5": [
 		"https://raw.githubusercontent.com/lalitjoshi06/weydtest/main/en_DebridOnly/dllspot.json",
-		"https://raw.githubusercontent.com/lalitjoshi06/weydtest/main/en_DebridOnly/rlsbb.json"
+		"https://raw.githubusercontent.com/lalitjoshi06/weydtest/main/en_DebridOnly/rls.json"
 	],
 	"6": [
 		"https://raw.githubusercontent.com/lalitjoshi06/weydtest/main/en_DebridOnly/maxrls.json",
