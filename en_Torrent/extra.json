@@ -4,7 +4,7 @@
 	"domains": ["rlsbb.ru", "rlsbb.to", "rlsbb.com", "rlsbb.unblocked.cx"],
 	"base_url": "",
 	"search_url_format_episode": {
-		"string_format": "/?s=%s+S%02dE%02d&p=1",
+		"string_format": "https://search.rlsbb.ru/?s=%s+S%02dE%02d&p=1",
 		"replacement": [
 			"title",
 			"season_int",
@@ -12,7 +12,7 @@
 		]
 	},
 	"search_url_format_movie": {
-		"string_format": "/?s=%s+%04d&p=1",
+		"string_format": "https://search.rlsbb.ru/?s=%s+%04d&p=1",
 		"replacement": [
 			"title",
 			"year_int"
