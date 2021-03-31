@@ -4,7 +4,7 @@
   "domains": ["2ddl.ms", "2ddl.unblockit.buzz"],
   "base_url": "https://2ddl.ms",
   "search_url_format_episode": {
-    "string_format": "/?q=%s",
+    "string_format": "/?q=%s-s%02de%02d",
     "replacement": [
       "title_lower",
       "season_int",
@@ -12,13 +12,13 @@
     ]
   },
   "search_url_format_movie": {
-    "string_format": "/?q=%s",
+    "string_format": "/?q=%s-%04d",
     "replacement": [
       "title_lower",
       "year_int"
     ]
   },
-  "more_pages_indicator": "",
+  "more_pages_indicator": "Next",
   "next_page_path" : "",
   "next_page_path_attr": "",
   "links_on_first_page": false,
