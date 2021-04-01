@@ -31,7 +31,7 @@
   "drill_down_path_attr": "abs:href",
   "is_torrent": false,
   "is_direct": true,
-  "links_container_path": "div.blog-details",
+  "links_container_path": "div.label",
   "link_path": "pre.links a",
   "link_path_attr": "href",
   "title_path": "/title",
