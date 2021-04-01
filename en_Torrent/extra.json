@@ -1,15 +1,15 @@
 {
-  "name": "RapidMovies",
+  "name": "ddl-warez",
   "language": [
     "hi",
     "en"
   ],
   "domains": [
-    "rapidmoviez.unblockit.buzz"
+    "ddl-warez.to"
   ],
-  "base_url": "https://rapidmoviez.unblockit.buzz",
+  "base_url": "https://ddl-warez.to",
   "search_url_format_episode": {
-    "string_format": "/search/%s+s%02de%02d",
+    "string_format": "/?search=%s+s%02de%02d&kategorie=",
     "replacement": [
       "title",
       "season_int",
@@ -17,7 +17,7 @@
     ]
   },
   "search_url_format_movie": {
-    "string_format": "/search/%s+%04d",
+    "string_format": "/?search=%s+%04d&kategorie=",
     "replacement": [
       "title",
       "year_int"
@@ -27,13 +27,13 @@
   "next_page_path": "",
   "next_page_path_attr": "",
   "links_on_first_page": false,
-  "drill_down_path": "div.list ul li + li a",
+  "drill_down_path": "tbody tr td:eq(1) a",
   "drill_down_path_attr": "abs:href",
   "is_torrent": false,
   "is_direct": true,
-  "links_container_path": "div.label",
-  "link_path": "pre.links",
-  "link_path_attr": "sse",
+  "links_container_path": "div.row",
+  "link_path": "a[href^=http]",
+  "link_path_attr": "href",
   "title_path": "/title",
   "title_path_attr": "",
   "details_path": "|title_path|",
