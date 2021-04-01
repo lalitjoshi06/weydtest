@@ -1,10 +1,15 @@
 {
-  "name": "max-rls",
-  "language": ["en"],
-  "domains": ["max-rls.com"],
-  "base_url": "http://max-rls.com",
+  "name": "RapidMovies",
+  "language": [
+    "hi",
+    "en"
+  ],
+  "domains": [
+    "rapidmoviez.unblockit.buzz"
+  ],
+  "base_url": "https://rapidmoviez.unblockit.buzz",
   "search_url_format_episode": {
-    "string_format": "?s=%s+%02d+%02d&submit=find",
+    "string_format": "/search/%s+s%02de%02d",
     "replacement": [
       "title",
       "season_int",
@@ -12,24 +17,24 @@
     ]
   },
   "search_url_format_movie": {
-    "string_format": "?s=%s+%04d&submit=find",
+    "string_format": "/search/%s+%04d",
     "replacement": [
       "title",
       "year_int"
     ]
   },
   "more_pages_indicator": "",
-  "next_page_path" : "",
+  "next_page_path": "",
   "next_page_path_attr": "",
-  "links_on_first_page": true,
-  "drill_down_path": "",
-  "drill_down_path_attr": "",
+  "links_on_first_page": false,
+  "drill_down_path": "div.list_items ul li a",
+  "drill_down_path_attr": "abs:href",
   "is_torrent": false,
   "is_direct": true,
-  "links_container_path": "div.post p[dir=ltr]",
-  "link_path": "strong a",
+  "links_container_path": "div.blog-details",
+  "link_path": "a",
   "link_path_attr": "href",
-  "title_path": "strong:not(:has(a)):eq(0)",
+  "title_path": "/title",
   "title_path_attr": "",
   "details_path": "|title_path|",
   "details_path_attr": "",
@@ -37,7 +42,7 @@
   "magnet_path_attr": "",
   "seeders_path": "",
   "seeders_path_attr": "",
-  "filesize_path": "strong:not(:has(a)):eq(2)",
+  "filesize_path": "",
   "filesize_path_attr": "",
   "quality_path": "|title_path|",
   "quality_path_attr": "",
