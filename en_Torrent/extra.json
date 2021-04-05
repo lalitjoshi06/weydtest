@@ -17,9 +17,9 @@
     ]
   },
   "search_url_format_movie": {
-    "string_format": "/movie/torrents/%s-%04d.html?v=&smi=&sma=&i=50&sort=seeds&o=desc",
+    "string_format": "/movie/torrents/%s-%04d.html",
     "replacement": [
-      "title",
+      "title_lower",
       "year_int"
     ]
   },
