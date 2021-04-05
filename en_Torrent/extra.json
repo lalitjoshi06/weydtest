@@ -27,7 +27,7 @@
 	"drill_down_path_attr": "",
 	"is_torrent": true,
 	"is_direct": false,
-	"links_container_path": "table tbody tr#&lt;&gt;",
+	"links_container_path": "table tbody tr",
 	"link_path": "",
 	"link_path_attr": "",
 	"title_path": "td:eq(1)",
