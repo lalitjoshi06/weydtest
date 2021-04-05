@@ -1,51 +1,47 @@
 {
-  "name": "ddl-warez",
-  "language": [
-    "hi",
-    "en"
-  ],
-  "domains": [
-    "ddl-warez.to"
-  ],
-  "base_url": "https://ddl-warez.to",
-  "search_url_format_episode": {
-    "string_format": "/?search=%s+s%02de%02d&kategorie=",
-    "replacement": [
-      "title",
-      "season_int",
-      "episode_int"
-    ]
-  },
-  "search_url_format_movie": {
-    "string_format": "/?search=%s+%04d&kategorie=",
-    "replacement": [
-      "title",
-      "year_int"
-    ]
-  },
-  "more_pages_indicator": "",
-  "next_page_path": "",
-  "next_page_path_attr": "",
-  "links_on_first_page": false,
-  "drill_down_path": "tbody tr td:eq(1) a",
-  "drill_down_path_attr": "abs:href",
-  "is_torrent": false,
-  "is_direct": true,
-  "links_container_path": "div.row",
-  "link_path": "a",
-  "link_path_attr": "href",
-  "title_path": "/title",
-  "title_path_attr": "",
-  "details_path": "|title_path|",
-  "details_path_attr": "",
-  "magnet_path": "",
-  "magnet_path_attr": "",
-  "seeders_path": "",
-  "seeders_path_attr": "",
-  "filesize_path": "",
-  "filesize_path_attr": "",
-  "quality_path": "|title_path|",
-  "quality_path_attr": "",
-  "info_path": "|title_path|",
-  "info_path_attr": ""
+	"name": "BitCQ",
+	"language": ["hi", "en"],
+	"domains": ["bitcq.com"],
+	"base_url": "https://bitcq.com",
+	"search_url_format_episode": {
+		"string_format": "/search?q=%s+s%02de%02d&category%%5B%%5D=1",
+		"replacement": [
+			"title_lower",
+			"season_int",
+			"episode_int"
+		]
+	},
+	"search_url_format_movie": {
+		"string_format": "/search?q=%s+%04d&category%%5B%%5D=1",
+		"replacement": [
+			"title_lower",
+			"year_int"
+		]
+	},
+	
+	"more_pages_indicator": "",
+	"next_page_path": "",
+	"next_page_path_attr": "",
+	"links_on_first_page": true,
+	"drill_down_path": "",
+	"drill_down_path_attr": "",
+	"is_torrent": true,
+	"is_direct": false,
+	"links_container_path": "tbody tr",
+	"link_path": "",
+	"link_path_attr": "",
+	"title_path": "/title",
+	"title_path_attr": "",
+	"details_path": "|title_path|",
+	"details_path_attr": "",
+	"magnet_path": "td:eq(0) a[href^=magnet]",
+	"magnet_path_attr": "href",
+	"seeders_path": "td:eq(4)",
+    "seeders_path_attr": "",
+    "filesize_path": "td:eq(3)",
+    "filesize_path_attr": "",   
+	"quality_path": "|title_path|",
+	"quality_path_attr": "",
+	"info_path": "|title_path|",
+	"info_path_attr": ""
 }
