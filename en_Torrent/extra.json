@@ -17,7 +17,7 @@
     ]
   },
   "search_url_format_movie": {
-    "string_format": "/movie/torrents/%s-%04d.html",
+    "string_format": "/movie/torrents/%s-%04d.html?v=&smi=&sma=&i=50&sort=seeds&o=desc",
     "replacement": [
       "title_lower",
       "year_int"
@@ -42,7 +42,7 @@
   "magnet_path_attr": "href",
   "seeders_path": "",
   "seeders_path_attr": "",
-  "filesize_path": "",
+  "filesize_path": "table.table-striped tr:eq(2) td:eq(1)",
   "filesize_path_attr": "",
   "quality_path": "|title_path|",
   "quality_path_attr": "",
