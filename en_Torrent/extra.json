@@ -9,7 +9,7 @@
   ],
   "base_url": "http://rutor.info",
   "search_url_format_episode": {
-    "string_format": "/search/0/0/210/0/%s+%02dx%02d",
+    "string_format": "/search/0/0/210/0/%s",
     "replacement": [
       "title_lower",
       "season_int",
