@@ -11,10 +11,10 @@
     "search_url_format_season_pack": {
     "string_format": "/search/%s",
     "replacement": [
-      ".+\\/\\s([^а-яА-я\\/]+)\\s.*\\[(?:S*(\\d+))(?:x*(\\d+-*\\d*).*)*\\].*\\)\\s+(.+)\\s+(?:\\||от)\\s*(.+)", "$1 - S$2E$3 - rus - $4 - $5",
-      "E -", "E01-99 -",
-      "Кураж-Бамбей", "kurazh"
-    ]
+      "title_lower"
+    ],
+      "re_replace": [".+\\/\\s([^а-яА-я\\/]+)\\s.*\\[(?:S*(\\d+))(?:x*(\\d+-*\\d*).*)*\\].*\\)\\s+(.+)\\s+(?:\\||от)\\s*(.+)", "$1 - S$2E$3 - rus - $4 - $5"]
+
   },
   "more_pages_indicator": "",
   "next_page_path": "",
