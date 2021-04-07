@@ -11,7 +11,6 @@
     "search_url_format_season_pack": {
     "string_format": "/search/%s",
     "replacement": [
-      "title_lower",
       ".+\\/\\s([^а-яА-я\\/]+)\\s.*\\[(?:S*(\\d+))(?:x*(\\d+-*\\d*).*)*\\].*\\)\\s+(.+)\\s+(?:\\||от)\\s*(.+)", "$1 - S$2E$3 - rus - $4 - $5",
       "E -", "E01-99 -",
       "Кураж-Бамбей", "kurazh"
@@ -34,7 +33,7 @@
   "details_path_attr": "",
   "magnet_path": "td:eq(1) a[href^=magnet]",
   "magnet_path_attr": "href",
-  "seeders_path": "td:eq(4) span.red",
+  "seeders_path": "td:eq(4) span.green",
   "seeders_path_attr": "",
   "filesize_path": "td:eq(3)",
   "filesize_path_attr": "",
