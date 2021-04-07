@@ -11,7 +11,10 @@
     "search_url_format_season_pack": {
     "string_format": "/search/%s",
     "replacement": [
-      "title_lower"
+      "title_lower",
+      ".+\\/\\s([^а-яА-я\\/]+)\\s.*\\[(?:S*(\\d+))(?:x*(\\d+-*\\d*).*)*\\].*\\)\\s+(.+)\\s+(?:\\||от)\\s*(.+)", "$1 - S$2E$3 - rus - $4 - $5",
+      "E -", "E01-99 -",
+      "Кураж-Бамбей", "kurazh"
     ]
   },
   "more_pages_indicator": "",
