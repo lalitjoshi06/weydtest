@@ -24,7 +24,7 @@
     ]
   },
   "search_url_format_season_pack": {
-    "string_format": "/search/0/0/100/0/%s",
+    "string_format": "/search/0/0/210/0/%s",
     "replacement": [
       "title_lower"
     ]
