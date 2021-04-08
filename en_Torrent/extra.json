@@ -33,7 +33,7 @@
   "drill_down_path_attr": "abs:href",
   "is_torrent": true,
   "is_direct": false,
-  "links_container_path": "div.col-9",
+  "links_container_path": "div.row",
   "link_path": "",
   "link_path_attr": "",
   "title_path": "div.box-info-heading h1",
