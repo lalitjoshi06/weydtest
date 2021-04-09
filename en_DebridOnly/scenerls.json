@@ -27,7 +27,7 @@
   "is_torrent": false,
   "is_direct": true,
   "links_container_path": "div#contentArea div.post",
-  "link_path": "div.postContent p h2 a",
+  "link_path": "div.postContent h2 a",
   "link_path_attr": "href",
   "title_path": "/title",
   "title_path_attr": "",
