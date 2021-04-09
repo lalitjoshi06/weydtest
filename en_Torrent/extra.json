@@ -1,17 +1,10 @@
 {
-  "name": "1337x",
-  "language": [
-    "hi",
-    "en"
-  ],
-  "domains": [
-    "1337x.to",
-    "1337x.gd",
-    "1337x.unblockit.club"
-  ],
-  "base_url": "https://1337x.unblockit.club",
+  "name": "scene-rls",
+  "language": ["en"],
+  "domains": ["scenerls.unblockit.club"],
+  "base_url": "https://scenerls.unblockit.club",
   "search_url_format_episode": {
-    "string_format": "/sort-search/%s+S%02dE%02d/seeders/desc/1/",
+    "string_format": "?s=%s+s%02de%02d&submit=find",
     "replacement": [
       "title",
       "season_int",
@@ -19,32 +12,32 @@
     ]
   },
   "search_url_format_movie": {
-    "string_format": "/search/%s+%04d/1/",
+    "string_format": "?s=%s+%04d&submit=find",
     "replacement": [
       "title",
       "year_int"
     ]
   },
-  "more_pages_indicator": "<li class=\"last\">",
-  "next_page_path" : "div.pagination ul li.active + li a[href]",
-  "next_page_path_attr": "abs:href",
-  "links_on_first_page": false,
-  "drill_down_path": "tbody tr td a[href^=/torrent]",
-  "drill_down_path_attr": "abs:href",
-  "is_torrent": true,
-  "is_direct": false,
-  "links_container_path": "div.page-content",
-  "link_path": "",
-  "link_path_attr": "",
-  "title_path": "div.box-info-heading h1",
+  "more_pages_indicator": "",
+  "next_page_path" : "",
+  "next_page_path_attr": "",
+  "links_on_first_page": true,
+  "drill_down_path": "",
+  "drill_down_path_attr": "",
+  "is_torrent": false,
+  "is_direct": true,
+  "links_container_path": "div#contentArea div.post",
+  "link_path": "div.postContent h2 a",
+  "link_path_attr": "href",
+  "title_path": "/title",
   "title_path_attr": "",
   "details_path": "|title_path|",
   "details_path_attr": "",
-  "magnet_path": "div.torrent-detail-page div:eq(2) ul:eq(0) li:eq(0) a",
-  "magnet_path_attr": "href",
+  "magnet_path": "",
+  "magnet_path_attr": "",
   "seeders_path": "",
   "seeders_path_attr": "",
-  "filesize_path": "div.torrent-detail-page div:eq(2) ul:eq(1) li:eq(3) span",
+  "filesize_path": "",
   "filesize_path_attr": "",
   "quality_path": "|title_path|",
   "quality_path_attr": "",
