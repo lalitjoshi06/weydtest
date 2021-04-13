@@ -22,7 +22,7 @@
   "next_page_path" : "",
   "next_page_path_attr": "",
   "links_on_first_page": false,
-  "drill_down_path": "div.post h2 a",
+  "drill_down_path": "div.post div.postTitle h2 a",
   "drill_down_path_attr": "href",
   "is_torrent": false,
   "is_direct": true,
