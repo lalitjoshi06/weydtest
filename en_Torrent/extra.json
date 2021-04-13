@@ -37,7 +37,7 @@
   "magnet_path_attr": "",
   "seeders_path": "",
   "seeders_path_attr": "",
-  "filesize_path": "p:eq(1) br",
+  "filesize_path": "",
   "filesize_path_attr": "",
   "quality_path": "|title_path|",
   "quality_path_attr": "",
