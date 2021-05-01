@@ -1,52 +1,52 @@
 {
-  "name": "BTHAHA",
+  "name": "magnet4you",
   "language": ["hi", "en"],
-  "domains": ["bthaha.men"],
-  "base_url": "https://bthaha.men",  
+  "domains": ["magnet4you.me", "magnet4you.nocensor.monster"],
+  "base_url": "https://sitenable.ch/o.php?b=21&f=norefer&pv=0&mobile=&u=https://magnet4you.me",
   "search_url_format_episode": {
-    "string_format": "/search/%s+s%02de%02d/?c=&s=length",
+    "string_format": "/search.php?s=%s+s%02de%02d",
     "replacement": [
-      "title_lower",
+      "title",
       "season_int",
       "episode_int"
     ]
   },
   "search_url_format_movie": {
-    "string_format": "/search/%s+%04d/?c=&s=length",
+    "string_format": "/search.php?s=%s+%04d",
     "replacement": [
-      "title_lower",
+      "title",
       "year_int"
     ]
   },
   "search_url_format_season_pack": {
-    "string_format": "/search/%s/?c=&s=length",
+    "string_format": "/search.php?s=%s",
     "replacement": [
-      "title_lower"
+      "title"
     ]
   },
- "more_pages_indicator": "",
-	"next_page_path": "",
-	"next_page_path_attr": "",
-	"links_on_first_page": false,
-	"drill_down_path": "div.container table.table tbody tr:eq(1) td.x-item div a",
-	"drill_down_path_attr": "abs:href",
-	"is_torrent": true,
-	"is_direct": false,
-	"links_container_path": "div.container table tbody",
-	"link_path": "",
-	"link_path_attr": "",
-	"title_path": "/title",
-	"title_path_attr": "",
-	"details_path": "|title_path|",
-	"details_path_attr": "",
-	"magnet_path": "tr.tr-magnet-link a[href=magnet]",
-	"magnet_path_attr": "href",
-	"seeders_path": "",
-    "seeders_path_attr": "",
-    "filesize_path": "",
-    "filesize_path_attr": "",    
-	"quality_path": "|title_path|",
-	"quality_path_attr": "",
-	"info_path": "|title_path|",
-	"info_path_attr": ""
+  "more_pages_indicator": "NEXT",
+  "next_page_path" : "",
+  "next_page_path_attr": "",
+  "links_on_first_page": true,
+  "drill_down_path": "",
+  "drill_down_path_attr": "abs:href",
+  "is_torrent": true,
+  "is_direct": false,
+  "links_container_path": "div.profile1, table.tb4",
+  "link_path": "",
+  "link_path_attr": "",
+  "title_path": "tr td:eq(0) a[href]:eq(1)",
+  "title_path_attr": "",
+  "details_path": "|title_path|",
+  "details_path_attr": "",
+  "magnet_path": "tr td:eq(0) a[href]:eq(0)",
+  "magnet_path_attr": "href",
+  "seeders_path": "tr td:eq(4) span",
+  "seeders_path_attr": "",
+  "filesize_path": "tr td:eq(2)",
+  "filesize_path_attr": "",
+  "quality_path": "|title_path|",
+  "quality_path_attr": "",
+  "info_path": "|title_path|",
+  "info_path_attr": ""
 }
