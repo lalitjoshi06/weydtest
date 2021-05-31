@@ -1,13 +1,14 @@
 {
-  "name": "bitlord",
+  "name": "btdb",
   "language": [
     "hi",
     "en"
   ],
   "domains": [
-    "bitlordsearch.com"
+    "btdb.unblockit.club",
+    "btdb.eu"
   ],
-  "base_url": "https://sitenable.ch/o.php?b=21&f=norefer&pv=0&mobile=&u=https://bitlordsearch.com",
+  "base_url": "http://btscene.nl",
   "search_url_format_episode": {
     "string_format": "/search?q=%s+s%02de%02d",
     "replacement": [
@@ -37,18 +38,18 @@
   "drill_down_path_attr": "",
   "is_torrent": true,
   "is_direct": false,
-  "links_container_path": "tr.bls-row",
+  "links_container_path": "div.card-body div.media",
   "link_path": "",
   "link_path_attr": "",
-  "title_path": "span.title",
-  "title_path_attr": "",
+  "title_path": "h2.item-title a[title]",
+  "title_path_attr": "title",
   "details_path": "|title_path|",
   "details_path_attr": "",
   "magnet_path": "a[href^=magnet]",
   "magnet_path_attr": "href",
-  "seeders_path": "td:eq(5)",
+  "seeders_path": "small:contains(Seeders) strong",
   "seeders_path_attr": "",
-  "filesize_path": "td:eq(4)",
+  "filesize_path": "small:contains(Size) strong",
   "filesize_path_attr": "",
   "quality_path": "|title_path|",
   "quality_path_attr": "",
