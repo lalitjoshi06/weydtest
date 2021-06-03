@@ -33,7 +33,7 @@
     "title_path_attr": "",
     "details_path": "|title_path|",
     "details_path_attr": "",
-    "magnet_path": "td:eq(2) a[href*="https://mylink.cx/?url=]",
+    "magnet_path": "td:eq(2) a[data-href*=https://mylink.cx/?url=]",
     "magnet_path_attr": "href",
     "seeders_path": "td:eq(5) div.prog-green",
     "seeders_path_attr": "",
