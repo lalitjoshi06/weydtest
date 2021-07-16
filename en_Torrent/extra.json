@@ -1,7 +1,7 @@
 {
-  "name": "magnet4you",
+  "name": "torrentz2",
   "language": ["hi", "en"],
-  "domains": ["magnet4you.me", "magnet4you.nocensor.monster"],
+  "domains": ["torrentz2.cyou"],
   "base_url": "https://torrentz2.cyou",
   "search_url_format_episode": {
     "string_format": "/fullsearch?q=%s+s%02de%02d",
@@ -26,7 +26,7 @@
   "drill_down_path_attr": "",
   "is_torrent": true,
   "is_direct": false,
-  "links_container_path": "div.results",
+  "links_container_path": "tbody tr",
   "link_path": "",
   "link_path_attr": "",
   "title_path": "tr td:eq(1)",
