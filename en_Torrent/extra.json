@@ -1,7 +1,7 @@
 {
-  "name": "torrentz2",
+  "name": "Ttz2",
   "language": ["hi", "en"],
-  "domains": ["ttorrentz2.torrentbay.to"],
+  "domains": ["torrentz2.torrentbay.to"],
   "base_url": "https://torrentz2.torrentbay.to",
   "search_url_format_episode": {
     "string_format": "/kick.php?q=%s+s%02de%02d",
