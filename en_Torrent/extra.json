@@ -19,7 +19,7 @@
     ]
   },  
   "more_pages_indicator": "NEXT",
-  "next_page_path" : "",
+  "next_page_path" : "div.text-center a:eq(1)",
   "next_page_path_attr": "",
   "links_on_first_page": true,
   "drill_down_path": "",
