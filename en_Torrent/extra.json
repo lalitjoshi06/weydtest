@@ -8,9 +8,9 @@
     "torrentdownload.ch",
     "torrentdownload.info"
   ],
-  "base_url": "https://torlock.com",
+  "base_url": "https://torrentdownloads.d4.re",
   "search_url_format_episode": {
-    "string_format": "/all/torrents/%s-s%02de%02d.html?",
+    "string_format": "/search/?search=%s+s%02de%02d",
     "replacement": [
       "title_lower",
       "season_int",
@@ -18,7 +18,7 @@
     ]
   },
   "search_url_format_movie": {
-    "string_format": "/all/torrents/%s-%04d.html?",
+    "string_format": "/search/?search=%s+%04d",
     "replacement": [
       "title_lower",
       "year_int"
