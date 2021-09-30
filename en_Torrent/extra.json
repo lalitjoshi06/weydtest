@@ -1,8 +1,14 @@
 {
-    "name": "torrentdownload",
-    "language": ["en"],
-    "domains": ["torrentdownload.info"],
-    "base_url": "https://www.torrentdownload.info",
+  "name": "torrentdownload",
+  "language": [
+    "hi",
+    "en"
+  ],
+  "domains": [
+    "torrentdownload.ch",
+    "torrentdownload.info"
+  ],
+  "base_url": "https://www.nre.agency/miniproxy.php?https://www.torrentdownload.info",
     "search_url_format_episode": {
       "string_format": "/search?q=%s+s%02de%02d",
       "replacement": [
