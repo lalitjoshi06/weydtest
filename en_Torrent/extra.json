@@ -22,7 +22,7 @@
     "next_page_path" : "div.pagination-block div.page-link",
     "next_page_path_attr": "abs:href",
     "links_on_first_page": false,
-    "drill_down_path": "div.table-responsive tbody tr a[href]",
+    "drill_down_path": "tbody tr a[href]",
     "drill_down_path_attr": "abs:href",
     "is_torrent": true,
     "is_direct": false,
