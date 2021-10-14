@@ -26,7 +26,7 @@
     "drill_down_path_attr": "abs:href",
     "is_torrent": true,
     "is_direct": false,
-    "links_container_path": "div.col-md-12",
+    "links_container_path": "div.pt-2",
     "link_path": "",
     "link_path_attr": "",
     "title_path": "/title",
