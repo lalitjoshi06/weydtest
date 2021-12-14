@@ -22,16 +22,10 @@
 			"title",
 			"year_int"
 		]
-	},
-	"search_url_format_season_pack": {
-		"string_format": "/s?q=%s",
-		"replacement": [
-			"title_lower"
-		]
-	},
-	"more_pages_indicator": "<li class=\"last\">",
-	"next_page_path": "div.pagination ul li.active + li a[href]",
-	"next_page_path_attr": "abs:href",
+	},	
+	"more_pages_indicator": "",
+	"next_page_path": "",
+	"next_page_path_attr": "",
 	"links_on_first_page": false,
 	"drill_down_path": "tbody tr td a[href^=/t/]",
 	"drill_down_path_attr": "abs:href",
@@ -40,7 +34,7 @@
 	"links_container_path": "div.mt-4",
 	"link_path": "",
 	"link_path_attr": "",
-	"title_path": "/title",
+	"title_path": "h5.truncate",
 	"title_path_attr": "",
 	"details_path": "|title_path|",
 	"details_path_attr": "",
