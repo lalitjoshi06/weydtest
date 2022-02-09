@@ -4,7 +4,7 @@
   "domains": ["magnetdl.com", "magnetdl.unblockit.buzz", "magnetdl.unblockedfor.me"],
   "base_url": "https://magnetdl.abcproxy.org",
   "search_url_format_episode": {
-    "string_format": "/search/?q=%s-s%02de%02d+hindi&m=1&x=0&y=0",
+    "string_format": "/search/?q=%s+s%02de%02d+hindi&m=1&x=0&y=0",
     "replacement": [
       "title_lower",
       "title_lower_dash",
@@ -13,7 +13,7 @@
     ]
   },
   "search_url_format_movie": {
-    "string_format": "/search/?q=%s-%d+hindi&m=1&x=0&y=0",
+    "string_format": "/search/?q=%s+%d+hindi&m=1&x=0&y=0",
     "replacement": [
       "title_lower",
       "title_lower_dash",
