@@ -11,6 +11,7 @@
   "base_url": "http://btscene.nl",
   "search_url_format_episode": {
     "string_format": "/search?q=%s+s%02de%02d",
+    "string_format": "/search?q=%s+s%02de%02d+hindi",
     "replacement": [
       "title_lower",
       "season_int",
@@ -19,6 +20,7 @@
   },
   "search_url_format_movie": {
     "string_format": "/search?q=%s+%04d",
+    "string_format": "/search?q=%s+%04d+hindi",
     "replacement": [
       "title_lower",
       "year_int"
@@ -26,6 +28,7 @@
   },
   "search_url_format_season_pack": {
     "string_format": "/search?q=%s",
+    "string_format": "/search?q=%s+hindi",
     "replacement": [
       "title_lower"
     ]
