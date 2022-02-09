@@ -27,6 +27,7 @@
   "api":{
     "path_title": "Name",    
     "path_seeders": "Seeders",
+	  "path_hash": "size",
     "path_size": "Size",
 	"path_magnet": "Magnet"
   },
