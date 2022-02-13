@@ -30,7 +30,8 @@
   "api":{
     "path_title": "Name",    
     "path_seeders": "Seeders",	  
-    "path_size_gb": "Size",	 
+    "path_size_gb": "Size",
+	   "path_size_mb": "Size",
 	  "path_magnet": "Magnet"
   },
 
