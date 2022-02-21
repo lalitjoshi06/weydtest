@@ -38,7 +38,7 @@
   "title_path_attr": "",
   "details_path": "|title_path|",
   "details_path_attr": "",
-  "magnet_path": "div.center-flex a[href^=magnet]",
+  "magnet_path": "div.hide-on-small a[href^=magnet]",
   "magnet_path_attr": "href",
   "seeders_path": "",
   "seeders_path_attr": "",
