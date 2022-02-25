@@ -35,12 +35,12 @@
 	"details_path_attr": "",
 	"magnet_path": "div.links a[href^=magnet]",
 	"magnet_path_attr": "href",
-	"seeders_path": "",
-	"seeders_path_attr": "",
-	"filesize_path": "",
-	"filesize_path_attr": "",	
-	"quality_path": "|title_path|",
-	"quality_path_attr": "",
-	"info_path": "|title_path|",
-	"info_path_attr": ""
+	 "seeders_path": "div.stats div:has(img[alt=Seeder])",
+  "seeders_path_attr": "",
+  "filesize_path": "div.stats div:has(img[alt=Size])",
+  "filesize_path_attr": "",
+  "quality_path": "|title_path|",
+  "quality_path_attr": "",
+  "info_path": "|title_path|",
+  "info_path_attr": ""
 }
