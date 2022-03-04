@@ -2,7 +2,7 @@
   "name": "scene-rls",
   "language": ["en"],
   "domains": ["scenerls.unblockit.club"],
-  "base_url": "https://scenerls.unblockit.club",
+  "base_url": "http://scene-rls.com",
   "search_url_format_episode": {
     "string_format": "?s=%s+s%02de%02d&submit=find",
     "replacement": [
