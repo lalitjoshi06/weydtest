@@ -9,7 +9,7 @@
   ],
   "base_url": "https://knaben.eu",
   "search_url_format_episode": {
-    "string_format": "/search/?cat=TV&q=%s+s%02de%02d&fast=0",
+    "string_format": "/search/?cat=All&q=%s+s%02de%02d&fast=0",
     "replacement": [
       "title_lower",
       "season_int",
@@ -17,7 +17,7 @@
     ]
   },
   "search_url_format_movie": {
-    "string_format": "/search/?cat=Movies&q=%s+%04d&fast=0",
+    "string_format": "/search/?cat=All&q=%s+%04d&fast=0",
     "replacement": [
       "title_lower",
       "year_int"
