@@ -46,7 +46,7 @@
 	"details_path_attr": "",
 	"magnet_path": "a[href^=magnet]",
 	"magnet_path_attr": "href",
-	"seeders_path": "div.is-half:has(seeders)",
+	"seeders_path": "div.is-multiline div.is-half:contains(seeders)",
 	"seeders_path_attr": "",
 	"filesize_path": "div.torrent_media_info_list",
 	"filesize_path_attr": "",
