@@ -1,30 +1,25 @@
 {
-	"name": "CloudTorrent",
-	"language": [
-		"en",
-		"hi"
-	],
-	"domains": [
-		"cloudtorrents.com"
-	],
-	"base_url": "https://cloudtorrents.com",
+	"name": "extratorrent",
+	"language": ["hi", "en"],
+	"domains": ["extratorrent.unblockedfor.me", "extratorrents.it", "extratorrent.unblockit.ch"],
+	"base_url": "https://extratorrent.unblockit.bet",
 	"search_url_format_episode": {
-		"string_format": "/search?ordering=-uploaded&query=%s+S%02dE%02d",
+		"string_format": "/search/?search=%s+s%02de%02d&new=1&x=0&y=0",
 		"replacement": [
-			"title",
+			"title_lower",
 			"season_int",
 			"episode_int"
 		]
 	},
 	"search_url_format_movie": {
-		"string_format": "/search?ordering=-uploaded&query=%s+%04d",
+		"string_format": "/search/?search=%s+%04d&new=1&x=0&y=0",
 		"replacement": [
-			"title",
+			"title_lower",
 			"year_int"
 		]
 	},
 	"search_url_format_season_pack": {
-		"string_format": "/search?ordering=-uploaded&query=%s",
+		"string_format": "/search/?search=%s&new=1&x=0&y=0",
 		"replacement": [
 			"title_lower"
 		]
@@ -32,24 +27,25 @@
 	"more_pages_indicator": "",
 	"next_page_path": "",
 	"next_page_path_attr": "",
-	"links_on_first_page": false,
-	"drill_down_path": "tbody tr td a[href^=/]",
-	"drill_down_path_attr": "abs:href",
+	"links_on_first_page": true,
+	"drill_down_path": "",
+	"drill_down_path_attr": "",
 	"is_torrent": true,
 	"is_direct": false,
-	"links_container_path": "div.column",
+	"links_container_path": "table.tl tbody tr",
 	"link_path": "",
 	"link_path_attr": "",
-	"title_path": "h1.title",
+	"title_path": "td.tli a[title]",
 	"title_path_attr": "",
 	"details_path": "|title_path|",
 	"details_path_attr": "",
 	"magnet_path": "a[href^=magnet]",
 	"magnet_path_attr": "href",
-	"seeders_path": "div.torrent-detail-header:contains(seeders)",
+	"seeders_path": "td:eq(4)",
 	"seeders_path_attr": "",
-	"filesize_path": "div.torrent_media_info_list",
+	"filesize_path": "td:eq(3)",
 	"filesize_path_attr": "",
+	"filesize_units": "gb",
 	"quality_path": "|title_path|",
 	"quality_path_attr": "",
 	"info_path": "|title_path|",
