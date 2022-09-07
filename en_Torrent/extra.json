@@ -33,7 +33,7 @@
   "title_path_attr": "",
   "details_path": "|title_path|",
   "details_path_attr": "",
-  "magnet_path": "li.list-group-item a[href^=magnet]",
+  "magnet_path": "li.list-group-item a[href*=magnet]",
   "magnet_path_attr": "href",
   "seeders_path": "ul.lh-05 span:eq(1)",
   "seeders_path_attr": "",
