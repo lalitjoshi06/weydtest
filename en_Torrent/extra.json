@@ -1,5 +1,5 @@
 {
-  "name": "Ttz2",
+  "name": "Tt2NZ",
   "language": ["hi", "en"],
   "domains": ["torrentz2.nz"],
   "base_url": "https://torrentz2.nz",
@@ -35,9 +35,9 @@
   "details_path_attr": "",
   "magnet_path": "dd a[href^=magnet]",
   "magnet_path_attr": "href",
-  "seeders_path": "",
+  "seeders_path": "dd  span:eq(3)",
   "seeders_path_attr": "",
-  "filesize_path": "",
+  "filesize_path": "dd  span:eq(2)",
   "filesize_path_attr": "",
   "quality_path": "|title_path|",
   "quality_path_attr": "",
