@@ -9,7 +9,7 @@
   ],
   "base_url": "https://www.bulltorrent.com",
   "search_url_format_episode": {
-    "string_format": "/television/torrents/%s-s%02de%02d.html?v=&i=100&sort=added&o=desc",
+    "string_format": "/all/torrents/%s-s%02de%02d.html",
     "replacement": [
       "title_lower",
       "season_int",
@@ -17,7 +17,7 @@
     ]
   },
   "search_url_format_movie": {
-    "string_format": "/movie/torrents/%s-%04d.html?v=&i=100&sort=added&o=desc",
+    "string_format": "/all/torrents/%s-%04d.html",
     "replacement": [
       "title_lower",
       "year_int"
