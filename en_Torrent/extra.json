@@ -1,15 +1,14 @@
 {
-	"name": "1337x",
+	"name": "Rarbg2",
 	"language": [
 		"en",
 		"hi"
 	],
 	"domains": [
-		"1337x.to",
-		"1337xx.to",
-		"1337x.gd"
+		"rarbg2.to"
+		
 	],
-	"base_url": "https://1337x.to",
+	"base_url": "https://rarbg2.to",
 	"search_url_format_episode": {
 		"string_format": "/sort-search/%s+S%02dE%02d/time/desc/1/",
 		"replacement": [
