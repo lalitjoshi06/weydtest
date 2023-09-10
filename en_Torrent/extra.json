@@ -33,7 +33,7 @@
 	"next_page_path": "",
 	"next_page_path_attr": "",
 	"links_on_first_page": false,
-	"drill_down_path": "table.lista2t tbody tr.lista2 td a[href^=/torrent/]",
+	"drill_down_path": "table.lista2t tbody tr.lista2 td:eq(1) a[href^=/torrent/]",
 	"drill_down_path_attr": "abs:href",
 	"is_torrent": true,
 	"is_direct": false,
