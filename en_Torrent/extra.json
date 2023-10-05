@@ -2,9 +2,9 @@
     "name": "limetorrents",
     "language": ["hi", "en"],
     "domains": ["therarbg.com"],
-    "base_url": "https://t-rb.org",
+    "base_url": "https://the.rarbg.club",
     "search_url_format_episode": {
-      "string_format": "/get-posts/keywords:%s-s%02de%02d",
+      "string_format": "/get-posts/keywords:%s+s%02de%02d",
       "replacement": [
         "title_lower",
         "season_int",
@@ -12,7 +12,7 @@
       ]
     },
     "search_url_format_movie": {
-      "string_format": "/get-posts/keywords:%s-%04d",
+      "string_format": "/get-posts/keywords:%s+%04d",
       "replacement": [
         "title_lower",
         "year_int"
