@@ -28,7 +28,8 @@
     ]
   },
   "api":{
-    "path_title": "name",    
+   "path_to_base_array": "data"
+	  "path_title": "name",    
     "path_seeders": "seeders",	  
     "path_size": "size",
 	"path_size_gb": "size",
