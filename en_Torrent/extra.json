@@ -5,9 +5,9 @@
 		"hi"
 	],
 	"domains": ["torrent-api06.herokuapp.com"],
-  "base_url": "https://smoggy-plum-pleat.cyclic.app",  
+  "base_url": "https://torrent-api-gamma.vercel.app",  
   "search_url_format_episode": {
-    "string_format": "/api/v1/search?site=1337x&query=%s+s%02de%02d",
+    "string_format": "/api/1337x/%s+s%02de%02d",
     "replacement": [
       "title_lower",
       "season_int",
@@ -15,25 +15,24 @@
     ]
   },
   "search_url_format_movie": {
-    "string_format": "/api/v1/search?site=1337x&query=%s+%04d",
+    "string_format": "/api/1337x/%s+%04d",
     "replacement": [
       "title_lower",
       "year_int"
     ]
   },
   "search_url_format_season_pack": {
-    "string_format": "/api/v1/search?site=1337x&query=%s",
+    "string_format": "/api/1337x/%s",
     "replacement": [
       "title_lower"
     ]
   },
   "api":{
-   "path_to_base_array": "data"
-	  "path_title": "name",    
-    "path_seeders": "seeders",	  
-    "path_size": "size",
-	"path_size_gb": "size",
-	  "path_magnet": "magnet"
+    "path_title": "Name",    
+    "path_seeders": "Seeders",	  
+    "path_size": "Size",
+	"path_size_gb": "Size",
+	  "path_magnet": "Magnet"
   },
 
   "is_torrent": true,
