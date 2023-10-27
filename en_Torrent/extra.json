@@ -7,7 +7,7 @@
 	"domains": ["torrent-api06.herokuapp.com"],
   "base_url": "https://smoggy-plum-pleat.cyclic.app",  
   "search_url_format_episode": {
-    "string_format": "/api/v1/all/search?query=%s+s%02de%02d",
+    "string_format": "/api/v1/search?site=1337x&query=%s+s%02de%02d",
     "replacement": [
       "title_lower",
       "season_int",
@@ -15,14 +15,14 @@
     ]
   },
   "search_url_format_movie": {
-    "string_format": "/api/v1/all/search?query=%s+%04d",
+    "string_format": "/api/v1/search?site=1337x&query=%s+%04d",
     "replacement": [
       "title_lower",
       "year_int"
     ]
   },
   "search_url_format_season_pack": {
-    "string_format": "/api/v1/all/search?query=%s",
+    "string_format": "/api/v1/search?site=1337x&query=%s",
     "replacement": [
       "title_lower"
     ]
