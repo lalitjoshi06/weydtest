@@ -5,7 +5,7 @@
 		"hi"
 	],
 	"domains": ["torrent-api06.herokuapp.com"],
-  "base_url": "https://torrent-api-py-mope.onrender.com",  
+  "base_url": ".com",  
   "search_url_format_episode": {
     "string_format": "/api/v1/search?site=limetorrent&query=%s+s%02de%02d",
     "replacement": [
