@@ -2,10 +2,10 @@
   "name": "piratewave",
   "language": ["hi", "en"],
   "domains": ["apibay.org"],
-  "base_url": "https://piratewave.site",
+  "base_url": "http://torsearch.wuaze.com/torrent",
  
   "search_url_format_episode": {
-    "string_format": "/api.php?q=%s+s%02de%02d",
+    "string_format": "/torrent/?search=%s+s%02de%02d",
     "replacement": [
       "title_lower",
       "season_int",
@@ -13,19 +13,19 @@
     ]
   },
   "search_url_format_movie": {
-    "string_format": "/api.php?q=%s+%04d",
+    "string_format": "/torrent/?search=%s+%04d",
     "replacement": [
       "title_lower",
       "year_int"
     ]
   },
   "search_url_format_season_pack": {
-    "string_format": "/api.php?q=%s",
+    "string_format": "/torrent/?search=%s",
     "replacement": [
       "title_lower"
     ]
   },
-"more_pages_indicator": "",
+ "more_pages_indicator": "NEXT",
   "next_page_path" : "",
   "next_page_path_attr": "",
   "links_on_first_page": true,
@@ -33,18 +33,18 @@
   "drill_down_path_attr": "",
   "is_torrent": true,
   "is_direct": false,
-  "links_container_path": "",
+  "links_container_path": "table tbody tr",
   "link_path": "",
   "link_path_attr": "",
-  "title_path": "\title",
+  "title_path": "td:eq(1)",
   "title_path_attr": "title",
   "details_path": "|title_path|",
   "details_path_attr": "",
-  "magnet_path": "magnet",
+  "magnet_path": "td:eq(5) a[href^=magnet]",
   "magnet_path_attr": "href",
-  "seeders_path": "td:eq(5)",
+  "seeders_path": "td:eq(2)",
   "seeders_path_attr": "",
-  "filesize_path": "td:eq(3)",
+  "filesize_path": "td:eq(4)",
   "filesize_path_attr": "",
   "quality_path": "|title_path|",
   "quality_path_attr": "",
