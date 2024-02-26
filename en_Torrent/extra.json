@@ -2,7 +2,7 @@
   "name": "piratewave",
   "language": ["hi", "en"],
   "domains": ["apibay.org"],
-  "base_url": "http://torsearch.wuaze.com/torrent",
+  "base_url": "https://tors6.000webhostapp.com",
  
   "search_url_format_episode": {
     "string_format": "/torrent/?search=%s+s%02de%02d",
