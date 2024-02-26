@@ -27,7 +27,7 @@
   },
   "api":{
     "path_title": "title",
-    "path_hash": "magnet",
+    "magnet": "magnet",
     "path_seeders": "seeders",
     "path_size": "size"
   },
