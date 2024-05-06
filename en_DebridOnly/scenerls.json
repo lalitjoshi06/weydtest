@@ -39,7 +39,7 @@
     "a[href*=\"rapidgator.net/file/\"]",
     "a[href*=\"uploadgig.com/file/download/\"]"
   ]
-},
+}
   "link_path_attr": "href",
   "title_path": "p:not(:has(a))",
   "title_path_attr": "",
