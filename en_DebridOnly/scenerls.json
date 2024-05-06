@@ -21,7 +21,7 @@
   "is_direct": true,
   "links_container_path": "ul.commentList div.messageBox",
   "link_path": [
-    "p a[href*=\"clicknupload.cc/\"]"
+    "p a[href*=\"mixloads.com/\"]"
   ],
   "link_path_attr": "href",
   "title_path": "p:not(:has(a))",
