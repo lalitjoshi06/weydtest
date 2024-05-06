@@ -1,15 +1,30 @@
 {
   "name": "ReleaseBB",
-  "language": ["hi", "en"],
-  "domains": ["rlsbb.ru", "rlsbb.to", "rlsbb.com", "rlsbb.unblocked.cx"],
+  "language": [
+    "hi",
+    "en"
+  ],
+  "domains": [
+    "rlsbb.ru",
+    "rlsbb.to",
+    "rlsbb.com",
+    "rlsbb.unblocked.cx"
+  ],
   "base_url": "",
   "search_url_format_episode": {
     "string_format": "https://search.rlsbb.cc/?s=%s+S%02dE%02d",
-    "replacement": ["title", "season_int", "episode_int"]
+    "replacement": [
+      "title",
+      "season_int",
+      "episode_int"
+    ]
   },
   "search_url_format_movie": {
     "string_format": "https://search.rlsbb.cc/?s=%s+%04d",
-    "replacement": ["title", "year_int"]
+    "replacement": [
+      "title",
+      "year_int"
+    ]
   },
   "more_pages_indicator": "",
   "next_page_path": "",
@@ -20,9 +35,7 @@
   "is_torrent": false,
   "is_direct": true,
   "links_container_path": "ul.commentList div.messageBox",
-  "link_path": [
-    "p a[href*=\"rapidgator.net/file/\"]"
-  ],
+  "link_path": "p a",
   "link_path_attr": "href",
   "title_path": "p:not(:has(a))",
   "title_path_attr": "",
@@ -32,7 +45,7 @@
   "magnet_path_attr": "",
   "seeders_path": "",
   "seeders_path_attr": "",
-  "filesize_path": "p:contains('size:')",
+  "filesize_path": "p:contains('[')",
   "filesize_path_attr": "",
   "quality_path": "|title_path|",
   "quality_path_attr": "",
