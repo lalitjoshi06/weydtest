@@ -35,7 +35,7 @@
   "is_torrent": false,
   "is_direct": true,
   "links_container_path": "ul.commentList div.messageBox",
-  "link_path": "p a",
+  "link_path": "p a[href*=\"rapidgator.net/file/\"] | p a[href*=\"uploadgig.com/file/download/\"] | p a[href*=\"nitroflare.com/view/\"] | p a[href*=\"nitro.download/view/\"] | p a[href*=\"dropapk.to/\"] | p a[href*=\"turbobit.net/\"] | p a[href*=\"uploaded.to/file/\"] | p a[href*=\"drop.download/\"] | p a[href*=\"fastclick.to/\"] | p a[href*=\"katfile.com/\"] | p a[href*=\"usersdrive.com/\"] | p a[href*=\"clicknupload.cc/\"] | p a[href*=\"mixloads.com/\"]",
   "link_path_attr": "href",
   "title_path": "p:not(:has(a))",
   "title_path_attr": "",
