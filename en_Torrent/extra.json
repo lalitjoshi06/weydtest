@@ -18,7 +18,7 @@
   "search_url_format_movie": {
     "string_format": "/api/v2/list_movies.json?query_term=%s&sort_by=seeds&order_by=desc",
     "replacement": [
-      ""
+      "imdb_id"
     ]
   },
   "api": {
