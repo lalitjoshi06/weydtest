@@ -18,15 +18,15 @@
   "search_url_format_movie": {
     "string_format": "/api/v2/list_movies.json?query_term=%s&sort_by=seeds&order_by=desc",
     "replacement": [
-      ""
+      "imdb_id"
     ]
   },
   "api": {
-    "path_to_base_array": "",
+    "path_to_base_array": "data.movies",
     "path_to_array": "",
-    "path_title": "title",
+    "path_title": "title_long",
     "path_seeders": "torrents[0].seeds",
-    "path_size": "torrents[0].size",
+    "path_size": "torrents[0].size_bytes",
     "path_quality": "torrents[0].quality",
     "path_hash": "torrents[0].hash"
   },
