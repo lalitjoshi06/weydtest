@@ -37,7 +37,7 @@
   "links_container_path": "div.Post-body",
   "link_path": "pre code a",
   "link_path_attr": "href",
-  "title_path": "div.Post-body p span b u span",
+  "title_path": "noscript#flarum-content div.container h1",
   "title_path_attr": "",
   "details_path": "",
   "details_path_attr": "",
