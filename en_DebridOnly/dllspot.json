@@ -35,7 +35,7 @@
   "is_torrent": false,
   "is_direct": true,
   "links_container_path": "div.container div.Post-body",
-  "link_path": "pre code a",
+  "link_path": "pre a",
   "link_path_attr": "href",
   "title_path": "div.container ul li h1",
   "title_path_attr": "",
