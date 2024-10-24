@@ -1,57 +1,41 @@
 {
-	"name": "BadA",
+	"name": "Limetorrent-API",
 	"language": [
 		"en",
 		"hi"
 	],
-	"domains": [
-		"badasstorrents.com"		
-	],
-	"base_url": "https://www.badasstorrents.com",
-	"search_url_format_episode": {
-		"string_format": "/s/%s-s%02de%02d/",
-		"replacement": [
-			"title",
-			"season_int",
-			"episode_int"
-		]
-	},
-	"search_url_format_movie": {
-		"string_format": "/s/%s-%04d/",
-		"replacement": [
-			"title",
-			"year_int"
-		]
-	},
-	"search_url_format_season_pack": {
-		"string_format": "/s/%s/",
-		"replacement": [
-			"title_lower"
-		]
-	},
-	"more_pages_indicator": ">",
-	"next_page_path": "",
-	"next_page_path_attr": "",
-	"links_on_first_page": false,
-	"drill_down_path": "table.table-hover tbody tr td:eq(1) a[href^=/v/]",
-	"drill_down_path_attr": "abs:href",
-	"is_torrent": true,
-	"is_direct": false,
-	"links_container_path": "div.container",
-	"link_path": "",
-  "link_path_attr": "href",
-  "title_path": "/title",
-  "title_path_attr": "",
-  "details_path": "|title_path|",
-  "details_path_attr": "",
-  "magnet_path": "h2:eq(1) a[href^='magnet']",
-  "magnet_path_attr": "href",
-	"seeders_path": "",
-	"seeders_path_attr": "",
-	"filesize_path": "",
-	"filesize_path_attr": "",
-	"quality_path": "|title_path|",
-	"quality_path_attr": "",
-	"info_path": "|title_path|",
-	"info_path_attr": ""
+	"domains": ["torrentapi-f16xxden.b4a.run"],
+  "base_url": "https://torrentapi-f16xxden.b4a.run",  
+  "search_url_format_episode": {
+    "string_format": "/api/limetorrent/%s+s%02de%02d",
+    "replacement": [
+      "title_lower",
+      "season_int",
+      "episode_int"
+    ]
+  },
+  "search_url_format_movie": {
+    "string_format": "/api/limetorrent/=%s+%04d",
+    "replacement": [
+      "title_lower",
+      "year_int"
+    ]
+  },
+  "search_url_format_season_pack": {
+    "string_format": "/api/limetorrent/%s+hindi",
+    "replacement": [
+      "title_lower"
+    ]
+  },
+  "api":{
+    "path_to_array": "data",
+    "path_title": "name",    
+    "path_seeders": "seeders",	  
+    "path_size": "size",
+	"path_size_gb": "size",
+	  "path_magnet": "magnet"
+  },
+
+  "is_torrent": true,
+  "is_direct": false
 }
