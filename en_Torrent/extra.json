@@ -15,7 +15,7 @@
     ]
   },
   "search_url_format_movie": {
-    "string_format": "/api/1337x/=%s+%04d",
+    "string_format": "/api/1337x/%s+%04d",
     "replacement": [
       "title_lower",
       "year_int"
