@@ -51,7 +51,7 @@
 	"details_path_attr": "",
 	"magnet_path": "div.torrent-detail-page div:eq(1) div ul:eq(0) li:eq(0) a",
 	"magnet_path_attr": "href",
-	"seeders_path": "div.torrent-detail-page div:eq(1) div ul:eq(2) li:eq(3)",
+	"seeders_path": "",
 	"seeders_path_attr": "",
 	"filesize_path": "div.torrent-detail-page div:eq(1) div ul:eq(1) li:eq(3)",
 	"filesize_path_attr": "",
