@@ -32,7 +32,7 @@
     ]
   },
   "check_title_before_drill_down": true,
-  "drill_down_title_check_attr": "|HTML|", 
+  "drill_down_title_check_attr": "h1", 
   "max_more_pages": 10, 
   "more_pages_indicator": "&gt;&gt;</a></li>",
   "next_page_path": "a[href]:contains(>>)",
