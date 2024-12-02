@@ -16,7 +16,7 @@
     "replacement": ["title_lower"]
   },
   "check_title_before_drill_down": true,
-  "drill_down_title_check_attr": "span.title",  // Adjusted to check for an element with the class 'title'
+  "drill_down_title_check_attr": "span.title",
   "max_more_pages": 10,
   "more_pages_indicator": "",
   "next_page_path": "",
