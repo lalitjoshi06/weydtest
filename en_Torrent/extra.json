@@ -32,7 +32,7 @@
     ]
   },
   "check_title_before_drill_down": true,
-  "drill_down_title_check_attr": "h1", 
+  "drill_down_title_check_attr": "|HTML|", 
   "max_more_pages": 10, 
   "more_pages_indicator": "&gt;&gt;</a></li>",
   "next_page_path": "a[href]:contains(>>)",
@@ -47,7 +47,7 @@
   "link_path_attr": "",
   "title_path": "div.box-info-heading h1",
   "title_path_attr": "",
-  "details_path": "|title_path|",
+  "details_path": "div.torrent-detail-page",
   "details_path_attr": "",
   "magnet_path": "div.torrent-detail-page div:eq(1) div ul:eq(0) li:eq(0) a",
   "magnet_path_attr": "href",
