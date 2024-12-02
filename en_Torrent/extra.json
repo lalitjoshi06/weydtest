@@ -19,7 +19,7 @@
 		]
 	},
 	"search_url_format_movie": {
-		"string_format": "/sort-search/%s+%04d/time/desc/1/",
+		"string_format": "/sort-category-search/%s+%04d/Movies/time/desc/1/",
 		"replacement": [
 			"title",
 			"year_int"
