@@ -57,6 +57,6 @@
 	"filesize_path_attr": "",
 	"quality_path": "|title_path|",
 	"quality_path_attr": "",
-	"info_path": "|title_path|",
+	"info_path": "div.torrent-detail-page div:eq(1) div ul:eq(1) li:eq(0)",
 	"info_path_attr": ""
 }
