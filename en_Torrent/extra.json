@@ -25,7 +25,7 @@
 		]
 	},
 	"check_title_before_drill_down": true,
-	"drill_down_title_check_attr": "|HTML|",
+	"drill_down_title_check_attr": "h1.title",
 	"max_more_pages": 10,
 	"more_pages_indicator": "a[rel='next']",
 	"next_page_path": "a[rel='next']",
