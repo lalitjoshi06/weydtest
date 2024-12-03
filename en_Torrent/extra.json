@@ -50,7 +50,7 @@
   "seeders_path": "div.seeders",
   "seeders_path_attr": "text",
   "filesize_path": "div.size",
-  "filesize_path_attr": "text", 
+  "filesize_path_attr": "", 
   "quality_path": "|title_path|",
   "quality_path_attr": "",
   "info_path": "|title_path|",
