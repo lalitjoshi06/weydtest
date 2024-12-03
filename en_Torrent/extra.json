@@ -48,7 +48,7 @@
   "magnet_path": "div.links a[href^='magnet:']",
   "magnet_path_attr": "href",
   "seeders_path": "div.links span[title*='Seeders']",
-  "seeders_path_attr": "text",
+  "seeders_path_attr": "",
   "filesize_path": "div.size",
   "filesize_path_attr": "", 
   "quality_path": "|title_path|",
