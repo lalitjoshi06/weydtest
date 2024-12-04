@@ -48,7 +48,7 @@
 	"magnet_path_attr": "href",
 	"seeders_path": "div.columns div.column.is-half.is-table-cell:contains('Seeders') span",
 	"seeders_path_attr": "",
-	"filesize_path": "div.columns div.column.is-half.is-table-cell:contains('Size') span",
+	"filesize_path": "div.torrent-detail-header .column.is-half.is-table-cell:contains('Size') span",
 	"filesize_path_attr": "",
 	"quality_path": "|title_path|",
 	"quality_path_attr": "",
