@@ -30,9 +30,9 @@
 		]
 	},
 	"check_title_before_drill_down": true,
-	"drill_down_title_check_attr": "",
+	"drill_down_title_check_attr": "|HTML|",
 	"max_more_pages": 10,
-	"more_pages_indicator": "a.pagination-next",
+	"more_pages_indicator": "",
 	"next_page_path": "",
 	"next_page_path_attr": "",	
 	"links_on_first_page": false,	
