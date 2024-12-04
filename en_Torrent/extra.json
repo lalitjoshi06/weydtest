@@ -38,7 +38,7 @@
   "details_path_attr": "",
   "magnet_path": "a:contains(magnet download)",
   "magnet_path_attr": "href",
-  "seeders_path": "table#trackerstable tr td.tdseed",
+  "seeders_path": "/div#maincontentrouter table#trackerstable tr:eq(1) td.tdseed",
   "seeders_path_attr": "",
   "filesize_path": "/div.torrentinfo table tr:contains(torrent size) td:gt(0)",
   "filesize_path_attr": "",
