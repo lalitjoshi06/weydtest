@@ -38,10 +38,10 @@
 	"is_torrent": true,
 	"is_direct": false,
 	"links_container_path": "tbody tr",
-	"link_path": "",
-	"link_path_attr": "",
+	"link_path": "td.torrent-title a",
+	"link_path_attr": "href",
 	"title_path": "td.torrent-title a",
-	"title_path_attr": "",
+	"title_path_attr": "title",
 	"details_path": "|title_path|",
 	"details_path_attr": "",
 	"magnet_path": "a[href^=magnet]",
@@ -51,7 +51,7 @@
 	"filesize_path": "td[data-title='Size']",
 	"filesize_path_attr": "",
 	"quality_path": "td.torrent-title a",
-	"quality_path_attr": "",
+	"quality_path_attr": "title",
 	"info_path": "|title_path|",
 	"info_path_attr": ""
 }
