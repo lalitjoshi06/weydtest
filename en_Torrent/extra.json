@@ -29,10 +29,10 @@
 			"title_lower"
 		]
 	},
-	"more_pages_indicator": "a.pagination-next",
-	"next_page_path": "a.pagination-next",
-	"next_page_path_attr": "abs:href",
-	"links_on_first_page": false,
+	"more_pages_indicator": "",
+	"next_page_path": "",
+	"next_page_path_attr": "",
+	"links_on_first_page": false,	
 	"drill_down_path": "tbody tr td a[href^=/]",
 	"drill_down_path_attr": "abs:href",
 	"is_torrent": true,
