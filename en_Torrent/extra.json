@@ -41,7 +41,7 @@
     "details_path_attr": "",
     "magnet_path": "a[href^=magnet]",
     "magnet_path_attr": "href",
-    "seeders_path": "div.tgxtablecell span[title^='Seeders/Leechers'] b:(0)",
+    "seeders_path": "div.rounded span[title^=Seeders/Leechers]",
     "seeders_path_attr": "",
     "filesize_path": "div.rounded span.badge-secondary",
     "filesize_path_attr": "",
