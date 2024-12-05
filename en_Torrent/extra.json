@@ -1,48 +1,53 @@
 {
-    "name": "torlock-S",
+    "name": "torrentgalaxy",
     "language": ["hi", "en"],
-    "domains": ["torlock.com", "torlock.unblockit.pro", "torlock.cc"],
-    "base_url": "https://www.torlock.com",
-   "search_url_format_episode": {
-      "string_format": "/all/torrents/%s-s%02de%02d.html?",
+    "domains": ["torrentgalaxy.to", "torrentgalaxy.mx", "torrentgalaxy.unblockedfor.me"],
+    "base_url": "https://tgx.rs",
+    "search_url_format_episode": {
+      "string_format": "/torrents.php?search=%s+s%02de%02d&sort=size&order=desc",
       "replacement": [
-        "title_lower_dash",
+        "title_lower",
         "season_int",
         "episode_int"
       ]
     },
+    "search_url_format_movie": {
+      "string_format": "/torrents.php?search=%s+%04d&sort=size&order=desc",
+      "replacement": [
+        "title_lower",
+        "year_int"
+      ]
+    },
     "search_url_format_season_pack": {
-    "string_format": "/all/torrents/%s.html?",
+    "string_format": "/torrents.php?search=%s&sort=size&order=desc",
     "replacement": [
       "title_lower"
     ]
   },
-    "check_title_before_drill_down": true,
-	"drill_down_title_check_attr": "b",
-	"max_more_pages": 10,
-	"more_pages_indicator": "<ul class=\"pagination\">",
-	"next_page_path": "ul.pagination li.active + li a",
-	"next_page_path_attr": "href",
-	"links_on_first_page": false,
-    "drill_down_path": "span.tv3 +a",
-    "drill_down_path_attr": "abs:href",
+    "more_pages_indicator": "",
+    "next_page_path" : "",
+    "next_page_path_attr": "",
+    "links_on_first_page": true,
+    "drill_down_path": "",
+    "drill_down_path_attr": "",
     "is_torrent": true,
     "is_direct": false,
-    "links_container_path": "a[href^=magnet]",
+    "links_container_path": "div.tgxtablerow",
     "link_path": "",
     "link_path_attr": "",
-    "title_path": "/dl:contains(name) dd",
+    "title_path": "a:has(b)",
     "title_path_attr": "",
     "details_path": "|title_path|",
     "details_path_attr": "",
     "magnet_path": "a[href^=magnet]",
     "magnet_path_attr": "href",
-    "seeders_path": "/dl:contains(swarm) dd b:eq(0)",
+    "seeders_path": "div.rounded span[title^=seeders]",
     "seeders_path_attr": "",
-    "filesize_path": "/dl:contains(size) dd",
+    "filesize_path": "div.rounded span.badge-secondary",
     "filesize_path_attr": "",
     "quality_path": "|title_path|",
     "quality_path_attr": "",
     "info_path": "|title_path|",
     "info_path_attr": ""
   }
+  
