@@ -41,7 +41,7 @@
     "details_path_attr": "",
     "magnet_path": "a[href^=magnet]",
     "magnet_path_attr": "href",
-    "seeders_path": "/table.table3 td:contains(Peers) + td span[style*=color:#060]",
+    "seeders_path": "/table.table3 td:contains(Peers) + td span:contains(Seeds)",
     "seeders_path_attr": "",
     "filesize_path": "/table.table3 td:has(b:contains(size)) + td",
     "filesize_path_attr": "",
