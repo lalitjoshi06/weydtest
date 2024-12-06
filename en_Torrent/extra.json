@@ -23,6 +23,9 @@
         "year_int"
       ]
     },  
+    "check_title_before_drill_down": true,
+    "drill_down_title_check_attr": "span",
+    "max_more_pages": 10,
     "more_pages_indicator": "ul.pagination li.next",
     "next_page_path": "ul.pagination li.next a",
     "next_page_path_attr": "href",    
