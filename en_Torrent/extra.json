@@ -23,9 +23,9 @@
       "year_int"
     ]
   },
-  "more_pages_indicator": "",
-  "next_page_path": "",
-  "next_page_path_attr": "",
+  "more_pages_indicator": "Suivant",
+  "next_page_path": "ul.pagination li:contains('Suivant') a",
+  "next_page_path_attr": "href",
   "links_on_first_page": false,
   "drill_down_path": "tbody tr td a[href^=/torrent/]",
   "drill_down_path_attr": "abs:href",
