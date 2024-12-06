@@ -47,7 +47,7 @@
   "details_path_attr": "",
   "magnet_path": "div.usite a[href*=magnet]",
   "magnet_path_attr": "href",
-  "seeders_path": "div#seeders-leechers",
+  "seeders_path": "div#seeders-leechers b",
   "seeders_path_attr": "",
   "filesize_path": "div#torrent-size",
   "filesize_path_attr": "",
