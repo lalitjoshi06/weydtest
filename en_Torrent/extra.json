@@ -48,7 +48,7 @@
 	"magnet_path_attr": "href",
 	"seeders_path": "td:contains('Seeder') ~ td",
 	"seeders_path_attr": "",
-	"filesize_path": "tr:has(td:contains('Size')) td:eq(1)",
+	"filesize_path": "tr:eq(4) td.lista",
 	"filesize_path_attr": "",
 	"quality_path": "|title_path|",
 	"quality_path_attr": "",
