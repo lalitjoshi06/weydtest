@@ -12,7 +12,7 @@
   ],
   "base_url": "",
   "search_url_format_episode": {
-    "string_format": "https://search.rlsbb.cc/?s=%s+S%02dE%02d",
+    "string_format": "https://www.apps4all.com/search.php?q=%s+S%02dE%02d",
     "replacement": [
       "title",
       "season_int",
@@ -20,7 +20,7 @@
     ]
   },
   "search_url_format_movie": {
-    "string_format": "https://search.rlsbb.cc/?s=%s+%04d",
+    "string_format": "https://www.apps4all.com/search.php?q=%s+%04d",
     "replacement": [
       "title",
       "year_int"
@@ -30,14 +30,14 @@
   "next_page_path": "",
   "next_page_path_attr": "",
   "links_on_first_page": false,
-  "drill_down_path": "div#post-wrapper div.entry-data-wrapper h1.entry-title a[href*=rlsbb.cc]",
+  "drill_down_path": "div.dl-name a",
   "drill_down_path_attr": "href",
   "is_torrent": false,
   "is_direct": true,
-  "links_container_path": "ul.commentList div.messageBox",
-  "link_path": "p a[href*=\"rapidgator.net/file/\"]",
+  "links_container_path": "div.content div.div",
+  "link_path": "a",
   "link_path_attr": "href",
-  "title_path": "p:not(:has(a))",
+  "title_path": "div.top-left strong",
   "title_path_attr": "",
   "details_path": "|title_path|",
   "details_path_attr": "",
