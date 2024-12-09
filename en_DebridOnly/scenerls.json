@@ -37,7 +37,7 @@
   "links_container_path": "div.content div.div",
   "link_path": "a",
   "link_path_attr": "href",
-  "title_path": "div.top-left strong",
+  "title_path": "/title",
   "title_path_attr": "",
   "details_path": "|title_path|",
   "details_path_attr": "",
