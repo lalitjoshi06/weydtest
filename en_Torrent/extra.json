@@ -18,7 +18,7 @@
       "season_int",
       "episode_int"
     ]
-    },
+  },
   "search_url_format_movie": {
     "string_format": "/dmm/filtered?Query=%s&Year=%04d",
    "replacement": [
@@ -27,7 +27,7 @@
     ]
   },
   "api": {
-     "path_to_base_array": "data",     
+    "path_to_base_array": "data",     
     "path_title": "raw_title", 
     "path_seeders": "seeds", 
     "path_size": "size", 
