@@ -27,7 +27,8 @@
     ]
   },
   "api": {         
-    "path_title": "raw_title",     
+    "path_title": "raw_title",
+    "path_seeders": "size",
     "path_size": "size", 
     "path_quality": "resolution", 
     "path_hash": "info_hash"
