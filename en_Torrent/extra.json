@@ -26,8 +26,7 @@
       "year_int"
     ]
   },
-  "api": {
-    "path_to_base_array": "data",     
+  "api": {         
     "path_title": "raw_title", 
     "path_seeders": "seeds", 
     "path_size": "size", 
