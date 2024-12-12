@@ -26,9 +26,8 @@
   "api": {         
   "path_to_base_array": "streams",
   "path_title": "behaviorHints.filename",
-  "path_seeders": "sources_count",
-  "path_size": "behaviorHints.videoSize",
-  "path_quality": "name",
+  "path_seeders": "behaviorHints.videoSize",
+  "path_size": "behaviorHints.videoSize", 
   "path_hash": "infoHash"
   },
   "is_torrent": true,
