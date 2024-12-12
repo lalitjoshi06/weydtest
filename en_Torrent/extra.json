@@ -29,7 +29,7 @@
     "path_seeders": "fileIdx",
     "path_size": "behaviorHints.videoSize", 
     "path_quality": "behaviorHints.bingeGroup", 
-    "path_hash": "info_hash"
+    "path_hash": "infoHash"
   },
   "is_torrent": true,
   "is_direct": false
