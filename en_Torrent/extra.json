@@ -23,8 +23,7 @@
       "imdb_id"
     ]
   },
-  "api": {         
-  "path_to_base_array": "streams",
+  "api": {      
   "path_title": "behaviorHints.filename",
   "path_seeders": "behaviorHints.videoSize",
   "path_size": "behaviorHints.videoSize", 
