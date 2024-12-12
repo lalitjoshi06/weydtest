@@ -18,13 +18,13 @@
     ]
   },
   "search_url_format_movie": {
-    "string_format": "/stream/series/%s+%04d.json",
+    "string_format": "/stream/movie/%s.json",
    "replacement": [
       "imdb_id"
     ]
   },
   "api": {         
-    "path_to_base_array": "streams",
+    "path_to_array": "streams",
     "path_title": "behaviorHints.filename",
     "path_seeders": "fileIdx",
     "path_size": "behaviorHints.videoSize", 
