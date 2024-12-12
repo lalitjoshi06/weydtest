@@ -1,5 +1,5 @@
 {
-  "name": "TEST",
+  "name": "yts",
   "language": [
     "hi",
     "en"
@@ -10,24 +10,25 @@
     "yts.mx",
     "yts.pm"
   ],
-  "base_url": "https://mediafusion.elfhosted.com",
- "search_url_format_episode": {
-    "string_format": "/stream/series/%s:%02d:%02d.json",
-   "replacement": [
-      "imdb_id"
-    ]
+  "base_url": "https://yts.mx",
+  "search_url_format_episode": {
+    "string_format": "",
+    "replacement": []
   },
   "search_url_format_movie": {
-    "string_format": "/stream/movie/%s.json",
-   "replacement": [
+    "string_format": "/api/v2/list_movies.json?query_term=%s&sort_by=seeds&order_by=desc",
+    "replacement": [
       "imdb_id"
     ]
   },
-  "api": {      
-  "path_title": "streams.behaviorHints.filename",
-  "path_seeders": "streams.behaviorHints.videoSize",
-  "path_size": "streams.behaviorHints.videoSize", 
-  "path_hash": "streams.infoHash"
+  "api": {
+    "path_to_base_array": "data{}movies",
+    "path_to_array": "torrents",
+    "path_title": "title_long",
+    "path_seeders": "seeds",
+    "path_size": "size_bytes",
+    "path_quality": "quality",
+    "path_hash": "hash"
   },
   "is_torrent": true,
   "is_direct": false
