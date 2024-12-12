@@ -26,7 +26,7 @@
   "api": {         
   "path_to_base_array": "streams",
   "path_title": "name",
-  "path_seeders": "behaviorHints.videoSize",
+  "path_seeders": "sources.length",
   "path_size": "behaviorHints.videoSize",
   "path_quality": "filename",
   "path_hash": "infoHash"
