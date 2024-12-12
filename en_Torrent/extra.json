@@ -24,10 +24,10 @@
     ]
   },
   "api": {      
-  "path_title": "behaviorHints.filename",
-  "path_seeders": "behaviorHints.videoSize",
-  "path_size": "behaviorHints.videoSize", 
-  "path_hash": "infoHash"
+  "path_title": "streams.behaviorHints.filename",
+  "path_seeders": "streams.behaviorHints.videoSize",
+  "path_size": "streams.behaviorHints.videoSize", 
+  "path_hash": "streams.infoHash"
   },
   "is_torrent": true,
   "is_direct": false
