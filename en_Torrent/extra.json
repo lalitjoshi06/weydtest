@@ -7,16 +7,16 @@
   "domains": [
     "elfhosted.com"
   ],
-  "base_url": "https://mediafusion.elfhosted.com",
+  "base_url": "",
  "search_url_format_episode": {
-    "string_format": "/stream/series/tt14688458:02:02.json",
+    "string_format": "https://mediafusion.elfhosted.com/stream/series/tt14688458:02:02.json",
    "replacement": [
       ""
       
     ]
   },
   "search_url_format_movie": {
-    "string_format": "/stream/movie/tt16366836.json",
+    "string_format": "https://mediafusion.elfhosted.com/stream/movie/tt16366836.json",
    "replacement": [
      
      
