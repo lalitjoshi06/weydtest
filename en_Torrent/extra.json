@@ -7,25 +7,26 @@
   "domains": [
     "elfhosted.com"
   ],
-  "base_url": "https://torrentio.strem.fun",
+  "base_url": "https://mediafusion.elfhosted.com",
  "search_url_format_episode": {
-    "string_format": "/sort=qualitysize%7Climit=7/stream/series/%s:%02d:%02d.json",
+    "string_format": "/stream/series/tt14688458:02:02.json",
    "replacement": [
-      "imdb_id",
-      "season_int",
-      "episode_int"
+      ""
+      
     ]
   },
   "search_url_format_movie": {
-    "string_format": "/sort=qualitysize|limit=7/stream/movie/%s.json",
+    "string_format": "/stream/movie/tt16366836.json",
    "replacement": [
-      "imdb_id"
+     
      
     ]
   },
   "api": {         
     "path_to_array": "streams",
-    "path_title": "name",      
+    "path_title": "behaviorHints.filename",
+    "path_seeders": "behaviorHints.videoSize",
+    "path_size": "behaviorHints.videoSize",     
     "path_hash": "infoHash"
   },
   "is_torrent": true,
