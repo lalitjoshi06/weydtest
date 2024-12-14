@@ -7,9 +7,9 @@
   "domains": [
     "elfhosted.com"
   ],
-  "base_url": "https://mediafusion.elfhosted.com",
+  "base_url": "https://media-fusion.lalitjoshi06-9b1.workers.dev",
  "search_url_format_episode": {
-    "string_format": "/stream/series/%s:%02d:%02d.json",
+    "string_format": "/?id=%s:%02d:%02d",
    "replacement": [
       "imdb_id",
       "season_int",
@@ -17,18 +17,17 @@
     ]
   },
   "search_url_format_movie": {
-    "string_format": "/stream/movie/%s.json",
+    "string_format": "/?id=%s",
    "replacement": [
       "imdb_id"
      
     ]
   },
   "api": {         
-    "path_to_array": "streams",
-    "path_title": "name",
-    "path_seeders": "fileIdx",
-    "path_size": "behaviorHints.videoSize",     
-    "path_hash": "infoHash"
+    "path_title": "title",
+    "path_seeders": "seeders",
+    "path_size": "size",     
+    "path_hash": "infohash"
   },
   "is_torrent": true,
   "is_direct": false
