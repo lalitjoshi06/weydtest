@@ -1,5 +1,5 @@
 {
-  "name": "TEST",
+  "name": "MediaFusion",
   "language": [
     "hi",
     "en"
@@ -20,14 +20,14 @@
     "string_format": "/stream/movie/%s.json",
    "replacement": [
       "imdb_id"
-     
     ]
   },
-  "api": {         
+  "api": {
     "path_to_array": "streams",
-    "path_title": "behaviorHints.filename",
-    "path_seeders": "behaviorHints.videoSize",
-    "path_size": "behaviorHints.videoSize",     
+    "path_title_in_array": "behaviorHints{}filename",
+    "path_seeders": "fileIdx",
+    "path_size": "behaviorHints{}videoSize",
+    "path_quality": "behaviorHints{}bingeGroup",
     "path_hash": "infoHash"
   },
   "is_torrent": true,
