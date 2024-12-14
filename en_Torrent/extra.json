@@ -26,7 +26,8 @@
     "path_to_array": "streams",
     "path_title_in_array": "behaviorHints{}filename",
     "path_seeders": "fileIdx",
-    "path_size": "behaviorHints{}videoSize",    
+    "path_size": "behaviorHints{}videoSize",
+     "path_quality": "behaviorHints{}bingeGroup",
     "path_hash": "infoHash"
   },
   "is_torrent": true,
