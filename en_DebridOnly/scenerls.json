@@ -19,11 +19,11 @@
     ]
   },
   "more_pages_indicator": ">Next Page",
-  "next_page_path" : "div.box-content a[title]:contains(Next Page)",
+  "next_page_path": "div.box-content a[title]:contains(Next Page)",
   "next_page_path_attr": "abs:href",
   "links_on_first_page": false,
   "drill_down_path": "div.list_items ul li a[href]",
-  "drill_down_path_attr": "abs:href",
+  "drill_down_path_attr": "abs:href"
   "is_torrent": false,
   "is_direct": true,
   "links_container_path": "div.blog-details",
@@ -37,7 +37,7 @@
   "magnet_path_attr": "",
   "seeders_path": "",
   "seeders_path_attr": "",
-  "filesize_path": "/div.left strong:eq(6)",
+  "filesize_path": "b[style='color:green']",
   "filesize_path_attr": "",
   "quality_path": "|title_path|",
   "quality_path_attr": "",
