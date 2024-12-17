@@ -7,7 +7,7 @@
   "domains": [
     "elfhosted.com"
   ],
-  "base_url": "https://torrentio.strem.fun",
+  "base_url": "",
  "search_url_format_episode": {
     "string_format": "/sort=qualitysize|limit=7/stream/series/%s:%02d:%02d.json",
    "replacement": [
