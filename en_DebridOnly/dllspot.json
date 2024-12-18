@@ -34,7 +34,7 @@
   "drill_down_path_attr": "href",
   "is_torrent": false,
   "is_direct": true,
-  "links_container_path": "ul.commentList div.messageBox",
+  "links_container_path": "div.entry-content",
   "link_path": "p a[href*=\"rapidgator.net/file/\"]",
   "link_path_attr": "href",
   "title_path": "/header.entry-header h1.entry-title",
