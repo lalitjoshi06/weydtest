@@ -38,7 +38,7 @@
   "link_path": "p a[href*=\"rapidgator.net/file/\"]",
   "link_path_attr": "href",
   "title_path": "p:not(:has(a))",
-  "title_path_attr": "",
+  "title_path_attr": "text",
   "details_path": "|title_path|",
   "details_path_attr": "",
   "magnet_path": "",
