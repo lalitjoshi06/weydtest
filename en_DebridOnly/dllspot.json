@@ -35,7 +35,7 @@
   "is_torrent": false,
   "is_direct": true,
   "links_container_path": "div.entry-content",
-  "link_path": "p[starts-with(@style,'text-align:center')] a", 
+  "link_path": "p a", 
   "link_path_attr": "href",
   "title_path": "/header.entry-header h1.entry-title",
   "title_path_attr": "",
