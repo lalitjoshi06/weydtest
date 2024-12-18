@@ -38,7 +38,7 @@
   "link_path": "a",
   "link_path_attr": "href",
   "title_path": "h1.entry-title a",
-  "title_path_attr": "",
+  "title_path_attr": "text",
   "details_path": "|title_path|",
   "details_path_attr": "",
   "magnet_path": "",
