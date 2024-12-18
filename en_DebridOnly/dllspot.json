@@ -35,7 +35,7 @@
   "is_torrent": false,
   "is_direct": true,
   "links_container_path": "post-wrapper-hentry",
-  "link_path": "p a",
+  "link_path": "a",
   "link_path_attr": "href",
   "title_path": "h1.entry-title a",
   "title_path_attr": "",
