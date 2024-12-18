@@ -20,7 +20,7 @@
     ]
   },
   "search_url_format_movie": {
-    "string_format": "https://earch.rlsbb.in/?s=%s+%04d",
+    "string_format": "https://search.rlsbb.in/?s=%s+%04d",
     "replacement": [
       "title",
       "year_int"
