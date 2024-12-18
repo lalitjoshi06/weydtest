@@ -12,7 +12,7 @@
   ],
   "base_url": "",
   "search_url_format_episode": {
-    "string_format": "https://search.rlsbb.in/?s=%s+S%02dE%02d",
+    "string_format": "https://earch.rlsbb.in/?s=%s+S%02dE%02d",
     "replacement": [
       "title",
       "season_int",
