@@ -1,10 +1,18 @@
 {
-  "name": "dllspot",
-  "language": ["en"],
-  "domains": ["rapidmoviez.cr"],
-  "base_url": "https://rapidmoviez.cr",
+  "name": "Uploadgig",
+  "language": [
+    "hi",
+    "en"
+  ],
+  "domains": [
+    "rlsbb.ru",
+    "rlsbb.to",
+    "rlsbb.com",
+    "rlsbb.unblocked.cx"
+  ],
+  "base_url": "",
   "search_url_format_episode": {
-    "string_format": "/search/%s+s%02de%02d/releases/query/s",
+    "string_format": "https://search.rlsbb.in/?s=%s+S%02dE%02d",
     "replacement": [
       "title",
       "season_int",
@@ -12,24 +20,24 @@
     ]
   },
   "search_url_format_movie": {
-    "string_format": "/search/%s+%04d/releases/query/m",
+    "string_format": "https://search.rlsbb.in/?s=%s+%04d",
     "replacement": [
       "title",
       "year_int"
     ]
   },
-  "more_pages_indicator": ">Next Page",
-  "next_page_path": "div.box-content a[title]:contains(Next Page)",
-  "next_page_path_attr": "abs:href",
+  "more_pages_indicator": "",
+  "next_page_path": "",
+  "next_page_path_attr": "",
   "links_on_first_page": false,
-  "drill_down_path": "div.list_items ul li a[href]",
-  "drill_down_path_attr": "abs:href",
+  "drill_down_path": "div#post-wrapper div.entry-data-wrapper h1.entry-title a[href*=rlsbb.in]",
+  "drill_down_path_attr": "href",
   "is_torrent": false,
   "is_direct": true,
-  "links_container_path": "div.blog-details",
-  "link_path": "pre.links a[href]",
-  "link_path_attr": "",
-  "title_path": "h2",
+  "links_container_path": "ul.commentList div.messageBox",
+  "link_path": "p a[href*=\"dailyuploads.net/file/\"]",
+  "link_path_attr": "href",
+  "title_path": "p:not(:has(a))",
   "title_path_attr": "",
   "details_path": "|title_path|",
   "details_path_attr": "",
@@ -37,7 +45,7 @@
   "magnet_path_attr": "",
   "seeders_path": "",
   "seeders_path_attr": "",
-  "filesize_path": "b[style='color:green']",
+  "filesize_path": "p:contains('size:') b",
   "filesize_path_attr": "",
   "quality_path": "|title_path|",
   "quality_path_attr": "",
