@@ -46,7 +46,7 @@
   "seeders_path": "",
   "seeders_path_attr": "",
   "filesize_path": "p:has(b):contains(size)",
-  "filesize_path_attr": "",
+  "filesize_path_attr": "text",
   "quality_path": "|title_path|",
   "quality_path_attr": "",
   "info_path": "|title_path|",
