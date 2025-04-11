@@ -21,10 +21,10 @@
 		]
 	},
 	"more_pages_indicator": "",
-	"next_page_path": "a.nextpostslink",
-	"next_page_path_attr": "href",
+	"next_page_path": "",
+	"next_page_path_attr": "",
 	"links_on_first_page": false,
-	"drill_down_path": "div.boxed a",
+	"drill_down_path": "div.boxed a[href^=https://www.5movierulz]",
 	"drill_down_path_attr": "href",
 	"is_torrent": true,
 	"is_direct": false,
