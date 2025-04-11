@@ -8,13 +8,13 @@
 		"rapidmoviez.be",
 		"7movierulz.lv"
 	],
-	"base_url": "https://www.5movierulz.diet",
+	"base_url": "https://www.7movierulz.dad",
 	"search_url_format_episode": {
 		"string_format": "",
 		"replacement": []
 	},
 	"search_url_format_movie": {
-		"string_format": "/search_movies?s=%s+%04d",
+		"string_format": "/?s=%s+%04d",
 		"replacement": [
 			"title_lower",
 			"year_int"
@@ -24,11 +24,11 @@
 	"next_page_path": "",
 	"next_page_path_attr": "",
 	"links_on_first_page": false,
-	"drill_down_path": "div.boxed a[href^=https://www.5movierulz]",
+	"drill_down_path": "div.featured a",
 	"drill_down_path_attr": "href",
 	"is_torrent": true,
 	"is_direct": false,
-	"links_container_path": "a[href^='magnet']",
+	"links_container_path": "a[href^=magnet]",
 	"link_path": "",
 	"link_path_attr": "",
 	"title_path": "/title",
@@ -39,9 +39,9 @@
 	"magnet_path_attr": "href",
 	"seeders_path": "",
 	"seeders_path_attr": "",
-	"filesize_path": "a[href^='magnet'] small",
+	"filesize_path": "small:eq(1)",
 	"filesize_path_attr": "",
-	"quality_path": "",
+	"quality_path": "small:eq(2)",
 	"quality_path_attr": "",
 	"info_path": "|title_path|",
 	"info_path_attr": ""
