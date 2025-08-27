@@ -6,9 +6,9 @@
 	],
 	"domains": [
 		"rapidmoviez.be",
-		"7movierulz.lv"
+		"7movierulz.li"
 	],
-	"base_url": "https://www.7movierulz.dad",
+	"base_url": "https://www.7movierulz.li",
 	"search_url_format_episode": {
 		"string_format": "",
 		"replacement": []
