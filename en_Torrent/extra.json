@@ -14,7 +14,7 @@
 		"replacement": []
 	},
 	"search_url_format_movie": {
-		"string_format": "/?s=%s+%04d",
+		"string_format": "/search_movies?s=%s+%04d",
 		"replacement": [
 			"title_lower",
 			"year_int"
