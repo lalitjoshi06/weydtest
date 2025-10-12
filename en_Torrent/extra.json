@@ -25,8 +25,7 @@
   "api": {
     "path_to_array": "streams",
     "path_title_in_array": "title",    
-    "path_seeders": "fileIdx",
-    "path_size": "title",
+    "path_seeders": "fileIdx",    
     "path_hash": "infoHash",
     "parse_size_from_string": true
   },
