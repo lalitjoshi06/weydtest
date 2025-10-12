@@ -1,43 +1,36 @@
 {
-  "name": "BitLord",
-  "language": ["en"],
-  "domains": ["bitlordsearch.com"],
-  "base_url": "https://bitlordsearch.com",
+  "name": "TorrenTio",
+  "language": [
+    "hi",
+    "en"
+  ],
+  "domains": [
+    "elfhosted.com"
+  ],
+  "base_url": "https://torrentio.strem.fun",
   "search_url_format_episode": {
-    "string_format": "/search?q=%s+s%02de%02d",
-    "replacement": ["title_lower", "season_int", "episode_int"]
+    "string_format": "/sort=size%7Cqualityfilter=other,scr,cam,unknown/stream/series/%s:%02d:%02d.json",
+    "replacement": [
+      "imdb_id",
+      "season_int",
+      "episode_int"
+    ]
   },
   "search_url_format_movie": {
-    "string_format": "/search?q=%s+%04d",
-    "replacement": ["title_lower", "year_int"]
+    "string_format": "/sort=size%7Cqualityfilter=other,scr,cam,unknown/stream/series/%s.json",
+    "replacement": [
+      "imdb_id"
+    ]
   },
-  "search_url_format_season_pack": {
-    "string_format": "/search?q=%s",
-    "replacement": ["title_lower"]
+  "api": {
+    "path_to_array": "streams",
+    "path_title_in_array": "title",
+    "api_title_split": "/",
+    "path_seeders": "fileIdx",
+    "path_size": "title",
+    "path_hash": "infoHash",
+    "parse_size_from_string": true
   },
-  "more_pages_indicator": ".load-more-button",
-  "next_page_path": ".load-more-button",
-  "next_page_path_attr": "href",
-  "links_on_first_page": true,
-  "drill_down_path": "",
-  "drill_down_path_attr": "",
   "is_torrent": true,
-  "is_direct": false,
-  "links_container_path": "tr.bls-row",
-  "link_path": "",
-  "link_path_attr": "",
-  "title_path": "span.title",
-  "title_path_attr": "",
-  "details_path": "span.title",
-  "details_path_attr": "",
-  "magnet_path": "a[href^=magnet]",
-  "magnet_path_attr": "href",
-  "seeders_path": "td:eq(5)",
-  "seeders_path_attr": "",
-  "filesize_path": "td:eq(4)",
-  "filesize_path_attr": "",
-  "quality_path": "span.title",
-  "quality_path_attr": "",
-  "info_path": "span.title",
-  "info_path_attr": ""
+  "is_direct": false
 }
