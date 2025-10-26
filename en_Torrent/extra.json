@@ -1,38 +1,36 @@
 {
-  "name": "TorrentControl",
-  "language": ["en"],
-  "domains": ["torrentcontrol.pw"],
-  "base_url": "https://torrentcontrol.pw",
-
-  "search_url_format_movie": {
-    "string_format": "/api/v1/torrents?per_page=100&search=%s",
-    "replacement": [
-      "title_lower",
-      "year_int"
-    ]
-  },
-
+  "name": "TorrenTio",
+  "language": [
+    "hi",
+    "en"
+  ],
+  "domains": [
+    "elfhosted.com"
+  ],
+  "base_url": "https://torrentio.strem.fun",
   "search_url_format_episode": {
-    "string_format": "/api/v1/torrents?per_page=100&search=%s%%20S%02dE%02d",
+    "string_format": "/sort=size%7Cqualityfilter=other,scr,cam,unknown/stream/series/%s:%02d:%02d.json",
     "replacement": [
-      "title_lower",
+      "imdb_id",
       "season_int",
       "episode_int"
     ]
   },
-
-  "api": {
-    "path_to_array": "data",
-    "path_title_in_array": "file_name",
-    "path_magnet": "magnet_uri",
-    "path_hash": "magnet_uri"
-    "path_seeders": "seeders",
-    "path_leechers": "leechers",
-    "path_size": "size_in_mb"
-       
-    
+  "search_url_format_movie": {
+    "string_format": "/sort=size%7Cqualityfilter=other,scr,cam,unknown/stream/series/%s.json",
+    "replacement": [
+      "imdb_id"
+    ]
   },
-
+  "api": {
+    "path_to_array": "streams",
+    "path_title_in_array": "title",
+    "api_title_split": "/|\u2508\u27A4",
+    "path_seeders": "fileIdx",
+    "path_size": "title",
+    "path_hash": "infoHash",
+    "parse_size_from_string": true
+  },
   "is_torrent": true,
   "is_direct": false
 }
