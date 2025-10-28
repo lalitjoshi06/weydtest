@@ -1,30 +1,37 @@
 {
-  "name": "NuvioStreams",
-  "language": ["en", "hi"],
-  "domains": ["hayd.uk"],
-  "base_url": "https://nuviostreams.hayd.uk",
-  
-  "search_url_format_episode": {
-    "string_format": "/stream/series/%s:%02d:%02d.json",
+  "name": "TorrentControl",
+  "language": ["en"],
+  "domains": ["torrentcontrol.pw"],
+  "base_url": "https://torrentcontrol.pw",
+
+  "search_url_format_movie": {
+    "string_format": "/api/v1/torrents?per_page=100&search=%s",
     "replacement": [
-      "imdb_id",
+      "title_lower",
+      "year_int"
+    ]
+  },
+
+  "search_url_format_episode": {
+    "string_format": "/api/v1/torrents?per_page=100&search=%s%%20S%02dE%02d",
+    "replacement": [
+      "title_lower",
       "season_int",
       "episode_int"
     ]
   },
-  
-  "search_url_format_movie": {
-    "string_format": "/stream/movie/%s.json",
-    "replacement": ["imdb_id"]
-  },
 
   "api": {
-    "path_to_array": "streams",
-    "path_title_in_array": "name",
-    "path_quality": "title",
-    "path_url": "url"
+    "path_to_array": "data",
+    "path_title_in_array": "file_name",
+    "path_magnet": "magnet_uri",
+    "path_hash": "magnet_uri"
+    "path_seeders": "seeders",
+    "path_leechers": "leechers",
+    "path_size": "size_in_mb"     
+    
   },
 
-  "is_torrent": false,
-  "is_direct": true
+  "is_torrent": true,
+  "is_direct": false
 }
