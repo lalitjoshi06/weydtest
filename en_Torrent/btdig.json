@@ -23,8 +23,7 @@
   "api": {
     "path_to_array": "data",
     "path_title_in_array": "file_name",
-    "path_magnet": "magnet_uri",
-    "path_hash": "magnet_uri",
+    "path_magnet": "magnet_uri",    
     "path_seeders": "seeders",
     "path_leechers": "leechers",
     "path_size": "size_in_mb"
