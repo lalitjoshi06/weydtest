@@ -7,8 +7,7 @@
   "search_url_format_movie": {
     "string_format": "/api/v1/torrents?per_page=100&search=%s",
     "replacement": [
-      "title_lower",
-      "year_int"
+      "title_lower"
     ]
   },
 
@@ -25,11 +24,10 @@
     "path_to_array": "data",
     "path_title_in_array": "file_name",
     "path_magnet": "magnet_uri",
-    "path_hash": "magnet_uri"
+    "path_hash": "magnet_uri",
     "path_seeders": "seeders",
     "path_leechers": "leechers",
-    "path_size": "size_in_mb"     
-    
+    "path_size": "size_in_mb"
   },
 
   "is_torrent": true,
