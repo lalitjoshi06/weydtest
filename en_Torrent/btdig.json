@@ -1,13 +1,9 @@
 {
-  "name": "MediaFusion",
-  "language": [
-    "hi",
-    "en"
-  ],
-  "domains": [
-    "elfhosted.com"
-  ],
-  "base_url": "https://mediafusion.elfhosted.com",
+  "name": "NuvioStreams",
+  "language": ["en", "hi"],
+  "domains": ["hayd.uk"],
+  "base_url": "https://nuviostreams.hayd.uk",
+  
   "search_url_format_episode": {
     "string_format": "/stream/series/%s:%02d:%02d.json",
     "replacement": [
@@ -16,21 +12,20 @@
       "episode_int"
     ]
   },
+  
   "search_url_format_movie": {
     "string_format": "/stream/movie/%s.json",
-    "replacement": [
-      "imdb_id"
-    ]
+    "replacement": ["imdb_id"]
   },
+
   "api": {
     "path_to_array": "streams",
-    "path_title_in_array": "description",
-    "api_title_split": "/|\u2508\u27A4",
-    "path_seeders": "fileIdx",
-    "path_size": "behaviorHints{}videoSize",
-    "path_quality": "behaviorHints{}bingeGroup",
-    "path_hash": "infoHash"
+    "path_title_in_array": "name",
+    "path_quality": "title",
+    "link_path": "url",
+    "path_url": "url"
   },
-  "is_torrent": true,
-  "is_direct": false
+
+  "is_torrent": false,
+  "is_direct": true
 }
