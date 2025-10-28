@@ -20,10 +20,11 @@
 
   "api": {
     "path_to_array": "streams",
-    "path_title_in_array": "name",
-    "path_quality": "title",
+    "path_title_in_array": "title",
+    "path_quality": "name",
     "path_url": "url",
-    "path_link": "url"
+    "path_link": "url",
+    "link_path": "url"
   },
 
   "is_torrent": false,
