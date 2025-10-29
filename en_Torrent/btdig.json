@@ -30,7 +30,7 @@
     "path_size": "title",
     "path_quality": "behaviorHints{}bingeGroup",
     "path_hash": "infoHash",
-    "parse_size_from_string": true
+    "parse_size_from_string": "(?<=💾 )([0-9\\.]+ [GMTK]B)"
   },
   "is_torrent": true,
   "is_direct": false
