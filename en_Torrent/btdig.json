@@ -1,33 +1,38 @@
 {
-  "name": "TorrentControl",
-  "language": ["en"],
-  "domains": ["torrentcontrol.pw"],
-  "base_url": "https://torrentcontrol.pw",
-
-  "search_url_format_movie": {
-    "string_format": "/api/v1/torrents?per_page=100&search=%s",
-    "replacement": [
-      "title_lower"
-    ]
-  },
-
+  "name": "TorrentsDB",
+  "language": [
+    "en",
+    "hi"
+  ],
+  "domains": [
+    "torrentsdb.com"
+  ],
+  "base_url": "https://torrentsdb.com/eyJwcm92aWRlcnMiOlsieXRzIiwiZXp0diIsIjEzMzd4IiwidG9ycmVudGNzdiIsIm55YWEiLCJsaW1ldG9ycmVudCIsInJhcmdiIiwia25hYmVuIiwidGhlcGlyYXRlYmF5Iiwia2lja2Fzc3RvcnJlbnRzIiwiYW5pbWV0b3NobyIsInRva3lvdG9zaG8iLCJtYW51YWwiXSwibGFuZ3VhZ2UiOltdLCJxdWFsaXR5ZmlsdGVyIjpbInNjciIsImNhbSIsInVua25vd24iXSwibGltaXQiOiIxMCJ9",
+  
   "search_url_format_episode": {
-    "string_format": "/api/v1/torrents?per_page=100&search=%s%%20S%02dE%02d",
+    "string_format": "/stream/series/%s:%02d:%02d.json",
     "replacement": [
-      "title_lower",
+      "imdb_id",
       "season_int",
       "episode_int"
     ]
   },
 
+  "search_url_format_movie": {
+    "string_format": "/stream/movie/%s.json",
+    "replacement": [
+      "imdb_id"
+    ]
+  },
+
   "api": {
-    "path_to_array": "data",
-    "path_title_in_array": "file_name",
-    "path_magnet": "magnet_uri",
-    "path_quality": "quality",
+    "path_to_array": "streams",
+    "path_title_in_array": "title",
+    "api_title_split": "/|\\||\\u2508|\\u27A4",
     "path_seeders": "seeders",
-    "path_leechers": "leechers",
-    "path_size": "size_in_mb"
+    "path_size": "size",
+    "path_quality": "quality",
+    "path_hash": "infoHash"
   },
 
   "is_torrent": true,
