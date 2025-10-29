@@ -1,5 +1,5 @@
 {
-  "name": "TorrenTio",
+  "name": "TorrentsDB",
   "language": [
     "hi",
     "en"
@@ -7,9 +7,9 @@
   "domains": [
     "elfhosted.com"
   ],
-  "base_url": "https://torrentio.strem.fun",
+  "base_url": "https://torrentsdb.com/eyJwcm92aWRlcnMiOlsieXRzIiwiZXp0diIsIjEzMzd4IiwidG9ycmVudGNzdiIsIm55YWEiLCJsaW1ldG9ycmVudCIsInJhcmdiIiwia25hYmVuIiwidGhlcGlyYXRlYmF5Iiwia2lja2Fzc3RvcnJlbnRzIiwiYW5pbWV0b3NobyIsInRva3lvdG9zaG8iLCJtYW51YWwiXSwibGFuZ3VhZ2UiOltdLCJxdWFsaXR5ZmlsdGVyIjpbInNjciIsImNhbSIsInVua25vd24iXSwibGltaXQiOiIxMCJ9",
   "search_url_format_episode": {
-    "string_format": "/sort=size|qualityfilter=other,scr,cam,unknown/stream/series/%s:%02d:%02d.json",
+    "string_format": "/stream/series/%s:%02d:%02d.json",
     "replacement": [
       "imdb_id",
       "season_int",
@@ -17,7 +17,7 @@
     ]
   },
   "search_url_format_movie": {
-    "string_format": "/sort=size|qualityfilter=other,scr,cam,unknown/stream/movie/%s.json",
+    "string_format": "/stream/movie/%s.json",
     "replacement": [
       "imdb_id"
     ]
