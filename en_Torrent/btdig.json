@@ -31,7 +31,7 @@
 	"title_path_attr": "",
 	"details_path": "|title_path|",
 	"details_path_attr": "",
-  "magnet_path": "a#link-button",
+  "magnet_path": "a[href^=magnet]",
   "magnet_path_attr": "href",
   "seeders_path": "",
   "seeders_path_attr": "",
