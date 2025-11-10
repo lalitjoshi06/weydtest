@@ -22,7 +22,7 @@
   "next_page_path": "a[href]:contains(>>)",
   "next_page_path_attr": "abs:href",
   "links_on_first_page": false,
-  "drill_down_path": ".list-group a.list-group-item-action[href]",
+  "drill_down_path": "div.list-group a.list-group-item-action[href]",
   "drill_down_path_attr": "abs:href",
   "title_path": "div.text-start h4",
   "title_path_attr": "",
