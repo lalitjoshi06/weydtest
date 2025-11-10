@@ -1,8 +1,9 @@
 {
-  "name": "magnetz",
+  "name": "Magnetz",
   "language": ["en", "hi"],
   "domains": ["magnetz.eu"],
   "base_url": "https://magnetz.eu",
+
   "search_url_format_episode": {
     "string_format": "/search?q=%s+S%02dE%02d",
     "replacement": ["title", "season_int", "episode_int"]
@@ -15,31 +16,29 @@
     "string_format": "/search?q=%s",
     "replacement": ["title_lower"]
   },
+
   "check_title_before_drill_down": true,
   "drill_down_title_check_attr": "|HTML|",
   "max_more_pages": 10,
   "more_pages_indicator": "",
   "next_page_path": "",
   "next_page_path_attr": "",
-  "links_on_first_page": false,
-  "drill_down_path": "a.list-group-item-action[href^=https://magnetz.eu/]",
+  "links_on_first_page": false, 
+  "drill_down_path": "a.list-group-item-action[href^='https://magnetz.eu/']",  
   "drill_down_path_attr": "abs:href",
-  "links_container_path": "col-lg-12",
-  "link_path": "",
-  "link_path_attr": "",
+  "links_container_path": "div.col-lg-12",
   "title_path": "div.text-start h4",
-	"title_path_attr": "",
-	"details_path": "|title_path|",
-	"details_path_attr": "",
-  "magnet_path": "a[href^=magnet]",
+  "title_path_attr": "text",
+  "details_path": "div.text-start h4",
+  "details_path_attr": "text",
+  "magnet_path": "a[href^='magnet:?']",
   "magnet_path_attr": "href",
-  "seeders_path": "",
-  "seeders_path_attr": "",
   "filesize_path": "dl.row dt:contains('Total Size') + dd",
-  "filesize_path_attr": "",
+  "filesize_path_attr": "text",
   "quality_path": "div.text-start h4",
-  "quality_path_attr": "",
+  "quality_path_attr": "text",
   "info_path": "div.text-start h4",
-  "info_path_attr": ""
-  
+  "info_path_attr": "text",
+  "seeders_path": "",
+  "seeders_path_attr": ""
 }
