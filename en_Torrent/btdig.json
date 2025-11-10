@@ -22,7 +22,7 @@
   "next_page_path": "",
   "next_page_path_attr": "",
   "links_on_first_page": false,
-  "drill_down_path": "div.list-group a.list-group-item[href]",
+  "drill_down_path": "div.list-group a.list-group-item",
   "drill_down_path_attr": "abs:href",
   "links_container_path": "div.text-start",
   "link_path": "",
