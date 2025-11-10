@@ -27,10 +27,10 @@
   "drill_down_path": "a.list-group-item-action[href^='https://magnetz.eu/']",  
   "drill_down_path_attr": "abs:href",
   "links_container_path": "div.col-lg-12"
-  "title_path": "div.text-start h4",
+  "title_path": "h4.mb-3",
   "title_path_attr": "text",
-  "details_path": "div.text-start h4",
-  "details_path_attr": "text",
+  "details_path": "|title_path|",
+  "details_path_attr": "",
   "magnet_path": "input#magnet-link",
   "magnet_path_attr": "value",
   "filesize_path": "dl.row dt:contains('Total Size') + dd",
