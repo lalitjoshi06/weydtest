@@ -26,7 +26,7 @@
   "links_on_first_page": false, 
   "drill_down_path": "a.list-group-item-action[href^='https://magnetz.eu/']",  
   "drill_down_path_attr": "abs:href",
-  "links_container_path": "div.col-lg-12"
+  "links_container_path": "div.col-lg-12",
   "title_path": "h4.mb-3",
   "title_path_attr": "text",
   "details_path": "|title_path|",
