@@ -1,5 +1,5 @@
 {
-  "name": "TorrentsDB6",
+  "name": "TorrentsDB7",
   "language": [
     "hi",
     "en"
@@ -7,7 +7,7 @@
   "domains": [
     "elfhosted.com"
   ],
-  "base_url": "https://torrentsdb.com/eyJwcm92aWRlcnMiOlsieXRzIiwiZXp0diIsIjEzMzd4IiwidG9ycmVudGNzdiIsIm55YWEiLCJsaW1ldG9ycmVudCIsInJhcmdiIiwia25hYmVuIiwidGhlcGlyYXRlYmF5Iiwia2lja2Fzc3RvcnJlbnRzIiwiYW5pbWV0b3NobyIsInRva3lvdG9zaG8iLCJtYW51YWwiXSwibGFuZ3VhZ2UiOltdLCJxdWFsaXR5ZmlsdGVyIjpbInNjciIsImNhbSIsInVua25vd24iXSwibGltaXQiOiIxMCJ9",
+  "base_url": "https://stremthru.elfhosted.com/stremio/torz/eyJpbmRleGVycyI6bnVsbCwic3RvcmVzIjpbeyJjIjoicDJwIiwidCI6IiJ9XSwiY2FjaGVkIjp0cnVlfQ==",
   "search_url_format_episode": {
     "string_format": "/stream/series/%s:%02d:%02d.json",
     "replacement": [
@@ -24,10 +24,10 @@
   },
   "api": {
     "path_to_array": "streams",
-    "path_title_in_array": "title",
+    "path_title_in_array": "behaviorHints.filename",
     "api_title_split": "/|\u2508\u27A4",    
     "path_seeders": "fileIdx",
-    "path_size": "title",
+    "path_size": "behaviorHints.videoSize",
     "path_hash": "infoHash",
     "parse_size_from_string": true
    
