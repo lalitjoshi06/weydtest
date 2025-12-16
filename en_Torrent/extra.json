@@ -24,14 +24,12 @@
   },
   "api": {
     "path_to_array": "streams",
-    "path_title_in_array": "behaviorHints.filename",
-    "api_title_split": "/|\u2508\u27A4",    
+    "path_title_in_array": "description",
+    "api_title_split": "/|\u2508\u27A4",
     "path_seeders": "fileIdx",
-    "path_size": "behaviorHints.videoSize",
-    "path_hash": "infoHash",
-    "parse_size_from_string": true
-   
-    
+    "path_size": "behaviorHints{}videoSize",
+    "path_quality": "behaviorHints{}bingeGroup",
+    "path_hash": "infoHash"
   },
   "is_torrent": true,
   "is_direct": false
