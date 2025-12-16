@@ -28,7 +28,8 @@
     "api_title_split": "/|\u2508\u27A4",    
     "path_seeders": "fileIdx",
     "path_size": "title",
-    "path_hash": "infoHash"
+    "path_hash": "infoHash",
+    "parse_size_from_string": true
    
     
   },
