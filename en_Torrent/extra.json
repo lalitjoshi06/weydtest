@@ -20,7 +20,7 @@
 
   "api": {
     "path_to_array": "streams",
-    "path_title_in_array": "description",
+    "path_title_in_array": "behaviorHints.filename",
     "path_quality": "behaviorHints.filename",
     "path_hash": "infoHash",
     "path_size": "behaviorHints.videoSize"    
