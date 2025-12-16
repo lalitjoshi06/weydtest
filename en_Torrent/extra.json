@@ -26,7 +26,7 @@
     "path_to_array": "streams",
     "path_title_in_array": "title",
     "api_title_split": "/|\u2508\u27A4",    
-    "path_hash": "infoHash",
+    "path_hash": "infoHash"
     
   },
   "is_torrent": true,
