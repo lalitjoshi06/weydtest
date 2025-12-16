@@ -1,5 +1,5 @@
 {
-  "name": "MediaFusion",
+  "name": "MediaFus",
   "language": [
     "hi",
     "en"
@@ -7,7 +7,7 @@
   "domains": [
     "elfhosted.com"
   ],
-  "base_url": "https://mediafusion.elfhosted.com/D-9QKJtJ2L3dkuO-7e4pBJCI4SeYGvGgNLUK2tmroTEaDC0XCyp0-KiAXF8YcbllKRJZATBYKc7ZUb7Tj7r3ifGDBFu_GpXR3WgXIpXPiHz2K107gd52yWXYx2K7PoobKxp2gw-y9HJAUmkm7ZhSHgGloTrRrtzL4Zdf--GTUwJ_vzdOaBbQshh8V4kDcaRW7b_xt9_lPhporwDM19hInfYllgjKUHG8q0N2M16WBM2azaL_4gW4gJr2P0hha6TUi5xpn0-KCcsOAhGyBl7BULXGvWPjvNPUtBSxZ_EcmkmKgbiYTFjfIcfJT5GkAZ0XLCBYm8vZSylSnIBePkCqXjLPKutX0nUx6zYNL0QLFxCZQzfxmKe9WxfW3hJEOMCdKZC7G0RRDlKPnKo2aS720kUKw6adAoG-bojkge9eNEy5TjxC01l2C24EyYUUOVa8bcJsLlhXrhBFRIlu10G8XfQT1u34tCgNX88rwWybU9xMClgJ-AMb9Rj4kfrpOov1iQy9O5X3qX2cumVcA71PEkhtWosG1hn2aKBLPh4r69bb0qb7Sinksr6Ct6N-wjqLri",
+  "base_url": "https://comet.elfhosted.com/eyJtYXhSZXN1bHRzUGVyUmVzb2x1dGlvbiI6MCwibWF4U2l6ZSI6MCwiY2FjaGVkT25seSI6dHJ1ZSwicmVtb3ZlVHJhc2giOnRydWUsInJlc3VsdEZvcm1hdCI6WyJ0aXRsZSIsInNlZWRlcnMiXSwiZGVicmlkU2VydmljZSI6InRvcnJlbnQiLCJkZWJyaWRBcGlLZXkiOiIiLCJkZWJyaWRTdHJlYW1Qcm94eVBhc3N3b3JkIjoiIiwibGFuZ3VhZ2VzIjp7InJlcXVpcmVkIjpbXSwiZXhjbHVkZSI6W10sInByZWZlcnJlZCI6WyJlbiJdfSwicmVzb2x1dGlvbnMiOnsidW5rbm93biI6ZmFsc2V9LCJvcHRpb25zIjp7InJlbW92ZV9yYW5rc191bmRlciI6LTEwMDAwMDAwMDAwLCJhbGxvd19lbmdsaXNoX2luX2xhbmd1YWdlcyI6ZmFsc2UsInJlbW92ZV91bmtub3duX2xhbmd1YWdlcyI6ZmFsc2V9fQ==",
   "search_url_format_episode": {
     "string_format": "/stream/series/%s:%02d:%02d.json",
     "replacement": [
