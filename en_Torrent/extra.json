@@ -1,5 +1,5 @@
 {
-  "name": "MediaFus",
+  "name": "MediaF",
   "language": [
     "hi",
     "en"
@@ -28,7 +28,7 @@
     "api_title_split": "/|\u2508\u27A4",
     "path_seeders": "fileIdx",
     "path_size": "behaviorHints{}videoSize",
-    "path_quality": "behaviorHints{}bingeGroup",
+    "path_quality": "behaviorHints{}filename",
     "path_hash": "infoHash"
   },
   "is_torrent": true,
