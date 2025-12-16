@@ -1,8 +1,8 @@
 {
-  "name": "NuvioStreams",
+  "name": "StremThru",
   "language": ["en", "hi"],
-  "domains": ["hayd.uk"],
-  "base_url": "https://nuviostreams.hayd.uk",
+  "domains": ["stremthru.elfhosted.com"],
+  "base_url": "https://stremthru.elfhosted.com/stremio/torz/eyJpbmRleGVycyI6bnVsbCwic3RvcmVzIjpbeyJjIjoicDJwIiwidCI6IiJ9XSwiY2FjaGVkIjp0cnVlfQ==",
   
   "search_url_format_episode": {
     "string_format": "/stream/series/%s:%02d:%02d.json",
@@ -20,13 +20,12 @@
 
   "api": {
     "path_to_array": "streams",
-    "path_title_in_array": "title",
-    "path_quality": "name",
-    "path_url": "url",
-    "path_link": "url",
-    "link_path": "url"
+    "path_title_in_array": "description",
+    "path_quality": "behaviorHints.filename",
+    "path_hash": "infoHash",
+    "path_size": "behaviorHints.videoSize"    
   },
 
-  "is_torrent": false,
-  "is_direct": true
+  "is_torrent": true,
+  "is_direct": false
 }
