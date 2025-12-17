@@ -26,9 +26,9 @@
     "path_to_array": "streams",
     "path_title_in_array": "description",
     "api_title_split": "/|│➤",
-    "path_seeders": "0",
+    "path_seeders": "fileIdx",
     "path_size": "behaviorHints{}videoSize",
-    "path_quality": "name",
+    "path_quality": "behaviorHints{}filename",
     "path_hash": "infoHash"
   },
   "is_torrent": true,
