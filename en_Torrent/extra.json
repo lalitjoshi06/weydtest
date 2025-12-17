@@ -24,10 +24,11 @@
   },
   "api": {
     "path_to_array": "streams",
-    "path_title": "behaviorHints{}filename",
-    "path_size": "behaviorHints{}videoSize",
-    "path_quality": "behaviorHints{}filename",
+    "path_title_in_array": "description",
+    "api_title_split": "/|│➤",
     "path_seeders": "0",
+    "path_size": "behaviorHints{}videoSize",
+    "path_quality": "name",
     "path_hash": "infoHash"
   },
   "is_torrent": true,
