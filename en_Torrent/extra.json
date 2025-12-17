@@ -26,7 +26,7 @@
     "path_to_array": "streams",
     "path_title": "behaviorHints{}filename",
     "path_size": "behaviorHints{}videoSize",
-    "path_quality": "description",
+    "path_quality": "behaviorHints{}filename",
     "path_seeders": "0",
     "path_hash": "infoHash"
   },
