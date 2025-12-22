@@ -1,5 +1,5 @@
 {
-  "name": "stremthru",
+  "name": "stremthru-8",
   "language": [
     "hi",
     "en"
@@ -24,10 +24,10 @@
   },
   "api": {
     "path_to_array": "streams",
-    "path_title_in_array": "description",    
+    "path_title_in_array": "behaviorHints{}videoSize",    
     "path_seeders": "fileIdx",
     "path_size": "behaviorHints{}videoSize",
-    "path_quality": "behaviorHints{}filename",
+    "path_quality": "description",
     "path_hash": "infoHash"
   },
   "is_torrent": true,
