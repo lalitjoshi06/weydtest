@@ -1,44 +1,36 @@
 {
-  "name": "eztv",
-  "language": ["hi", "en"],
-  "domains": ["eztv.ag", "eztv.it", "eztv.ch", "eztv.li"],
-  "base_url": "https://eztvx.to",
+  "name": "TorrenTio",
+  "language": [
+    "hi",
+    "en"
+  ],
+  "domains": [
+    "elfhosted.com"
+  ],
+  "base_url": "https://torrentio.strem.fun",
   "search_url_format_episode": {
-    "string_format": "/search/%s-s%02de%02d",
+    "string_format": "/sort=size|qualityfilter=other,scr,cam,unknown/stream/series/%s:%02d:%02d.json",
     "replacement": [
-      "title_lower_dash",
+      "imdb_id",
       "season_int",
       "episode_int"
     ]
   },
   "search_url_format_movie": {
-    "string_format": "",
+    "string_format": "/sort=size|qualityfilter=other,scr,cam,unknown/stream/movie/%s.json",
     "replacement": [
+      "imdb_id"
     ]
   },
-  "more_pages_indicator": "",
-  "next_page_path" : "",
-  "next_page_path_attr": "",
-  "links_on_first_page": true,
-  "drill_down_path": "",
-  "drill_down_path_attr": "",
+  "api": {
+    "path_to_array": "streams",
+    "path_title_in_array": "title",
+    "api_title_split": "/|\u2508\u27A4",
+    "path_seeders": "fileIdx",
+    "path_size": "title",
+    "path_hash": "infoHash",
+    "parse_size_from_string": true
+  },
   "is_torrent": true,
-  "is_direct": false,
-  "links_container_path": "table.forum_header_border tr.forum_header_border",
-  "link_path": "",
-  "link_path_attr": "",
-  "title_path": "td:eq(1) a[title]",
-  "title_path_attr": "title",
-  "details_path": "|title_path|",
-  "details_path_attr": "",
-  "magnet_path": "td:eq(2) a[href]",
-  "magnet_path_attr": "href",
-  "seeders_path": "td:eq(5)",
-  "seeders_path_attr": "",
-  "filesize_path": "td:eq(3)",
-  "filesize_path_attr": "",
-  "quality_path": "|title_path|",
-  "quality_path_attr": "",
-  "info_path": "|title_path|",
-  "info_path_attr": ""
+  "is_direct": false
 }
