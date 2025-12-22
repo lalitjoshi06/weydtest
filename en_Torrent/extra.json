@@ -1,5 +1,5 @@
 {
-  "name": "strem",
+  "name": "strem1",
   "language": [
     "hi",
     "en"
@@ -27,7 +27,7 @@
     "path_title_in_array": "behaviorHints{}filename",    
     "path_seeders": "fileIdx",
     "path_size": "behaviorHints{}videoSize",
-    "path_quality": "behaviorHints{}filename",
+    "path_quality": "description",
     "path_hash": "infoHash"
   },
   "is_torrent": true,
