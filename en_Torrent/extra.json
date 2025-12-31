@@ -1,5 +1,5 @@
 {
-  "name": "TorrentsDB3",
+  "name": "TorrentsDB4",
   "language": ["hi", "en"],
   "domains": ["elfhosted.com"],
   "base_url": "https://torrentsdb.com/eyJwcm92aWRlcnMiOlsieXRzIiwiZXp0diIsIjEzMzd4IiwidG9ycmVudGNzdiIsIm55YWEiLCJsaW1ldG9ycmVudCIsInJhcmdiIiwia25hYmVuIiwidGhlcGlyYXRlYmF5Iiwia2lja2Fzc3RvcnJlbnRzIiwiYW5pbWV0b3NobyIsInRva3lvdG9zaG8iLCJtYW51YWwiXSwibGFuZ3VhZ2UiOltdLCJxdWFsaXR5ZmlsdGVyIjpbInNjciIsImNhbSIsInVua25vd24iXSwibGltaXQiOiIxMCJ9",
@@ -21,11 +21,10 @@
     "path_to_array": "streams",
     "path_title_in_array": "title",
     "api_title_split": "/|╌➤",
-    "path_seeders": "0",
-    "path_size": "title",
+    "path_seeders": "0",   
     "path_quality": "behaviorHints{}filename",
-    "path_hash": "infoHash",
-    "parse_size_from_string": true
+    "path_hash": "infoHash"
+   
   },
 
   "is_torrent": true,
