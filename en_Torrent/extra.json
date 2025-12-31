@@ -23,7 +23,8 @@
     "api_title_split": "/|╌➤",
     "path_seeders": "0",   
     "path_quality": "behaviorHints{}filename",
-    "path_hash": "infoHash"
+    "path_hash": "infoHash",
+    "path_size": "title"
    
   },
 
