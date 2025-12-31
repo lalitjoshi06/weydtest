@@ -15,6 +15,7 @@
 
   "size_regex": "(\\d+(?:\\.\\d+)?\\s*(?:GB|MB|TB))",
   "filesize_path": "title",
+  "path_size": "title",
 
   "api": {
     "path_to_array": "streams",
