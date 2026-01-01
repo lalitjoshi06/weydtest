@@ -1,5 +1,5 @@
 {
-  "name": "stremthru",
+  "name": "PeerFlix",
   "language": [
     "hi",
     "en"
@@ -7,7 +7,7 @@
   "domains": [
     "elfhosted.com"
   ],
-  "base_url": "https://stremthru.elfhosted.com/stremio/torz/eyJpbmRleGVycyI6bnVsbCwic3RvcmVzIjpbeyJjIjoicDJwIiwidCI6IiJ9XSwiY2FjaGVkIjp0cnVlfQ==",
+  "base_url": "https://addon.peerflix.mov",
   "search_url_format_episode": {
     "string_format": "/stream/series/%s:%d:%d.json",
     "replacement": [
@@ -23,12 +23,14 @@
     ]
   },
   "api": {
-    "path_to_array": "streams",
-    "path_title_in_array": "behaviorHints{}filename",    
-    "path_seeders": "0",
-    "path_size": "behaviorHints{}videoSize",
-    "path_quality": "description",
-    "path_hash": "infoHash"
+  "path_to_array": "streams",
+  "path_title_in_array": "title",
+  "api_title_split": "\n",
+  "path_hash": "infoHash",
+  "path_size": "title",
+  "parse_size_from_string": true,
+  "path_seeders": "title",
+  "parse_seeders_from_string": true
   },
   "is_torrent": true,
   "is_direct": false
