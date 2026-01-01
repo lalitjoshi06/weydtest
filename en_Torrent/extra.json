@@ -22,6 +22,7 @@
       "imdb_id"
     ]
   },
+  "size_regex": "(\\d+(?:\\.\\d+)?\\s*(?:GB|MB|GiB|MiB))",
   "api": {
   "path_to_array": "streams",
   "path_title_in_array": "title",
@@ -29,8 +30,7 @@
   "path_hash": "infoHash",
   "path_size": "title",
   "parse_size_from_string": true,
-  "path_seeders": "title",
-  "parse_seeders_from_string": true
+  "path_seeders": "title",  
   },
   "is_torrent": true,
   "is_direct": false
