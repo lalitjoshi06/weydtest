@@ -22,7 +22,7 @@
       "imdb_id"
     ]
   },
-  "size_regex": "(\\d+(?:\\.\\d+)?\\s*(?:GB|MB|GiB|MiB))",
+  "size_regex": "(\\d+(?:\\.\\d+)?\\s*(?:GB|MB|GiB|MiB))"
   "api": {
   "path_to_array": "streams",
   "path_title_in_array": "title",
