@@ -25,16 +25,15 @@
     ]
   },
 
-  "size_regex": "(\\d+(?:\\.\\d+)?\\s*(?:GB|MB|GiB|MiB))",
-
-  "api": {
+    "api": {
     "path_to_array": "streams",
     "path_title_in_array": "title",
     "api_title_split": "\n",
     "path_hash": "infoHash",
     "path_size": "title",
     "parse_size_from_string": true,
-    "path_seeders": "title"
+    "path_seeders": "title",
+    "parse_seeders_from_string": true
   },
 
   "is_torrent": true,
