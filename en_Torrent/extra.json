@@ -8,6 +8,7 @@
     "elfhosted.com"
   ],
   "base_url": "https://addon.peerflix.mov",
+
   "search_url_format_episode": {
     "string_format": "/stream/series/%s:%d:%d.json",
     "replacement": [
@@ -16,22 +17,26 @@
       "episode_int"
     ]
   },
+
   "search_url_format_movie": {
     "string_format": "/stream/movie/%s.json",
     "replacement": [
       "imdb_id"
     ]
   },
-  "size_regex": "(\\d+(?:\\.\\d+)?\\s*(?:GB|MB|GiB|MiB))"
+
+  "size_regex": "(\\d+(?:\\.\\d+)?\\s*(?:GB|MB|GiB|MiB))",
+
   "api": {
-  "path_to_array": "streams",
-  "path_title_in_array": "title",
-  "api_title_split": "\n",
-  "path_hash": "infoHash",
-  "path_size": "title",
-  "parse_size_from_string": true,
-  "path_seeders": "title",  
+    "path_to_array": "streams",
+    "path_title_in_array": "title",
+    "api_title_split": "\n",
+    "path_hash": "infoHash",
+    "path_size": "title",
+    "parse_size_from_string": true,
+    "path_seeders": "title"
   },
+
   "is_torrent": true,
   "is_direct": false
 }
