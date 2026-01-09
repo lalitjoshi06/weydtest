@@ -38,7 +38,7 @@
   "is_torrent": true,
   "is_direct": false,
 
-  "links_container_path": "div#full2 table tbody tr:has(td.torrents_small_type_data1)",
+  "links_container_path": "table tbody tr:has(td.torrents_small_type_data1)",
   "link_path": ".torrents_small_info_data2 a[title='Download Torrent']",
   "link_path_attr": "href",
   "title_path": ".torrents_small_info_data1 div",
