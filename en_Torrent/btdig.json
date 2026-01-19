@@ -1,58 +1,36 @@
 {
-  "name": "AniRena",
+  "name": "MediaFusion",
   "language": [
+    "hi",
     "en"
   ],
   "domains": [
-    "www.anirena.com",
-    "anirena.com"
+    "elfhosted.com"
   ],
-  "base_url": "https://www.anirena.com",
+  "base_url": "https://mediafusionfortheweebs.midnightignite.me/D-CwiUbdADGjmusBR0mDIO9Ir7qeK5-bs2bC4OgSXYVRWadRQ1Js0sLCaniETtcK_UcMb8tbID5m-lRsVVjPpei6AnAJ74RP-lFbeFMsJ58z2uWTj644hewF_1j7vtdIsX",
   "search_url_format_episode": {
-    "string_format": "/index.php?s=%s+s%02de%02d",
+    "string_format": "/stream/series/%s:%02d:%02d.json",
     "replacement": [
-      "title_lower",
+      "imdb_id",
       "season_int",
       "episode_int"
     ]
   },
   "search_url_format_movie": {
-    "string_format": "/index.php?s=%s+%04d",
+    "string_format": "/stream/movie/%s.json",
     "replacement": [
-      "title_lower",
-      "year_int"
+      "imdb_id"
     ]
   },
-  "search_url_format_season_pack": {
-    "string_format": "/index.php?s=%s",
-    "replacement": [
-      "title_lower"
-    ]
+  "api": {
+    "path_to_array": "streams",
+    "path_title_in_array": "description",
+    "api_title_split": "/|\u2508\u27A4",
+    "path_seeders": "fileIdx",
+    "path_size": "behaviorHints{}videoSize",
+    "path_quality": "behaviorHints{}bingeGroup",
+    "path_hash": "infoHash"
   },
-  "more_pages_indicator": "",
-  "next_page_path": "",
-  "next_page_path_attr": "",
-  "links_on_first_page": true,
-  "drill_down_path": "",
-  "drill_down_path_attr": "",
   "is_torrent": true,
-  "is_direct": false,
-
-  "links_container_path": "table tbody tr:has(td.torrents_small_type_data1)",
-  "link_path": ".torrents_small_info_data2 a[title='Download Torrent']",
-  "link_path_attr": "href",
-  "title_path": ".torrents_small_info_data1 div",
-  "title_path_attr": "",
-  "details_path": ".torrents_small_info_data1 div a",
-  "details_path_attr": "href",
-  "magnet_path": ".torrents_small_info_data2 a[title='Magnet Link']",
-  "magnet_path_attr": "href",
-  "seeders_path": ".torrents_small_seeders_data1 b big",
-  "seeders_path_attr": "",
-  "filesize_path": ".torrents_small_size_data1",
-  "filesize_path_attr": "",
-  "quality_path": "|title_path|",
-  "quality_path_attr": "",
-  "info_path": "|title_path|",
-  "info_path_attr": ""
+  "is_direct": false
 }
