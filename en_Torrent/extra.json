@@ -1,5 +1,5 @@
 {
-  "name": "PeerFlix-1",
+  "name": "Commet",
   "language": [
     "hi",
     "en"
@@ -7,35 +7,30 @@
   "domains": [
     "elfhosted.com"
   ],
-  "base_url": "https://addon.peerflix",
-
+  "base_url": "https://comet.stremio.ru",
   "search_url_format_episode": {
-    "string_format": "/stream/series/%s:%d:%d.json",
+    "string_format": "/stream/series/%s:%02d:%02d.json",
     "replacement": [
       "imdb_id",
       "season_int",
       "episode_int"
     ]
   },
-
   "search_url_format_movie": {
     "string_format": "/stream/movie/%s.json",
     "replacement": [
       "imdb_id"
     ]
   },
-
-    "api": {
+  "api": {
     "path_to_array": "streams",
-    "path_title_in_array": "title",
-    "api_title_split": "\n",
-    "path_hash": "infoHash",
-    "path_size": "title",
-    "parse_size_from_string": true,
-    "path_seeders": "title",
-    "parse_seeders_from_string": true
+    "path_title_in_array": "description",
+    "api_title_split": "/|\u2508\u27A4",
+    "path_seeders": "fileIdx",
+    "path_size": "behaviorHints{}videoSize",
+    "path_quality": "behaviorHints{}filename",
+    "path_hash": "infoHash"
   },
-
   "is_torrent": true,
   "is_direct": false
 }
