@@ -1,5 +1,5 @@
 {
-  "name": "MediaFusion3",
+  "name": "MediaFusion1",
   "language": [
     "hi",
     "en"
@@ -7,7 +7,7 @@
   "domains": [
     "elfhosted.com"
   ],
-  "base_url": "https://mediafusionfortheweebs.midnightignite.me/D-Pu07OK_nsN-ubwt3afT-OtLERawImUqXKhL0jS-FL4M",
+  "base_url": "https://mediafusion.stremio.ru/D-1Bc6pZ3y6NnCUA6HR3OxRZUATDQXl8eIMFOqcyssc_ayY_dzbk9sPV87884cMS6ot5ivqFSargAtCE45QN0B92U86YkC3DhClla0bd83Dho",
   "search_url_format_episode": {
     "string_format": "/stream/series/%s:%02d:%02d.json",
     "replacement": [
