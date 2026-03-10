@@ -7,7 +7,7 @@
   "domains": [
     "elfhosted.com"
   ],
-  "base_url": "https://mediafusion.stremio.ru/D-nyT7g0fbNjYKNVRMMniY-BX7h9xUa6EtplS-xNLkEao",
+  "base_url": "//mediafusion.stremio.ru/D-nyT7g0fbNjYKNVRMMniY-BX7h9xUa6EtplS-xNLkEao",
   "search_url_format_episode": {
     "string_format": "/stream/series/%s:%02d:%02d.json",
     "replacement": [
