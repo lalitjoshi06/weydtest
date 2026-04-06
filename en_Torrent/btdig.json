@@ -24,11 +24,10 @@
   },
   "api": {
     "path_to_array": "streams",
-    "path_title_in_array": "name",
-    "api_title_split": "[🎨📺📦🌐🔗]|[-]",
-    "path_seeders": "behaviorHints{}filename",
+    "path_title_in_array": "behaviorHints{}filename",    
+    "path_seeders": "0",
     "path_size": "behaviorHints{}videoSize",
-    "path_quality": "behaviorHints{}bingeGroup",
+    "path_quality": "description",
     "path_hash": "infoHash"
   },
   "is_torrent": true,
