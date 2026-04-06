@@ -29,14 +29,14 @@
 		"https://raw.githubusercontent.com/lalitjoshi06/weydtest/main/en_Torrent/torlockmovies.json"
 	],
 	"5": [
-		"https://raw.githubusercontent.com/lalitjoshi06/weydtest/main/en_DebridOnly/ddllspot.json",
-		"https://raw.githubusercontent.com/lalitjoshi06/weydtest/main/en_DebridOnly/sscenerls.json"
+		"https://raw.githubusercontent.com/lalitjoshi06/weydtest/main/en_DebridOnly/dllspot.json",
+		"https://raw.githubusercontent.com/lalitjoshi06/weydtest/main/en_DebridOnly/scenerls.json"
 	],
 	"6": [
 		"https://raw.githubusercontent.com/lalitjoshi06/weydtest/main/en_DebridOnly/maxrls.json",
 		"https://raw.githubusercontent.com/lalitjoshi06/weydtest/main/en_DebridOnly/rapidmoviez.json",
 		"https://raw.githubusercontent.com/lalitjoshi06/weydtest/main/en_DebridOnly/f5movies.json",
 		"https://raw.githubusercontent.com/lalitjoshi06/weydtest/main/en_DebridOnly/crazy4tv.json",
-		"https://raw.githubusercontent.com/lalitjoshi06/weydtest/main/en_DebridOnly/dllspot.json"
+		"https://raw.githubusercontent.com/lalitjoshi06/weydtest/main/en_DebridOnly/ddllspot.json"
 	]
 }
