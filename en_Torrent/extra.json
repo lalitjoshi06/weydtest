@@ -1,36 +1,37 @@
 {
-  "name": "MediaFusion1",
-  "language": [
-    "hi",
-    "en"
-  ],
-  "domains": [
-    "elfhosted.com"
-  ],
-  "base_url": "https://mediafusionfortheweebs.midnightignite.me/D-9z2ig8pU8s0Qkv3HKjGBlRejzYdSnYxKeV-6-Zw7YpU3Jy0FhuRsDIYn72fGokrM74zpln8J1wEnOqxFQnqT_2ctCON6sWDgEl3_ugMSXUU",
+  "name": "Torrents-CSV",
+  "language": ["hi", "en"],
+  "domains": ["torrents-csv.ml"],
+  "base_url": "https://torrents-csv.com",  
   "search_url_format_episode": {
-    "string_format": "/stream/series/%s:%02d:%02d.json",
+    "string_format": "/service/search?q=%s+s%02de%02d&size=50",
     "replacement": [
-      "imdb_id",
+      "title_lower",
       "season_int",
       "episode_int"
     ]
   },
   "search_url_format_movie": {
-    "string_format": "/stream/movie/%s.json",
+    "string_format": "/service/search?q=%s+%04d&size=50",
     "replacement": [
-      "imdb_id"
+      "title_lower",
+      "year_int"
     ]
   },
-  "api": {
-    "path_to_array": "streams",
-    "path_title_in_array": "description",
-    "api_title_split": "/|\u2508\u27A4",
-    "path_seeders": "fileIdx",
-    "path_size": "behaviorHints{}videoSize",
-    "path_quality": "behaviorHints{}bingeGroup",
-    "path_hash": "infoHash"
+  "search_url_format_season_pack": {
+    "string_format": "/service/search?q=%s&size=50",
+    "replacement": [
+      "title_lower"
+    ]
   },
+ "api":{
+    "path_to_array": "torrents",
+    "path_title_in_array": "name",
+    "path_hash": "infohash",
+    "path_seeders": "seeders",
+    "path_size": "size_bytes"
+  },
+
   "is_torrent": true,
   "is_direct": false
 }
