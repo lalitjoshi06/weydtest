@@ -7,7 +7,7 @@
   "domains": [
     "elfhosted.com"
   ],
-  "base_url": "https://mediafusionfortheweebs.midnightignite.me/D-9z2ig8pU8s0Qkv3HKjGBlRejzYdSnYxKeV-6-Zw7YpU3Jy0FhuRsDIYn72fGokrM74zpln8J1wEnOqxFQnqT_2ctCON6sWDgEl3_ugMSXUU",
+  "base_url": "h://mediafusionfortheweebs.midnightignite.me/D-9z2ig8pU8s0Qkv3HKjGBlRejzYdSnYxKeV-6-Zw7YpU3Jy0FhuRsDIYn72fGokrM74zpln8J1wEnOqxFQnqT_2ctCON6sWDgEl3_ugMSXUU",
   "search_url_format_episode": {
     "string_format": "/stream/series/%s:%02d:%02d.json",
     "replacement": [
