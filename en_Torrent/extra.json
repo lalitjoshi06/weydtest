@@ -4,7 +4,7 @@
     "domains": ["torrentgalaxy.info", "torrentgalaxy.one", "torrentgalaxy.unblockedfor.me"],
     "base_url": "https://torrentgalaxy.space",
     "search_url_format_episode": {
-      "string_format": "/torrents.php?search=%s+s%02de%02d&sort=size&order=desc",
+      "string_format": "/get-posts/keywords:%s+s%02de%02d",
       "replacement": [
         "title_lower",
         "season_int",
@@ -12,14 +12,14 @@
       ]
     },
     "search_url_format_movie": {
-      "string_format": "/torrents.php?search=%s+%04d&sort=size&order=desc",
+      "string_format": "/get-posts/keywords:%s+%04d&sort=size&order=desc",
       "replacement": [
         "title_lower",
         "year_int"
       ]
     },
     "search_url_format_season_pack": {
-    "string_format": "/torrents.php?search=%s&sort=size&order=desc",
+    "string_format": "/get-posts/keywords:%s",
     "replacement": [
       "title_lower"
     ]
