@@ -11,7 +11,7 @@
 	],
 	"base_url": "https://www.1337xx.to",
 	"search_url_format_episode": {
-		"string_format": "/sort-search/%s+S%02dE%02d/time/desc/1/",
+		"string_format": "/category-search/%s.S%02dE%02d/TV/1/",
 		"replacement": [
 			"title",
 			"season_int",
@@ -19,7 +19,7 @@
 		]
 	},
 	"search_url_format_movie": {
-		"string_format": "/sort-search/%s+%04d/time/desc/1/",
+		"string_format": "/sort-category-search/%s.%04d/Movies/time/desc/1/",
 		"replacement": [
 			"title",
 			"year_int"
