@@ -13,7 +13,8 @@
 	"domains": [
 		"7movierulz.app",
 		"7movierulz.li",
-		"7movierulz.be"
+		"7movierulz.be",
+		"5movierulz.top"
 	],
 	"base_url": "https://www.7movierulz.app",
 	"search_url_format_episode": {
@@ -31,25 +32,25 @@
 	"next_page_path": "",
 	"next_page_path_attr": "",
 	"links_on_first_page": false,
-	"drill_down_path": "div.boxed a",
+	"drill_down_path": "div.boxed.film.post-list.search .cont_display a",
 	"drill_down_path_attr": "href",
 	"is_torrent": true,
 	"is_direct": false,
-	"links_container_path": "a[href^=magnet]",
+	"links_container_path": "div.movies.entry-content",
 	"link_path": "",
 	"link_path_attr": "",
-	"title_path": "/title",
+	"title_path": "h2.movies.entry-title",
 	"title_path_attr": "",
 	"details_path": "|title_path|",
 	"details_path_attr": "",
-	"magnet_path": "a",
+	"magnet_path": "a[href^=magnet]",
 	"magnet_path_attr": "href",
 	"seeders_path": "",
 	"seeders_path_attr": "",
-	"filesize_path": "a[href^=magnet]",
-	"filesize_path_attr": "title",
-	"quality_path": "a[href^=magnet]",
-	"quality_path_attr": "title",
+	"filesize_path": "",
+	"filesize_path_attr": "",
+	"quality_path": "",
+	"quality_path_attr": "",
 	"info_path": "|title_path|",
 	"info_path_attr": ""
 }
