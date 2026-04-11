@@ -19,7 +19,7 @@
   "next_page_path": "a[rel='next']",
   "next_page_path_attr": "href",
   "links_on_first_page": false,
-  "drill_down_path": "dt a",
+  "drill_down_path": "dt a[href^=/torrent]",
   "drill_down_path_attr": "href",
   "is_torrent": true,
   "is_direct": false,
