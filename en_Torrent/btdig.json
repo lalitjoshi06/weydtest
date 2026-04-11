@@ -1,55 +1,52 @@
 {
-	"name": "7movierulz",
-	"language": [
-		"hi",
-		"en",
-		"te",
-		"ta",
-		"ml",
-		"kn",
-		"pa",
-		"bn"
-	],
-	"domains": [
-		"7movierulz.app",
-		"7movierulz.li",
-		"7movierulz.be",
-		"5movierulz.top"
-	],
-	"base_url": "https://www.7movierulz.app",
+	"name": "BitSearch",
+	"language": ["hi", "en"],
+	"domains": ["bitsearch.to"],
+	"base_url": "https://bitsearch.to",
 	"search_url_format_episode": {
-		"string_format": "",
-		"replacement": []
+		"string_format": "/search?q=%s+s%02de%02d&sort=date&order=desc",
+		"replacement": [
+			"title_lower",
+			"season_int",
+			"episode_int"
+		]
 	},
 	"search_url_format_movie": {
-		"string_format": "/search?keyword=%s+%04d",
+		"string_format": "/search?q=%s+%04d&sort=date&order=desc",
+		"replacement": [
+			"title_lower",
+			"year_int"
+		]
+	},
+	"search_url_format_season_pack": {
+		"string_format": "/search?q=%s&sort=date&order=desc",
 		"replacement": [
 			"title_lower"
 		]
 	},
-	"more_pages_indicator": "",
-	"next_page_path": "",
-	"next_page_path_attr": "",
-	"links_on_first_page": false,
-	"drill_down_path": "div.boxed a",
-	"drill_down_path_attr": "href",
+	"more_pages_indicator": "a[rel='next']",
+	"next_page_path": "a[rel='next']",
+	"next_page_path_attr": "href",
+	"links_on_first_page": true,
+	"drill_down_path": "",
+	"drill_down_path_attr": "",
 	"is_torrent": true,
 	"is_direct": false,
-	"links_container_path": "a[href^=magnet]",
-	"link_path": "",
-	"link_path_attr": "",
-	"title_path": "/title",
+	"links_container_path": "li.search-result",
+	"link_path": "a[href^='magnet']",
+	"link_path_attr": "href",
+	"title_path": "div.info h5 a",
 	"title_path_attr": "",
 	"details_path": "|title_path|",
 	"details_path_attr": "",
-	"magnet_path": "a",
+	"magnet_path": "div.links a[href^=magnet]",
 	"magnet_path_attr": "href",
-	"seeders_path": "",
+	"seeders_path": "div.stats div:has(img[alt=Seeder])",
 	"seeders_path_attr": "",
-	"filesize_path": "a[href^=magnet]",
-	"filesize_path_attr": "title",
-	"quality_path": "a[href^=magnet]",
-	"quality_path_attr": "title",
+	"filesize_path": "div.stats div:has(img[alt=Size])",
+	"filesize_path_attr": "",
+	"quality_path": "|title_path|",
+	"quality_path_attr": "",
 	"info_path": "|title_path|",
 	"info_path_attr": ""
 }
