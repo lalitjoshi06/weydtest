@@ -35,7 +35,7 @@
     "links_container_path": "div.gluewrapper",
     "link_path": "",
     "link_path_attr": "",
-    "title_path": "/title",
+    "title_path": "div.clickable-row.click.textshadow.rounded.txlight a span b",
     "title_path_attr": "",
     "details_path": "|title_path|",
     "details_path_attr": "",
