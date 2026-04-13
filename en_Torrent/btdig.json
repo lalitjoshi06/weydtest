@@ -38,7 +38,7 @@
   "is_torrent": true,
   "is_direct": false,
   "links_container_path": "div.gluewrapper",
-  "title_path": "div.torrentpagetable.limitwidth div.tprow:eq(0) a",
+  "title_path": "a[href^=magnet]",
   "title_path_attr": "",
   "details_path": "|title_path|",
   "details_path_attr": "",
