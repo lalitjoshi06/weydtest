@@ -19,7 +19,7 @@
   "is_torrent": true,
   "is_direct": false,
   "links_container_path": "div.tgxtablerow.txlight",
-  "title_path": "div.tgxtablecell.clickable-row a span b",
+  "title_path": "div#panelmain div.panel-body span a",
   "title_path_attr": "",
   "details_path": "|title_path|",
   "details_path_attr": "",
