@@ -1,42 +1,47 @@
 {
-  "name": "torrentgalaxy8",
-  "language": ["hi", "en"],
-  "domains": ["torrentgalaxy.space", "torrentgalaxy.one"],
-  "base_url": "https://torrentgalaxy.space",
-  "search_url_format_episode": {
-    "string_format": "/get-posts/keywords:%s+s%02de%02d?page=1",
-    "replacement": ["title_lower", "season_int", "episode_int"]
-  },
-  "search_url_format_movie": {
-    "string_format": "/get-posts/keywords:%s+%04d?page=1",
-    "replacement": ["title_lower", "year_int"]
-  },
-  "search_url_format_season_pack": {
-    "string_format": "/get-posts/keywords:%s?page=1",
-    "replacement": ["title_lower"]
-  },
-  "check_title_before_drill_down": true,
-  "drill_down_title_check_attr": "|HTML|",
-  "links_on_first_page": false,
-  "drill_down_path": "div.tgxtablecell.clickable-row",
-  "drill_down_path_attr": "data-href",
-  "is_torrent": true,
-  "is_direct": false,
-  "links_container_path": "div.gluewrapper",
-  "title_path": "div.torrentpagetable.limitwidth div.tprow:has(b:contains('Name:')) div.tpcell:last-child a",
-  "title_path_attr": "",
-  "details_path": "|title_path|",
-  "details_path_attr": "",
-  "magnet_path": "a[href^=magnet]",
-  "magnet_path_attr": "href",
-  "seeders_path": "div.torrentpagetable.limitwidth div.tprow:has(b:contains('Stats:')) button.btn-success span.badge",
-  "seeders_path_attr": "",
-  "leechers_path": "div.torrentpagetable.limitwidth div.tprow:has(b:contains('Stats:')) button.btn-danger span.badge",
-  "leechers_path_attr": "",
-  "filesize_path": "div.torrentpagetable.limitwidth div.tprow:has(b:contains('Total Size:')) div.tpcell:last-child",
-  "filesize_path_attr": "",
-  "quality_path": "|title_path|",
-  "quality_path_attr": "",
-  "info_path": "|title_path|",
-  "info_path_attr": ""
-}
+    "name": "Extto",
+    "language": ["hi", "en"],
+    "domains": ["torrentgalaxy.info", "torrentgalaxy.one", "torrentgalaxy.unblockedfor.me"],
+    "base_url": "https://extto.org",
+    "search_url_format_episode": {
+      "string_format": "/browse/?filter=c=TV&q=%s+s%02de%02d",
+      "replacement": [
+        "title_lower",
+        "season_int",
+        "episode_int"
+      ]
+    },
+    "search_url_format_movie": {
+      "string_format": "/browse/?filter=c=Movies&q=%s+%04d",
+      "replacement": [
+        "title_lower",
+        "year_int"
+      ]
+    },   
+    "more_pages_indicator": "",
+    "next_page_path" : "",
+    "next_page_path_attr": "",
+    "links_on_first_page": true,
+    "drill_down_path": "",
+    "drill_down_path_attr": "",
+    "is_torrent": true,
+    "is_direct": false,
+    "links_container_path": "tbody tr",
+    "link_path": "",
+    "link_path_attr": "",
+    "title_path": "span.name b",
+    "title_path_attr": "",
+    "details_path": "|title_path|",
+    "details_path_attr": "",
+    "magnet_path": "a[href^=magnet]",
+    "magnet_path_attr": "href",
+    "seeders_path": "div.tgxtablecell span.Seeders/Leechers b:eq(0)",
+    "seeders_path_attr": "",
+    "filesize_path": "td:nth-child(2) span",
+    "filesize_path_attr": "",
+    "quality_path": "|title_path|",
+    "quality_path_attr": "",
+    "info_path": "|title_path|",
+    "info_path_attr": ""
+  }
+  
