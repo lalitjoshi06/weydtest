@@ -1,19 +1,34 @@
 {
   "name": "torrentgalaxy8",
-  "language": ["hi", "en"],
-  "domains": ["torrentgalaxy.space", "torrentgalaxy.one"],
+  "language": [
+    "hi",
+    "en"
+  ],
+  "domains": [
+    "torrentgalaxy.space",
+    "torrentgalaxy.one"
+  ],
   "base_url": "https://torrentgalaxy.space",
   "search_url_format_episode": {
     "string_format": "/get-posts/keywords:%s+s%02de%02d?page=1",
-    "replacement": ["title_lower", "season_int", "episode_int"]
+    "replacement": [
+      "title_lower",
+      "season_int",
+      "episode_int"
+    ]
   },
   "search_url_format_movie": {
     "string_format": "/get-posts/keywords:%s+%04d?page=1",
-    "replacement": ["title_lower", "year_int"]
+    "replacement": [
+      "title_lower",
+      "year_int"
+    ]
   },
   "search_url_format_season_pack": {
     "string_format": "/get-posts/keywords:%s?page=1",
-    "replacement": ["title_lower"]
+    "replacement": [
+      "title_lower"
+    ]
   },
   "check_title_before_drill_down": true,
   "drill_down_title_check_attr": "|HTML|",
@@ -22,18 +37,18 @@
   "drill_down_path_attr": "abs:href",
   "is_torrent": true,
   "is_direct": false,
-  "links_container_path": "div.tgxtablerow.txlight",
-  "title_path": "div.tgxtablecell.clickable-row span a",
+  "links_container_path": "div.gluewrapper",
+  "title_path": "div.torrentpagetable.limitwidth div.tprow:first-child a",
   "title_path_attr": "",
   "details_path": "|title_path|",
   "details_path_attr": "",
   "magnet_path": "a[href^=magnet]",
   "magnet_path_attr": "href",
-  "seeders_path": "div.tgxtablecell span[title='Seeders/Leechers'] font[color=green] b",
+  "seeders_path": "div.torrentpagetable.limitwidth div.tprow:has(b:contains('Stats:')) .btn-success .badge",
   "seeders_path_attr": "",
-  "leechers_path": "div.tgxtablecell span[title='Seeders/Leechers'] font[color='#ff0000'] b",
+  "leechers_path": "div.torrentpagetable.limitwidth div.tprow:has(b:contains('Stats:')) .btn-danger .badge",
   "leechers_path_attr": "",
-  "filesize_path": "div.tgxtablecell span.badge.badge-secondary",
+  "filesize_path": "div.torrentpagetable.limitwidth div.tprow:has(b:contains('Total Size:')) div.tpcell:last-child",
   "filesize_path_attr": "",
   "quality_path": "|title_path|",
   "quality_path_attr": "",
