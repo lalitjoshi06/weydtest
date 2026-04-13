@@ -23,12 +23,11 @@
     ]
   },
    "api": {
-    "path_to_array": "rss/channel/item",
+    "path_to_array": "rss \u003E channel \u003E item",
     "path_title": "title",
     "path_size": "size",
-    "path_seeders": "torznab:attr[@name='seeders']/@value",
-    "path_magnet": "torznab:attr[@name='magneturl']/@value",
-    "path_hash": "torznab:attr[@name='infohash']/@value",
+    "path_seeders": "0",
+    "path_magnet": "enclosure url",   
     "parse_size_from_string": false
   },
   "is_torrent": true,
