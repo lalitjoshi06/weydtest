@@ -1,5 +1,5 @@
 {
-  "name": "torrentgalaxy",
+  "name": "torrentgalaxy5",
   "language": ["hi", "en"],
   "domains": ["torrentgalaxy.info", "torrentgalaxy.one", "torrentgalaxy.unblockedfor.me"],
   "base_url": "https://torrentgalaxy.space",
@@ -37,7 +37,7 @@
   "title_path_attr": "",
   "details_path": "|title_path|",
   "details_path_attr": "",
-  "magnet_path": "a[href^='magnet:']",
+  "magnet_path": "div.tpcell a[href^='magnet:']",
   "magnet_path_attr": "href",
   "seeders_path": "div.torrentpagetable.limitwidth div.tprow:contains(Stats:) button.btn-success span.badge",
   "seeders_path_attr": "",
