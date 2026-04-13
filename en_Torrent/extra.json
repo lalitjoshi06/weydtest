@@ -1,35 +1,51 @@
 {
-  "name": "TorrenTio",
-  "language": [
-    "hi",
-    "en"
-  ],
-  "domains": [
-    "elfhosted.com"
-  ],
-  "base_url": "https://bitmagnetfortheweebs.midnightignite.me",
+  "name": "TorrentGalaxy",
+  "language": ["en"],
+  "domains": ["torrentgalaxy.one", "torrentgalaxy.info", "torrentgalaxy.unblockedfor.me"],
+  "base_url": "https://torrentgalaxy.one",
   "search_url_format_episode": {
-    "string_format": "/torznab/api/?t=search&q=%s+s%02de%02d&cat=5045",
+    "string_format": "/get-posts/keywords:%s+s%02de%02d",
     "replacement": [
-      "imdb_id",
+      "title_lower",
       "season_int",
       "episode_int"
     ]
   },
   "search_url_format_movie": {
-    "string_format": "/torznab/api/?t=search&q=%s&cat=2045",
+    "string_format": "/get-posts/keywords:%s+%04d",
     "replacement": [
-      "imdb_id"
+      "title_lower",
+      "year_int"
     ]
   },
-   "api": {
-    "path_to_array": "rss \u003E channel \u003E item",
-    "path_title": "title",
-    "path_size": "size",
-    "path_seeders": "0",
-    "path_magnet": "enclosure url",   
-    "parse_size_from_string": false
+  "search_url_format_season_pack": {
+    "string_format": "/get-posts/keywords:%s",
+    "replacement": [
+      "title_lower"
+    ]
   },
   "is_torrent": true,
-  "is_direct": false
+  "is_direct": false,
+  "name_delete_filter": [],
+  "links_on_first_page": false,  
+  "drill_down_path": "div.clickable-row.click.textshadow.rounded.txlight",
+  "drill_down_path_attr": "data-href",
+  "links_container_path": "div.tgxtablerow.txlight",
+  "title_path": "div.clickable-row div a.txlight span[src=\"torrent\"] b",
+  "title_path_attr": "",
+  "details_path": "div.clickable-row.click.textshadow.rounded.txlight",
+  "details_path_attr": "data-href",
+  "magnet_path": "a[href^=\"magnet:?\"]",
+  "magnet_path_attr": "href",
+  "seeders_path": "span[title=\"Seeders/Leechers\"] font[color=\"green\"] b",
+  "seeders_path_attr": "",
+  "filesize_path": "div.tgxtablecell:nth-child(8) span.badge.badge-secondary",
+  "filesize_path_attr": "",
+  "quality_path": "|title_path|",
+  "quality_path_attr": "",
+  "info_path": "|title_path|",
+  "info_path_attr": "",
+  "more_pages_indicator": "",
+  "next_page_path": "",
+  "next_page_path_attr": ""
 }
