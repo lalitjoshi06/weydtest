@@ -4,7 +4,7 @@
     "domains": ["torrentgalaxy.info", "torrentgalaxy.one", "torrentgalaxy.unblockedfor.me"],
     "base_url": "https://torrentgalaxy.space",
     "search_url_format_episode": {
-      "string_format": "/torrents.php?search=%s+s%02de%02d&sort=size&order=desc",
+      "string_format": "/get-posts/keywords:%s+s%02de%02d?page=1",
       "replacement": [
         "title_lower",
         "season_int",
@@ -12,14 +12,14 @@
       ]
     },
     "search_url_format_movie": {
-      "string_format": "/torrents.php?search=%s+%04d&sort=size&order=desc",
+      "string_format": "/get-posts/keywords:%s+%04d?page=1",
       "replacement": [
         "title_lower",
         "year_int"
       ]
     },
     "search_url_format_season_pack": {
-    "string_format": "/torrents.php?search=%s&sort=size&order=desc",
+    "string_format": "/get-posts/keywords:%s?page=1",
     "replacement": [
       "title_lower"
     ]
@@ -27,26 +27,27 @@
     "more_pages_indicator": "",
     "next_page_path" : "",
     "next_page_path_attr": "",
-    "links_on_first_page": true,
-    "drill_down_path": "",
-    "drill_down_path_attr": "",
+    "links_on_first_page": false,
+    "drill_down_path": "div.clickable-row.click.textshadow.rounded.txlight",
+    "drill_down_path_attr": "data-href",
     "is_torrent": true,
     "is_direct": false,
-    "links_container_path": "div.tgxtablerow",
-    "link_path": "",
-    "link_path_attr": "",
-    "title_path": "a:has(b)",
+    "links_container_path": "div.gluewrapper",
+    "link_path": "div.clickable-row.click.textshadow.rounded.txlight a",
+    "link_path_attr": "href",
+    "title_path": "div.clickable-row.click.textshadow.rounded.txlight a span b",
     "title_path_attr": "",
     "details_path": "|title_path|",
     "details_path_attr": "",
-    "magnet_path": "a[href^=magnet]",
+    "magnet_path": "a[href^='magnet:']",
     "magnet_path_attr": "href",
-    "seeders_path": "div.tgxtablecell span.Seeders/Leechers b:eq(0)",
+    "seeders_path": "div.tgxtablecell.collapsehide.rounded.txlight:has(span[title='Seeders/Leechers']) font[color='green'] b",
     "seeders_path_attr": "",
-    "filesize_path": "div.rounded span.badge-secondary",
+    "filesize_path": "div.tgxtablecell.collapsehide.rounded.txlight span.badge-secondary",
     "filesize_path_attr": "",
     "quality_path": "|title_path|",
     "quality_path_attr": "",
     "info_path": "|title_path|",
     "info_path_attr": ""
   }
+  
