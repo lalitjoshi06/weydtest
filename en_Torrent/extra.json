@@ -3,43 +3,49 @@
   "language": ["en"],
   "domains": ["torrentgalaxy.one", "torrentgalaxy.info", "torrentgalaxy.unblockedfor.me"],
   "base_url": "https://torrentgalaxy.one",
-
   "search_url_format_episode": {
     "string_format": "/get-posts/keywords:%s+s%02de%02d",
-    "replacement": ["title_lower", "season_int", "episode_int"]
+    "replacement": [
+      "title_lower",
+      "season_int",
+      "episode_int"
+    ]
   },
   "search_url_format_movie": {
     "string_format": "/get-posts/keywords:%s+%04d",
-    "replacement": ["title_lower", "year_int"]
+    "replacement": [
+      "title_lower",
+      "year_int"
+    ]
   },
   "search_url_format_season_pack": {
     "string_format": "/get-posts/keywords:%s",
-    "replacement": ["title_lower"]
+    "replacement": [
+      "title_lower"
+    ]
   },
-
   "is_torrent": true,
-  "is_direct": false,
-  "name_delete_filter": [],
-  "links_on_first_page": false,  
-  "drill_down_path": "[data-href]",
-  "drill_down_path_attr": "data-href",
+  "is_direct": false,  
+  "links_on_first_page": false,
+  "drill_down_path": "div.tgxtablerow div.tgxtablecell:eq(3) a",
+  "drill_down_path_attr": "abs:href",
   "links_container_path": "div.tgxtablerow.txlight",
-  "title_path": "a.txlight[title]",
-  "title_path_attr": "title",
+  "title_path": "div.clickable-row div a.txlight span[src=\"torrent\"] b",
+  "title_path_attr": "text",
   "details_path": "|title_path|",
-  "details_path_attr": "",
-  "magnet_path": "a[href^=\"magnet:\"]",
+  "details_path_attr": "text",
+  "magnet_path": "a[href^=magnet]",
   "magnet_path_attr": "href",
   "seeders_path": "span[title=\"Seeders/Leechers\"] font[color=\"green\"] b",
   "seeders_path_attr": "text",
-  "leechers_path": "span[title=\"Seeders/Leechers\"] font[color=\"#ff0000\"] b, span[title=\"Seeders/Leechers\"] font[color=\"ff0000\"] b",
+  "leechers_path": "span[title=\"Seeders/Leechers\"] font[color=\"#ff0000\"] b",
   "leechers_path_attr": "text",
-  "filesize_path": "span.badge.badge-secondary",
+  "filesize_path": "div.tgxtablecell:nth-child(8) span.badge.badge-secondary",
   "filesize_path_attr": "text",
   "quality_path": "|title_path|",
-  "quality_path_attr": "",
-  "info_path": "div.tgxtablecell.clickable-row.click a.txlight[title]",
-  "info_path_attr": "title",
+  "quality_path_attr": "text",
+  "info_path": "|title_path|",
+  "info_path_attr": "text",
   "more_pages_indicator": "",
   "next_page_path": "",
   "next_page_path_attr": ""
