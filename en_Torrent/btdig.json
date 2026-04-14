@@ -7,7 +7,7 @@
   "domains": [
     "workers.dev"
   ],
-  "base_url": "https://my-search-worker.lalitjoshi06.workers.dev",
+  "base_url": "",
   "search_url_format_episode": {
     "string_format": "/?t=search&q=%s+s%02de%02d&cat=5045",
     "replacement": [
