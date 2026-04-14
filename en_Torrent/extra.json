@@ -28,7 +28,7 @@
   "is_direct": false,
   "name_delete_filter": [],
   "links_on_first_page": false,  
-  "drill_down_path": "div.clickable-row.click.textshadow.rounded.txlight",
+  "drill_down_path": "div.clickable-row.click.textshadow.rounded.txlight a.txlight",
   "drill_down_path_attr": "abs:href",
   "links_container_path": "div.tgxtablerow.txlight",
   "title_path": "div.clickable-row div a.txlight span[src=\"torrent\"] b",
