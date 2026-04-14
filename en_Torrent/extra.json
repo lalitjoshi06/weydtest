@@ -27,7 +27,7 @@
   "is_torrent": true,
   "is_direct": false,  
   "links_on_first_page": false,
-  "drill_down_path": "div.tgxtablerow div.tgxtablecell:eq(3) a",
+  "drill_down_path": "div.tgxtablerow div.tgxtablecell:eq(4) a",
   "drill_down_path_attr": "abs:href",
   "links_container_path": "div.tgxtablerow.txlight",
   "title_path": "div.clickable-row div a.txlight span[src=\"torrent\"] b",
