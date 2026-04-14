@@ -21,7 +21,7 @@
   "is_direct": false,
   "name_delete_filter": [],
   "links_on_first_page": false,  
-  "drill_down_path": "div.tgxtablecell.clickable-row.click",
+  "drill_down_path": "div.tgxtablecell.clickable-row.click[data-href]",
   "drill_down_path_attr": "data-href",
   "links_container_path": "div.tgxtablerow.txlight",
   "title_path": "div.tgxtablecell.clickable-row.click a.txlight[title]",
