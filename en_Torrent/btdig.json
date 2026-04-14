@@ -27,6 +27,7 @@
     "path_to_array": "items",
     "path_title": "title",
     "path_seeders": "seeders",
+    "path_quality": "resolution",
     "path_size": "size",
     "path_hash": "infohash"
   },
