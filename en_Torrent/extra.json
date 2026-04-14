@@ -28,7 +28,7 @@
   "is_direct": false,
   "name_delete_filter": [],
   "links_on_first_page": false,  
-  "drill_down_path": "div#click",
+   "drill_down_path": "div.clickable-row",
   "drill_down_path_attr": "abs:data-href",
   "links_container_path": "div.tgxtablerow.txlight",
   "title_path": "div.clickable-row div a.txlight span[src=\"torrent\"] b",
