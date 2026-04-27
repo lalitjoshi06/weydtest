@@ -1,5 +1,5 @@
 {
-  "name": "Nitro",
+  "name": "fikper",
   "language": ["hi", "en"],
   "domains": ["rlsbb.ru", "rlsbb.to", "rlsbb.com", "rlsbb.unblocked.cx"],
   "base_url": "https://search.rlsbb.to",
@@ -22,7 +22,7 @@
   "is_torrent": false,
   "is_direct": true,
   "links_container_path": "ul.commentList div.messageBox",
-  "link_path": "a[href*='nitroflare.com/view/']",
+  "link_path": "a[href*='fikper.com']",
   "link_path_attr": "href",
   "title_path": "p:not(:has(a)), div.messageBox strong, div.messageBox p",
   "title_path_attr": "",
