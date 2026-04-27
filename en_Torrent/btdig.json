@@ -10,9 +10,9 @@
     "rlsbb.com",
     "rlsbb.unblocked.cx"
   ],
-  "base_url": "",
+  "base_url": "https://search.rlsbb.to",
   "search_url_format_episode": {
-    "string_format": "https://search.rlsbb.to/?s=%s+S%02dE%02d",
+    "string_format": "/?s=%s+S%02dE%02d",
     "replacement": [
       "title",
       "season_int",
@@ -20,7 +20,7 @@
     ]
   },
   "search_url_format_movie": {
-    "string_format": "https://search.rlsbb.to/?s=%s+%04d",
+    "string_format": "/?s=%s+%04d",
     "replacement": [
       "title",
       "year_int"
