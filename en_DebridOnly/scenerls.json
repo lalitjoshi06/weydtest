@@ -32,7 +32,7 @@
   "magnet_path_attr": "",
   "seeders_path": "",
   "seeders_path_attr": "",
-  "filesize_path": "div.messageBox p b:contains('Size')",
+  "filesize_path": "div.messageBox b",
   "filesize_path_attr": "text",
   "quality_path": "|title_path|",
   "quality_path_attr": "",
