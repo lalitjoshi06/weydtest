@@ -4,7 +4,7 @@
   "domains": ["www.limetorrents.fun", "limetorrents.ninjaproxy1.com", "limetorrents.proxyninja.org", "limetorrents.torrentbay.st", "limetorrents.torrentsbay.org"],
   "base_url": "https://www.limetorrents.fun",
   "search_url_format_episode": {
-    "string_format": "/search/tv/%s-s%02de%02d",
+    "string_format": "/search?catname=tv&q=%s-s%02de%02d&orderby=DESC&order=length&page=1",
     "replacement": [
       "title_lower",
       "season_int",
@@ -12,7 +12,7 @@
     ]
   },
   "search_url_format_movie": {
-    "string_format": "/search/movies/%s-%04d",
+    "string_format": "/search.php?catname=movies&q=%s-%04d&orderby=DESC&order=length&page=1",
     "replacement": [
       "title_lower",
       "year_int"
