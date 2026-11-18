@@ -2,7 +2,7 @@
   "name": "piratebay",
   "language": ["hi", "en"],
   "domains": ["thepiratebay.skin"],
-  "base_url": "https://apiba.org",
+  "base_url": "https://apiba.org", "https://thepiratebay.skin",
   "fallback_urls": [
       "https://thepiratebay.skin",
       "https://tpb.shareproxy.org",
